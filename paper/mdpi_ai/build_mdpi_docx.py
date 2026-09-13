@@ -416,6 +416,14 @@ def main() -> None:
     missing = set(info['figs']) - figs_done
     if missing:
         raise SystemExit(f'figures never cited: {missing}')
+    cp = dst.core_properties
+    cp.author = '; '.join(n for n, _ in AUTHORS)
+    cp.last_modified_by = AUTHORS[0][0]
+    cp.title = info['title']
+    cp.subject = ''
+    cp.keywords = info['keywords']
+    cp.comments = ''
+    cp.category = ''
     OUT.parent.mkdir(exist_ok=True)
     dst.save(str(OUT))
     print(f'[OK] {OUT}')

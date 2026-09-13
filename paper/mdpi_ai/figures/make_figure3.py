@@ -66,7 +66,7 @@ def main() -> None:
             s.set_color('#888')
     axes[0].legend(loc='lower left', fontsize=8, frameon=False, markerscale=2)
     fig.tight_layout()
-    fig.savefig(OUT / 'figure3_tsne_hybrid.png', dpi=DPI)
+    fig.savefig(OUT / 'figure3_tsne_hybrid.png', dpi=DPI, metadata={'Software': None})
     print(
         '[OK] figure3_tsne_hybrid.png',
         {k: round(v['knn_domain_acc'], 3) for k, v in summ.items()},

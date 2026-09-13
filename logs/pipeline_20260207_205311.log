@@ -1,0 +1,103 @@
+[1m============================================================[0m
+[1m ECCV 2026 Full Pipeline[0m
+[1m Plant Disease Recognition + Domain Adaptation + Edge Deploy[0m
+[1m============================================================[0m
+  Phases:     1 -> 1
+  Strategies: hybrid Fuzzy sbert
+  Target:     plantdoc
+  Server:     http://192.168.1.4:8000
+  Log:        logs/pipeline_20260207_205311.log
+  Dry run:    true
+
+
+[1m[0;36m################################################################[0m
+[1m[0;36m# PHASE 1: Data Preparation[0m
+[1m[0;36m################################################################[0m
+
+[0;32m[STEP 1][0m Collect PV classes
+  [DRY] poetry run python scripts/1.1_collect_classes_pv.py
+[0;32m[STEP 2][0m Collect PlantDoc classes
+  [DRY] poetry run python scripts/1.2_collect_classes_plantdoc.py
+[0;32m[STEP 3][0m Collect FCDD classes
+  [DRY] poetry run python scripts/1.3_collect_classes_fcdd.py
+[0;32m[STEP 4][0m Build shared subset (Fuzzy)
+  [DRY] poetry run python scripts/2.4_build_shared_subset.py
+[0;32m[STEP 5][0m Build shared subset (SBERT)
+  [DRY] poetry run python scripts/2.5_build_shared_subset_sbert.py
+[0;32m[STEP 6][0m Build shared subset (Hybrid)
+  [DRY] poetry run python scripts/2.6_build_shared_subset_hybrid.py
+[0;32m[STEP 7][0m Filter shared subset (hybrid)
+  [DRY] poetry run python scripts/3.1_filter_shared_subset.py --mapping configs/class_mapping_hybrid.json
+[0;32m[STEP 8][0m Filter shared subset (Fuzzy)
+  [DRY] poetry run python scripts/3.1_filter_shared_subset.py --mapping configs/class_mapping_Fuzzy.json
+[0;32m[STEP 9][0m Filter shared subset (sbert)
+  [DRY] poetry run python scripts/3.1_filter_shared_subset.py --mapping configs/class_mapping_sbert.json
+[0;32m[STEP 10][0m Split PV dataset (hybrid)
+  [DRY] poetry run python scripts/4.1_split_pv_dataset.py --strategy hybrid
+[0;32m[STEP 11][0m Split PV dataset (Fuzzy)
+  [DRY] poetry run python scripts/4.1_split_pv_dataset.py --strategy Fuzzy
+[0;32m[STEP 12][0m Split PV dataset (sbert)
+  [DRY] poetry run python scripts/4.1_split_pv_dataset.py --strategy sbert
+[0;32m[STEP 13][0m Prepare calibration set (hybrid)
+  [DRY] poetry run python scripts/8.1_prepare_pv_calibration.py --strategy hybrid
+[0;32m[STEP 14][0m Prepare calibration set (Fuzzy)
+  [DRY] poetry run python scripts/8.1_prepare_pv_calibration.py --strategy Fuzzy
+[0;32m[STEP 15][0m Prepare calibration set (sbert)
+  [DRY] poetry run python scripts/8.1_prepare_pv_calibration.py --strategy sbert
+[0;32m[STEP 16][0m Prepare target test (hybrid)
+  [DRY] poetry run python scripts/5.1_prepare_target_test.py --strategy hybrid --target plantdoc
+[0;32m[STEP 17][0m Prepare target test (Fuzzy)
+  [DRY] poetry run python scripts/5.1_prepare_target_test.py --strategy Fuzzy --target plantdoc
+[0;32m[STEP 18][0m Prepare target test (sbert)
+  [DRY] poetry run python scripts/5.1_prepare_target_test.py --strategy sbert --target plantdoc
+[0;32m[STEP 19][0m Split target dataset (hybrid)
+  [DRY] poetry run python scripts/5.5.1_split_target_dataset.py --strategy hybrid --target plantdoc
+[0;32m[STEP 20][0m Split target dataset (Fuzzy)
+  [DRY] poetry run python scripts/5.5.1_split_target_dataset.py --strategy Fuzzy --target plantdoc
+[0;32m[STEP 21][0m Split target dataset (sbert)
+  [DRY] poetry run python scripts/5.5.1_split_target_dataset.py --strategy sbert --target plantdoc
+[0;32m[STEP 22][0m Prepare target unlabeled (hybrid)
+  [DRY] poetry run python scripts/6.2_prepare_target_unlabeled.py --strategy hybrid --target plantdoc
+[0;32m[STEP 23][0m Prepare target unlabeled (Fuzzy)
+  [DRY] poetry run python scripts/6.2_prepare_target_unlabeled.py --strategy Fuzzy --target plantdoc
+[0;32m[STEP 24][0m Prepare target unlabeled (sbert)
+  [DRY] poetry run python scripts/6.2_prepare_target_unlabeled.py --strategy sbert --target plantdoc
+
+[1m================================================================[0m
+[1m PIPELINE COMPLETE[0m
+[1m================================================================[0m
+
+  Steps run:     24
+  [0;32mSucceeded:[0m    0
+  [0;31mFailed:[0m       0
+  [0;33mSkipped:[0m      24
+  Log:           logs/pipeline_20260207_205311.log
+
+Key result files:
+  [0;32m[OK][0m results/baseline_pv_metrics.csv
+  [0;32m[OK][0m results/T1_domain_shift.csv
+  [0;32m[OK][0m results/T2_coral_sweep_hybrid.csv
+  [0;32m[OK][0m results/T3_quant_fp32_vs_int8_hybrid.csv
+  [0;32m[OK][0m results/T5_ablation.csv
+  [0;32m[OK][0m results/T6_per_class_f1_hybrid.csv
+  [0;32m[OK][0m results/T7_sota.csv
+  [0;33m[--][0m results/edgebench/raw_results.csv
+  [0;33m[--][0m results/T4_edgebench.csv
+  [0;33m[--][0m results/T4_edgebench.tex
+
+Key figures:
+  [0;32m[OK][0m figures/F2_f1_vs_lambda_hybrid.png
+  [0;32m[OK][0m figures/F3_tsne_baseline_hybrid.png
+  [0;32m[OK][0m figures/F3_tsne_coral_hybrid.png
+  [0;32m[OK][0m figures/F4_quant_tradeoff_hybrid.png
+  [0;32m[OK][0m figures/F5_latency_comparison.png
+  [0;33m[--][0m figures/F7_latency_comparison.pdf
+  [0;33m[--][0m figures/F8_throughput_comparison.pdf
+  [0;33m[--][0m figures/F9_speedup_heatmap.pdf
+  [0;33m[--][0m figures/F10_size_vs_latency.pdf
+
+TFLite models:
+  INT8 TFLite:  30
+  EdgeTPU:      1
+
+[0;32mAll steps completed successfully.[0m

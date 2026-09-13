@@ -1,0 +1,9 @@
+{
+  "lambda": 10.0,
+  "strategy": "hybrid",
+  "pv_accuracy": 0.9605512023777357,
+  "pv_macro_f1": 0.9556217928031882,
+  "target_accuracy": 0.22905027932960895,
+  "target_macro_f1": 0.1875799001150635,
+  "delta_f1": 0.7680418926881246
+}

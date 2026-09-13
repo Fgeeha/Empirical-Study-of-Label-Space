@@ -1,0 +1,3 @@
+method: source_only
+epochs: 0
+model_selection: source_val_macro_f1

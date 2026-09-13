@@ -1,0 +1,8 @@
+method,source_dataset,target_dataset,macro_f1_mean,macro_f1_std,accuracy_mean,seeds,protocol,valid_for_main,notes
+adabn,PlantVillage,PlantDoc,0.1553,0.0,0.2052,"42,43,44",fair_source_val,True,"Primary result. Bootstrap CI vs source-only: [-0.018, 0.019], not significant."
+coral,PlantVillage,PlantDoc,0.1956,0.0116,0.2353,"42,43,44",fair_source_val,True,"Primary result. Bootstrap CI vs source-only: [0.021, 0.061], significant."
+dann,PlantVillage,PlantDoc,0.2455,0.005,0.2895,"42,43,44",fair_source_val,True,"Primary result. Bootstrap CI vs source-only: [0.066, 0.105], significant."
+cdan,PlantVillage,PlantDoc,0.2419,0.0258,0.2924,"42,43,44",fair_source_val,True,"Primary result. Bootstrap CI vs source-only: [0.090, 0.133], significant."
+mcc,PlantVillage,PlantDoc,0.0772,0.0211,0.0945,"42,43,44",fair_source_val,False,Primary result. Collapsed on all seeds — not valid for positive comparison.
+dann,PlantVillage,PlantWild_v2,0.2381,0.0112,0.271,"42,43,44",fair_source_val,True,Generalizability result. 3 seeds. Higher stability than CDAN+E.
+cdan,PlantVillage,PlantWild_v2,0.2296,0.0376,0.2661,"42,43,44",fair_source_val,True,Generalizability result. 3 seeds. High seed variance (std=0.038).

@@ -1,0 +1,29 @@
+{
+  "method": "adabn",
+  "target": "plantdoc",
+  "strategy": "hybrid",
+  "seed": 42,
+  "git_hash": "4f9decd08",
+  "args": {
+    "method": "adabn",
+    "target": "plantdoc",
+    "seed": 42,
+    "strategy": "hybrid",
+    "epochs": 20,
+    "batch_size": 32,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "lambda_coral": 0.1,
+    "mcc_temperature": 2.5
+  },
+  "model_selection": "source_val_macro_f1",
+  "best_src_val_f1": null,
+  "val_f1_history": [],
+  "target_metrics": {
+    "macro_f1": 0.15527913615336664,
+    "accuracy": 0.20518029456576942,
+    "balanced_accuracy": 0.20790594123366912,
+    "macro_recall": 0.15527913615336664,
+    "n_samples": 1969
+  }
+}

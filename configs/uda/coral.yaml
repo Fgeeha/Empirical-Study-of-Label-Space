@@ -1,0 +1,8 @@
+method: coral
+epochs: 20
+batch_size: 32
+lr: 3.0e-4
+weight_decay: 1.0e-4
+lambda_coral: 0.1
+model_selection: source_val_macro_f1
+note: lambda=0.1 fixed (not tuned on target test).

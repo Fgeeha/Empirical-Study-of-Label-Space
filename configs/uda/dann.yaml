@@ -1,0 +1,8 @@
+method: dann
+epochs: 20
+batch_size: 32
+lr: 3.0e-4
+weight_decay: 1.0e-4
+grl_alpha_schedule: sigmoid_0_to_1
+model_selection: source_val_macro_f1
+note: Fair protocol. Previous legacy DANN used target-test selection.

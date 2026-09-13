@@ -1,0 +1,55 @@
+[
+ {
+  "model_path": "dann42_hybrid_full_integer_quant_edgetpu.tflite",
+  "backend": "edgetpu",
+  "timestamp": "2026-09-13T06:09:36.084691+00:00",
+  "status": "completed",
+  "model": {
+   "name": "dann42_hybrid_full_integer_quant_edgetpu.tflite",
+   "hash": "65227222226b458e",
+   "size_bytes": 24044160,
+   "input_shape": [
+    1,
+    224,
+    224,
+    3
+   ]
+  },
+  "params": {
+   "backend": "edgetpu",
+   "num_threads": 4,
+   "warmup_runs": 20,
+   "benchmark_runs": 200,
+   "input_seed": 42
+  },
+  "latency": {
+   "mean_ms": 54.909,
+   "std_ms": 0.569,
+   "min_ms": 54.128,
+   "max_ms": 56.973,
+   "p50_ms": 55.112,
+   "p90_ms": 55.448,
+   "p95_ms": 55.491,
+   "p99_ms": 55.736
+  },
+  "throughput": {
+   "fps": 18.21
+  },
+  "cold_start": {
+   "model_load_ms": 2717.63,
+   "first_inference_ms": 76.86
+  },
+  "system": {
+   "hostname": "raspberrypi",
+   "platform": "Linux-6.12.96+rpt-rpi-v8-aarch64-with-glibc2.36",
+   "python": "3.11.2",
+   "tflite_source": "tflite_runtime",
+   "cpu_temp_celsius": 41.868
+  },
+  "reeval": {
+   "model_name": "dann42_hybrid_full_integer_quant",
+   "backend": "edgetpu",
+   "date": "2026-09-13T06:09:51.164469+00:00"
+  }
+ }
+]

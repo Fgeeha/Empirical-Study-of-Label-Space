@@ -1,0 +1,191 @@
+[
+  {
+    "target_original": "Tomato_Septoria_leaf_spot",
+    "target_normalized": "tomato septoria leaf spot",
+    "pv_match": "Tomato___Septoria_leaf_spot",
+    "pv_normalized": "tomato septoria leaf spot",
+    "cosine_sim": 1.0
+  },
+  {
+    "target_original": "Squash_Powdery_mildew_leaf",
+    "target_normalized": "squash powdery mildew leaf",
+    "pv_match": "Squash___Powdery_mildew",
+    "pv_normalized": "squash powdery mildew",
+    "cosine_sim": 0.9653
+  },
+  {
+    "target_original": "Tomato_mold_leaf",
+    "target_normalized": "tomato mold leaf",
+    "pv_match": "Tomato___Leaf_Mold",
+    "pv_normalized": "tomato leaf mold",
+    "cosine_sim": 0.9586
+  },
+  {
+    "target_original": "Tomato_leaf_mosaic_virus",
+    "target_normalized": "tomato leaf mosaic virus",
+    "pv_match": "Tomato___Tomato_mosaic_virus",
+    "pv_normalized": "tomato tomato mosaic virus",
+    "cosine_sim": 0.9515
+  },
+  {
+    "target_original": "Potato_leaf_early_blight",
+    "target_normalized": "potato leaf early blight",
+    "pv_match": "Potato___Early_blight",
+    "pv_normalized": "potato early blight",
+    "cosine_sim": 0.9394
+  },
+  {
+    "target_original": "Tomato_leaf_late_blight",
+    "target_normalized": "tomato leaf late blight",
+    "pv_match": "Tomato___Late_blight",
+    "pv_normalized": "tomato late blight",
+    "cosine_sim": 0.9393
+  },
+  {
+    "target_original": "grape_leaf_black_rot",
+    "target_normalized": "grape leaf black rot",
+    "pv_match": "Grape___Black_rot",
+    "pv_normalized": "grape black rot",
+    "cosine_sim": 0.9379
+  },
+  {
+    "target_original": "Tomato_Early_blight_leaf",
+    "target_normalized": "tomato early blight leaf",
+    "pv_match": "Tomato___Early_blight",
+    "pv_normalized": "tomato early blight",
+    "cosine_sim": 0.9367
+  },
+  {
+    "target_original": "Tomato_leaf_bacterial_spot",
+    "target_normalized": "tomato leaf bacterial spot",
+    "pv_match": "Tomato___Bacterial_spot",
+    "pv_normalized": "tomato bacterial spot",
+    "cosine_sim": 0.9345
+  },
+  {
+    "target_original": "Potato_leaf_late_blight",
+    "target_normalized": "potato leaf late blight",
+    "pv_match": "Potato___Late_blight",
+    "pv_normalized": "potato late blight",
+    "cosine_sim": 0.9288
+  },
+  {
+    "target_original": "Corn_Gray_leaf_spot",
+    "target_normalized": "corn gray leaf spot",
+    "pv_match": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+    "pv_normalized": "corn maize cercospora leaf spot gray leaf spot",
+    "cosine_sim": 0.8794
+  },
+  {
+    "target_original": "Corn_leaf_blight",
+    "target_normalized": "corn leaf blight",
+    "pv_match": "Corn_(maize)___Northern_Leaf_Blight",
+    "pv_normalized": "corn maize northern leaf blight",
+    "cosine_sim": 0.8787
+  },
+  {
+    "target_original": "Corn_rust_leaf",
+    "target_normalized": "corn rust leaf",
+    "pv_match": "Corn_(maize)___Common_rust_",
+    "pv_normalized": "corn maize common rust",
+    "cosine_sim": 0.8424
+  },
+  {
+    "target_original": "Tomato_leaf_yellow_virus",
+    "target_normalized": "tomato leaf yellow virus",
+    "pv_match": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "pv_normalized": "tomato tomato yellow leaf curl virus",
+    "cosine_sim": 0.8291
+  },
+  {
+    "target_original": "Apple_Scab_Leaf",
+    "target_normalized": "apple scab leaf",
+    "pv_match": "Apple___Apple_scab",
+    "pv_normalized": "apple apple scab",
+    "cosine_sim": 0.8249
+  },
+  {
+    "target_original": "Strawberry_leaf",
+    "target_normalized": "strawberry leaf",
+    "pv_match": "Strawberry___Leaf_scorch",
+    "pv_normalized": "strawberry leaf scorch",
+    "cosine_sim": 0.8111
+  },
+  {
+    "target_original": "Bell_pepper_leaf_spot",
+    "target_normalized": "bell pepper leaf spot",
+    "pv_match": "Pepper,_bell___Bacterial_spot",
+    "pv_normalized": "pepper bell bacterial spot",
+    "cosine_sim": 0.8057
+  },
+  {
+    "target_original": "Blueberry_leaf",
+    "target_normalized": "blueberry leaf",
+    "pv_match": "Blueberry___healthy",
+    "pv_normalized": "blueberry healthy",
+    "cosine_sim": 0.7797
+  },
+  {
+    "target_original": "Apple_rust_leaf",
+    "target_normalized": "apple rust leaf",
+    "pv_match": "Apple___Cedar_apple_rust",
+    "pv_normalized": "apple cedar apple rust",
+    "cosine_sim": 0.7779
+  },
+  {
+    "target_original": "Bell_pepper_leaf",
+    "target_normalized": "bell pepper leaf",
+    "pv_match": "Pepper,_bell___healthy",
+    "pv_normalized": "pepper bell healthy",
+    "cosine_sim": 0.7545
+  },
+  {
+    "target_original": "grape_leaf",
+    "target_normalized": "grape leaf",
+    "pv_match": "Grape___healthy",
+    "pv_normalized": "grape healthy",
+    "cosine_sim": 0.7224
+  },
+  {
+    "target_original": "Peach_leaf",
+    "target_normalized": "peach leaf",
+    "pv_match": "Peach___healthy",
+    "pv_normalized": "peach healthy",
+    "cosine_sim": 0.7137
+  },
+  {
+    "target_original": "Tomato_leaf",
+    "target_normalized": "tomato leaf",
+    "pv_match": "Tomato___healthy",
+    "pv_normalized": "tomato healthy",
+    "cosine_sim": 0.6928
+  },
+  {
+    "target_original": "Cherry_leaf",
+    "target_normalized": "cherry leaf",
+    "pv_match": "Cherry_(including_sour)___healthy",
+    "pv_normalized": "cherry including sour healthy",
+    "cosine_sim": 0.6087
+  },
+  {
+    "target_original": "Raspberry_leaf",
+    "target_normalized": "raspberry leaf",
+    "pv_match": "Strawberry___Leaf_scorch",
+    "pv_normalized": "strawberry leaf scorch",
+    "cosine_sim": 0.584
+  },
+  {
+    "target_original": "Soyabean_leaf",
+    "target_normalized": "soyabean leaf",
+    "pv_match": "Soybean___healthy",
+    "pv_normalized": "soybean healthy",
+    "cosine_sim": 0.5769
+  },
+  {
+    "target_original": "Apple_leaf",
+    "target_normalized": "apple leaf",
+    "pv_match": "Apple___healthy",
+    "pv_normalized": "apple healthy",
+    "cosine_sim": 0.5516
+  }
+]

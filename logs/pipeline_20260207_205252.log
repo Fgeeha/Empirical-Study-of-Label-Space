@@ -1,0 +1,16 @@
+[1m============================================================[0m
+[1m ECCV 2026 Full Pipeline[0m
+[1m Plant Disease Recognition + Domain Adaptation + Edge Deploy[0m
+[1m============================================================[0m
+  Phases:     1 -> 1
+  Strategies: hybrid Fuzzy sbert
+  Target:     plantdoc
+  Server:     http://192.168.1.4:8000
+  Log:        logs/pipeline_20260207_205252.log
+  Dry run:    true
+
+
+[1m[0;36m################################################################[0m
+[1m[0;36m# PHASE 1: Data Preparation[0m
+[1m[0;36m################################################################[0m
+

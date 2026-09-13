@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760"><defs><marker id="ah" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#555"/></marker></defs><rect width="900" height="760" fill="white"/>
+<rect x="40" y="20" width="250" height="58" rx="6" ry="6" fill="#E8E8E8" stroke="#555" stroke-width="1.5"/>
+<text x="165.0" y="45.5" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">PlantVillage (source, labelled)</text>
+<text x="165.0" y="60.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">38 classes, laboratory images</text>
+<rect x="325" y="20" width="250" height="58" rx="6" ry="6" fill="#E8E8E8" stroke="#555" stroke-width="1.5"/>
+<text x="450.0" y="45.5" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">PlantDoc (target, unlabelled)</text>
+<text x="450.0" y="60.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">28 class folders, field images</text>
+<rect x="610" y="20" width="250" height="58" rx="6" ry="6" fill="#E8E8E8" stroke="#555" stroke-width="1.5"/>
+<text x="735.0" y="45.5" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">PlantWild v2 (second target, block C)</text>
+<text x="735.0" y="60.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">115 classes, 11,488 web images</text>
+<rect x="40" y="112" width="820" height="118" rx="6" ry="6" fill="#D6EAF8" stroke="#555" stroke-width="1.5"/>
+<text x="450" y="134" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">A. Label-space alignment (PlantVillage ↔ PlantDoc)</text>
+<rect x="60" y="148" width="240" height="66" rx="6" ry="6" fill="#FFFFFF" stroke="#555" stroke-width="1.5"/>
+<text x="180.0" y="177.5" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Fuzzy: token-set ratio ≥ 80</text>
+<text x="180.0" y="192.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">16 shared classes</text>
+<rect x="330" y="148" width="240" height="66" rx="6" ry="6" fill="#FFFFFF" stroke="#555" stroke-width="1.5"/>
+<text x="450.0" y="177.5" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">SBERT: cosine ≥ 0.75</text>
+<text x="450.0" y="192.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">15 shared classes</text>
+<rect x="600" y="148" width="240" height="66" rx="6" ry="6" fill="#FFF6D5" stroke="#555" stroke-width="1.5"/>
+<text x="720.0" y="177.5" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Hybrid: fuzzy, SBERT fallback</text>
+<text x="720.0" y="192.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">18 shared classes (main setting)</text>
+<line x1="165" y1="78" x2="165" y2="112" stroke="#555" stroke-width="1.8" marker-end="url(#ah)"/>
+<line x1="450" y1="78" x2="450" y2="112" stroke="#555" stroke-width="1.8" marker-end="url(#ah)"/>
+<line x1="450" y1="230" x2="450" y2="262" stroke="#555" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="40" y="262" width="820" height="150" rx="6" ry="6" fill="#D6EAF8" stroke="#555" stroke-width="1.5"/>
+<text x="450" y="284" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">B. Unsupervised domain adaptation, fair protocol (ResNet-50, Hybrid 18 classes)</text>
+<rect x="60" y="300" width="140" height="50" rx="6" ry="6" fill="#FFFFFF" stroke="#555" stroke-width="1.5"/>
+<text x="130.0" y="321.5" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">AdaBN</text>
+<text x="130.0" y="336.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">BN statistics</text>
+<rect x="220" y="300" width="140" height="50" rx="6" ry="6" fill="#FFFFFF" stroke="#555" stroke-width="1.5"/>
+<text x="290.0" y="321.5" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">CORAL</text>
+<text x="290.0" y="336.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">2nd-order</text>
+<rect x="380" y="300" width="140" height="50" rx="6" ry="6" fill="#FFFFFF" stroke="#555" stroke-width="1.5"/>
+<text x="450.0" y="321.5" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">DANN</text>
+<text x="450.0" y="336.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">adversarial</text>
+<rect x="540" y="300" width="140" height="50" rx="6" ry="6" fill="#FFFFFF" stroke="#555" stroke-width="1.5"/>
+<text x="610.0" y="321.5" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">CDAN+E</text>
+<text x="610.0" y="336.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">conditional adv.</text>
+<rect x="700" y="300" width="140" height="50" rx="6" ry="6" fill="#FFFFFF" stroke="#555" stroke-width="1.5"/>
+<text x="770.0" y="321.5" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">MCC</text>
+<text x="770.0" y="336.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">class confusion</text>
+<rect x="60" y="360" width="780" height="40" rx="6" ry="6" fill="#FFFFFF" stroke="#555" stroke-width="1.5"/>
+<text x="450.0" y="384.0" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Checkpoint chosen on PlantVillage validation macro-F1 only · no target labels at any stage · seeds 42/43/44 · paired bootstrap CI</text>
+<line x1="450" y1="412" x2="450" y2="444" stroke="#555" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="40" y="444" width="820" height="110" rx="6" ry="6" fill="#D6EAF8" stroke="#555" stroke-width="1.5"/>
+<text x="450" y="466" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">C. Evaluation</text>
+<rect x="60" y="482" width="240" height="58" rx="6" ry="6" fill="#FFFFFF" stroke="#555" stroke-width="1.5"/>
+<text x="180.0" y="507.5" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">PlantDoc test, n = 1,969</text>
+<text x="180.0" y="522.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">source-only 0.156 → DANN 0.246</text>
+<rect x="330" y="482" width="240" height="58" rx="6" ry="6" fill="#FFFFFF" stroke="#555" stroke-width="1.5"/>
+<text x="450.0" y="507.5" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">PlantWild v2, n = 2,336 (17 classes)</text>
+<text x="450.0" y="522.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">DANN 0.238, CDAN+E 0.230</text>
+<rect x="600" y="482" width="240" height="58" rx="6" ry="6" fill="#FFFFFF" stroke="#555" stroke-width="1.5"/>
+<text x="720.0" y="507.5" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Shared 13-class subset, n = 1,509</text>
+<text x="720.0" y="522.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">fair cross-strategy comparison</text>
+<line x1="450" y1="554" x2="450" y2="586" stroke="#555" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="40" y="586" width="820" height="150" rx="6" ry="6" fill="#D6EAF8" stroke="#555" stroke-width="1.5"/>
+<text x="450" y="608" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">D. Edge deployment (INT8 post-training quantization, 200 calibration images)</text>
+<rect x="60" y="624" width="380" height="96" rx="6" ry="6" fill="#FFFFFF" stroke="#555" stroke-width="1.5"/>
+<text x="250.0" y="661.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Raspberry Pi 4 Model B (8 GB) + Coral USB Edge TPU</text>
+<text x="250.0" y="676.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">TFLite 2.14, Edge TPU compiler 16.0</text>
+<text x="250.0" y="691.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">20 warm-up + 200 timed runs, batch 1, 4 threads</text>
+<rect x="460" y="624" width="380" height="96" rx="6" ry="6" fill="#FFFFFF" stroke="#555" stroke-width="1.5"/>
+<text x="650.0" y="661.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Five architectures: MobileNetV1/V2,</text>
+<text x="650.0" y="676.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">EfficientNet-Lite0, ResNet-50, EfficientNet-B3</text>
+<text x="650.0" y="691.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1a1a1a">best: MobileNetV1 4.6 ms (216 FPS), 3.36 MiB</text>
+<text x="450" y="752" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#444">Figure 1. Overview of the study: alignment (A) → adaptation (B) → evaluation (C) → deployment (D).</text>
+</svg>

@@ -1,0 +1,172 @@
+{
+  "dataset": "BeanDiseases",
+  "source": "AI-Lab-Makerere/beans (HuggingFace)",
+  "n_classes": 3,
+  "classes": [
+    "angular_leaf_spot",
+    "bean_rust",
+    "healthy"
+  ],
+  "pv_n_classes": 38,
+  "alignment": {
+    "fuzzy": {
+      "n_aligned": 0,
+      "threshold": 80,
+      "details": [
+        {
+          "class": "angular_leaf_spot",
+          "matched": false,
+          "reason": "crop \"angular\" not in PlantVillage",
+          "pv_class": null,
+          "score": null
+        },
+        {
+          "class": "bean_rust",
+          "matched": false,
+          "reason": "crop \"bean\" not in PlantVillage",
+          "pv_class": null,
+          "score": null
+        },
+        {
+          "class": "healthy",
+          "matched": false,
+          "reason": "no or invalid disease",
+          "pv_class": null,
+          "score": null
+        }
+      ]
+    },
+    "sbert_075": {
+      "n_aligned": 0,
+      "threshold": 0.75,
+      "details": [
+        {
+          "class": "angular_leaf_spot",
+          "target_text": "angular spot",
+          "matched_075": false,
+          "matched_065": false,
+          "pv_class_075": null,
+          "pv_class_065": null,
+          "best_cosine": 0.34436795115470886,
+          "top3": [
+            {
+              "pv_class": "Tomato___Target_Spot",
+              "cosine": 0.34436795115470886
+            },
+            {
+              "pv_class": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+              "cosine": 0.2925914525985718
+            },
+            {
+              "pv_class": "Tomato___Septoria_leaf_spot",
+              "cosine": 0.28842270374298096
+            }
+          ]
+        },
+        {
+          "class": "bean_rust",
+          "target_text": "bean rust",
+          "matched_075": false,
+          "matched_065": false,
+          "pv_class_075": null,
+          "pv_class_065": null,
+          "best_cosine": 0.6320364475250244,
+          "top3": [
+            {
+              "pv_class": "Apple___Cedar_apple_rust",
+              "cosine": 0.6320364475250244
+            },
+            {
+              "pv_class": "Corn_(maize)___Common_rust_",
+              "cosine": 0.5740898847579956
+            },
+            {
+              "pv_class": "Grape___Black_rot",
+              "cosine": 0.40098586678504944
+            }
+          ]
+        },
+        {
+          "class": "healthy",
+          "matched_075": false,
+          "matched_065": false,
+          "reason": "no or invalid disease",
+          "pv_class_075": null,
+          "pv_class_065": null,
+          "best_cosine": null,
+          "top3": []
+        }
+      ]
+    },
+    "sbert_065": {
+      "n_aligned": 0,
+      "threshold": 0.65
+    },
+    "direct_sbert_075": {
+      "n_aligned": 0,
+      "threshold": 0.75,
+      "details": [
+        {
+          "class": "angular_leaf_spot",
+          "norm_name": "angular leaf spot",
+          "best_cosine": 0.4623095989227295,
+          "matched_075": false,
+          "matched_065": false,
+          "best_pv": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+          "top3": [
+            {
+              "pv_class": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+              "pv_norm": "grape leaf blight isariopsis leaf spot",
+              "cosine": 0.4623095989227295
+            },
+            {
+              "pv_class": "Tomato___Septoria_leaf_spot",
+              "pv_norm": "tomato septoria leaf spot",
+              "cosine": 0.4591796100139618
+            },
+            {
+              "pv_class": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+              "pv_norm": "corn maize cercospora leaf spot gray leaf spot",
+              "cosine": 0.4485374689102173
+            }
+          ]
+        },
+        {
+          "class": "bean_rust",
+          "norm_name": "bean rust",
+          "best_cosine": 0.6320364475250244,
+          "matched_075": false,
+          "matched_065": false,
+          "best_pv": "Apple___Cedar_apple_rust",
+          "top3": [
+            {
+              "pv_class": "Apple___Cedar_apple_rust",
+              "pv_norm": "apple cedar apple rust",
+              "cosine": 0.6320364475250244
+            },
+            {
+              "pv_class": "Corn_(maize)___Common_rust_",
+              "pv_norm": "corn maize common rust",
+              "cosine": 0.5425994992256165
+            },
+            {
+              "pv_class": "Grape___Black_rot",
+              "pv_norm": "grape black rot",
+              "cosine": 0.40098580718040466
+            }
+          ]
+        },
+        {
+          "class": "healthy",
+          "norm_name": "healthy",
+          "note": "generic label; would match all healthy PV classes",
+          "top3": []
+        }
+      ]
+    },
+    "direct_sbert_065": {
+      "n_aligned": 0,
+      "threshold": 0.65
+    }
+  }
+}

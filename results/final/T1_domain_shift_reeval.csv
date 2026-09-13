@@ -1,0 +1,4 @@
+model,strategy,pv_accuracy,pv_macro_f1,target_accuracy,target_macro_f1,delta_f1
+resnet50,Fuzzy,0.9781,0.9724,0.2268,0.1866,0.7859
+resnet50,hybrid,0.9705,0.9685,0.2037,0.1539,0.8146
+resnet50,sbert,0.9863,0.9864,0.235,0.1708,0.8156

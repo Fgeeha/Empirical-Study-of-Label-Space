@@ -1,0 +1,82 @@
+{
+  "rows": [
+    {
+      "method": "adabn",
+      "source_dataset": "PlantVillage",
+      "target_dataset": "PlantDoc",
+      "macro_f1_mean": 0.1553,
+      "macro_f1_std": 0.0,
+      "accuracy_mean": 0.2052,
+      "seeds": "42,43,44",
+      "protocol": "fair_source_val",
+      "valid_for_main": "True"
+    },
+    {
+      "method": "coral",
+      "source_dataset": "PlantVillage",
+      "target_dataset": "PlantDoc",
+      "macro_f1_mean": 0.1956,
+      "macro_f1_std": 0.0116,
+      "accuracy_mean": 0.2353,
+      "seeds": "42,43,44",
+      "protocol": "fair_source_val",
+      "valid_for_main": "True"
+    },
+    {
+      "method": "dann",
+      "source_dataset": "PlantVillage",
+      "target_dataset": "PlantDoc",
+      "macro_f1_mean": 0.2455,
+      "macro_f1_std": 0.005,
+      "accuracy_mean": 0.2895,
+      "seeds": "42,43,44",
+      "protocol": "fair_source_val",
+      "valid_for_main": "True"
+    },
+    {
+      "method": "cdan",
+      "source_dataset": "PlantVillage",
+      "target_dataset": "PlantDoc",
+      "macro_f1_mean": 0.2419,
+      "macro_f1_std": 0.0258,
+      "accuracy_mean": 0.2924,
+      "seeds": "42,43,44",
+      "protocol": "fair_source_val",
+      "valid_for_main": "True"
+    },
+    {
+      "method": "mcc",
+      "source_dataset": "PlantVillage",
+      "target_dataset": "PlantDoc",
+      "macro_f1_mean": 0.0772,
+      "macro_f1_std": 0.0211,
+      "accuracy_mean": 0.0945,
+      "seeds": "42,43,44",
+      "protocol": "fair_source_val",
+      "valid_for_main": "False"
+    },
+    {
+      "method": "dann",
+      "source_dataset": "PlantVillage",
+      "target_dataset": "PlantWild_v2",
+      "macro_f1_mean": 0.2381,
+      "macro_f1_std": 0.0112,
+      "accuracy_mean": 0.271,
+      "seeds": "42,43,44",
+      "protocol": "fair_source_val",
+      "valid_for_main": "True"
+    },
+    {
+      "method": "cdan",
+      "source_dataset": "PlantVillage",
+      "target_dataset": "PlantWild_v2",
+      "macro_f1_mean": 0.2296,
+      "macro_f1_std": 0.0376,
+      "accuracy_mean": 0.2661,
+      "seeds": "42,43,44",
+      "protocol": "fair_source_val",
+      "valid_for_main": "True"
+    }
+  ],
+  "generated": "2026-06-22"
+}

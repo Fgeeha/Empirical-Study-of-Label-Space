@@ -1,0 +1,9 @@
+method: mcc
+epochs: 20
+batch_size: 32
+lr: 3.0e-4
+weight_decay: 1.0e-4
+temperature: 2.5
+mcc_weight: 1.0
+model_selection: source_val_macro_f1
+note: Temperature T=2.5 from Jin et al. 2020 default.

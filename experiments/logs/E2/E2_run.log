@@ -1,0 +1,6 @@
+E2 DANN run at 2026-05-03T15:46:26.351478
+Git: 8f500ec81
+Strategy: hybrid, Seeds: [43, 44]
+F1 per seed: [0.275, 0.2587]
+Mean F1: 0.2669 ± 0.0082
+CORAL F1: 0.18691110253617504, Baseline F1: 0.1555368586480264

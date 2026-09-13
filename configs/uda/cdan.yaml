@@ -1,0 +1,10 @@
+method: cdan
+epochs: 20
+batch_size: 32
+lr: 3.0e-4
+weight_decay: 1.0e-4
+entropy_conditioning: true
+grl_alpha_schedule: sigmoid_0_to_1
+model_selection: source_val_macro_f1
+note: CDAN+E. Conditional discriminator on feature x prediction outer product.
+      Used in Jeon et al. 2025 for plant disease UDA.

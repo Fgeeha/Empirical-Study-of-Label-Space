@@ -1,0 +1,55 @@
+\subsection{Domain Adaptation with CORAL}
+
+After constructing a shared label space, we apply CORAL~\cite{sun2016coral}
+to reduce distribution divergence between PlantVillage and PlantDoc feature
+representations. CORAL aligns the second-order statistics of source and target
+feature distributions by minimizing the squared Frobenius norm of the
+difference between their covariance matrices~\cite{sun2015return}, computed
+from activations of the penultimate layer of a ResNet-50 backbone.
+
+Let $\mathbf{C}_S$ and $\mathbf{C}_T$ denote the covariance matrices of the
+source and target features, each of dimension $d \times d$ (with $d = 2048$
+for ResNet-50). The CORAL alignment loss is:
+%
+\begin{equation}
+  \mathcal{L}_{\mathrm{CORAL}}
+    = \frac{1}{4d^{2}}
+      \left\lVert \mathbf{C}_S - \mathbf{C}_T \right\rVert_F^{2}\,,
+  \label{eq:coral}
+\end{equation}
+%
+where $\lVert \cdot \rVert_F$ is the Frobenius norm. The overall training
+objective combines supervised cross-entropy on the source data with the
+CORAL term:
+%
+\begin{equation}
+  \mathcal{L}
+    = \mathcal{L}_{\mathrm{CE}}
+    + \lambda \, \mathcal{L}_{\mathrm{CORAL}}\,,
+  \label{eq:total_loss}
+\end{equation}
+%
+where $\lambda$ controls the strength of distribution regularization relative
+to classification accuracy.
+
+The choice of $\lambda$ reflects a bias--variance trade-off. Small values make
+the covariance-alignment signal too weak to overcome the structural mismatch
+between studio and field images; the adapted model behaves almost identically
+to the non-adapted one. Very large values force the model to match feature
+covariances so aggressively that discriminative but source-specific information
+is suppressed---for example, color-saturation cues for fungal lesions that
+appear differently under natural versus artificial lighting. At
+$\lambda = 10.0$, we observe a consistent slight degradation in target~F1
+across all three labeling strategies compared with $\lambda = 1.0$, consistent
+with this over-regularization mechanism.
+
+We perform CORAL adaptation using a ResNet-50 backbone pretrained on ImageNet.
+The classification head is retrained from scratch to match the size of the
+shared class set specific to each labeling strategy. Source features are taken
+from the penultimate global average pooling layer (dimension $d = 2048$). The
+batch size is 32 in all cases; target-domain images are included in each batch
+to estimate~$\mathbf{C}_T$, but they do not contribute to the classification
+loss~$\mathcal{L}_{\mathrm{CE}}$. All CORAL runs use
+AdamW~\cite{loshchilov2019adamw} with a learning rate of $3 \times 10^{-4}$,
+weight decay $10^{-4}$, and are trained for 20~epochs without a learning-rate
+scheduler.

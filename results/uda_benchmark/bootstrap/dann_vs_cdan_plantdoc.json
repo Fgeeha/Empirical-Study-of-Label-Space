@@ -1,0 +1,38 @@
+{
+  "comparison": "DANN vs CDAN+E on PlantDoc (same test set, n=1969)",
+  "per_seed": {
+    "seed42": {
+      "dann_f1": 0.24016457986785655,
+      "cdan_f1": 0.26697272563193025,
+      "delta": -0.0268081457640737,
+      "ci_lower": -0.04642744484399825,
+      "ci_upper": -0.0061565501671841,
+      "p_dann_le_cdan": 0.9946
+    },
+    "seed43": {
+      "dann_f1": 0.2501494515357644,
+      "cdan_f1": 0.21545575531840136,
+      "delta": 0.03469369621736304,
+      "ci_lower": 0.01705485545947663,
+      "ci_upper": 0.052153652620999434,
+      "p_dann_le_cdan": 0.0
+    },
+    "seed44": {
+      "dann_f1": 0.24626357038201302,
+      "cdan_f1": 0.24315284635919784,
+      "delta": 0.0031107240228151756,
+      "ci_lower": -0.015611111888454828,
+      "ci_upper": 0.02178861305180564,
+      "p_dann_le_cdan": 0.3706
+    }
+  },
+  "cross_seed_summary": {
+    "dann_mean": 0.245525867261878,
+    "dann_std": 0.004109547418409958,
+    "cdan_mean": 0.24186044243650984,
+    "cdan_std": 0.02105156033006879,
+    "mean_diff_dann_minus_cdan": 0.003665424825368163,
+    "seeds_dann_gt_cdan": 2
+  },
+  "conclusion": "DANN and CDAN+E are not distinguishable at the sample level with consistent directionality across seeds. The 3-seed mean difference (0.004) is within seed-level variability."
+}

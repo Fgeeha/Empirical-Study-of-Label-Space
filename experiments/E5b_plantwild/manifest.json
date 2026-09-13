@@ -1,0 +1,181 @@
+{
+  "experiment": "E5b",
+  "dataset": "PlantWild v2 (uqtwei2/PlantWild, plantwild_v2.zip)",
+  "n_pw_classes": 115,
+  "n_pw_images": 11488,
+  "n_pv_classes": 38,
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "threshold_summary": [
+    {
+      "threshold": 0.5,
+      "n_aligned": 91,
+      "n_images": 8855,
+      "mean_cosine": 0.694
+    },
+    {
+      "threshold": 0.55,
+      "n_aligned": 77,
+      "n_images": 8018,
+      "mean_cosine": 0.7248
+    },
+    {
+      "threshold": 0.6,
+      "n_aligned": 60,
+      "n_images": 6213,
+      "mean_cosine": 0.7687
+    },
+    {
+      "threshold": 0.65,
+      "n_aligned": 46,
+      "n_images": 4740,
+      "mean_cosine": 0.8142
+    },
+    {
+      "threshold": 0.7,
+      "n_aligned": 26,
+      "n_images": 3297,
+      "mean_cosine": 0.9206
+    },
+    {
+      "threshold": 0.75,
+      "n_aligned": 23,
+      "n_images": 2850,
+      "mean_cosine": 0.946
+    },
+    {
+      "threshold": 0.8,
+      "n_aligned": 22,
+      "n_images": 2805,
+      "mean_cosine": 0.9547
+    }
+  ],
+  "aligned_at_065": [
+    "tomato septoria leaf spot",
+    "tomato leaf mold",
+    "potato late blight",
+    "tomato late blight",
+    "potato early blight",
+    "strawberry leaf scorch",
+    "squash powdery mildew",
+    "tomato early blight",
+    "apple black rot",
+    "grape black rot",
+    "tomato yellow leaf curl virus",
+    "tomato mosaic virus",
+    "bell pepper bacterial spot",
+    "apple scab",
+    "corn northern leaf blight",
+    "cherry powdery mildew",
+    "tomato bacterial leaf spot",
+    "corn gray leaf spot",
+    "corn rust",
+    "apple rust",
+    "zucchini powdery mildew",
+    "grape leaf spot",
+    "zucchini downy mildew",
+    "citrus greening disease",
+    "wheat powdery mildew",
+    "blueberry scorch",
+    "cucumber powdery mildew",
+    "lettuce mosaic virus",
+    "apple mosaic virus",
+    "cabbage black rot",
+    "blueberry rust",
+    "zucchini yellow mosaic virus",
+    "bean mosaic virus",
+    "tobacco mosaic virus",
+    "strawberry anthracnose",
+    "bell pepper powdery mildew",
+    "blueberry mummy berry",
+    "wheat leaf rust",
+    "peach rust",
+    "plum bacterial spot",
+    "bell pepper frogeye leaf spot",
+    "eggplant cercospora leaf spot",
+    "blueberry anthracnose",
+    "cabbage downy mildew",
+    "peach brown rot",
+    "peach scab"
+  ],
+  "n_aligned_at_065": 46,
+  "phase3_eval": {
+    "baseline": {
+      "macro_f1": 0.17224114937501178,
+      "accuracy": 0.22731164383561644,
+      "n_classes": 17,
+      "n_samples": 2336,
+      "per_class_f1": {
+        "0": 0.1340782122905028,
+        "1": 0.0,
+        "3": 0.17834394904458598,
+        "4": 0.25671641791044775,
+        "5": 0.22727272727272727,
+        "6": 0.28611898016997167,
+        "7": 0.296875,
+        "8": 0.16901408450704225,
+        "9": 0.5065176908752328,
+        "10": 0.2331002331002331,
+        "11": 0.11764705882352941,
+        "12": 0.05,
+        "13": 0.145985401459854,
+        "14": 0.06153846153846154,
+        "15": 0.02040816326530612,
+        "16": 0.11904761904761904,
+        "17": 0.1254355400696864
+      }
+    },
+    "coral_0.1": {
+      "macro_f1": 0.19249110041318665,
+      "accuracy": 0.24101027397260275,
+      "n_classes": 17,
+      "n_samples": 2336,
+      "per_class_f1": {
+        "0": 0.08108108108108109,
+        "1": 0.10227272727272728,
+        "3": 0.2857142857142857,
+        "4": 0.26109660574412535,
+        "5": 0.22023809523809523,
+        "6": 0.3821656050955414,
+        "7": 0.18404907975460122,
+        "8": 0.09032258064516129,
+        "9": 0.45901639344262296,
+        "10": 0.3176178660049628,
+        "11": 0.11560693641618497,
+        "12": 0.04819277108433735,
+        "13": 0.2892416225749559,
+        "14": 0.057971014492753624,
+        "15": 0.05128205128205128,
+        "16": 0.20212765957446807,
+        "17": 0.12435233160621761
+      }
+    },
+    "coral_0.01": {
+      "macro_f1": 0.17571992465678485,
+      "accuracy": 0.2268835616438356,
+      "n_classes": 17,
+      "n_samples": 2336,
+      "per_class_f1": {
+        "0": 0.10793650793650794,
+        "1": 0.02666666666666667,
+        "3": 0.17687074829931973,
+        "4": 0.22131147540983606,
+        "5": 0.23076923076923078,
+        "6": 0.20833333333333334,
+        "7": 0.14193548387096774,
+        "8": 0.08759124087591241,
+        "9": 0.49122807017543857,
+        "10": 0.2694063926940639,
+        "11": 0.1711229946524064,
+        "12": 0.15306122448979592,
+        "13": 0.2496493688639551,
+        "14": 0.06060606060606061,
+        "15": 0.08633093525179857,
+        "16": 0.20512820512820512,
+        "17": 0.09929078014184398
+      }
+    }
+  },
+  "n_eval_classes": 17,
+  "n_eval_samples": 2336,
+  "note": "17/18 hybrid model classes covered in PlantWild v2; Pepper_bell_healthy excluded (disease-only dataset)"
+}

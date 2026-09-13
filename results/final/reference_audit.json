@@ -1,0 +1,117 @@
+{
+  "errors": [
+    {
+      "id": 2,
+      "title": "Learning to See in the Dark",
+      "problem": "WRONG PAPER. Cited for \"Backgrounds are complex, lighting varies with time of day\" (field photography). The actual paper is about RAW sensor data processing in extremely low light. Has nothing to do with plant disease or field photography.",
+      "fix": "Replace with: Barbedo, J.G.A. (2018). \"Factors influencing the use of deep learning for plant disease recognition.\" Biosystems Engineering, 172, 84-91. OR: Ferentinos, K.P. (2018). \"Deep learning models for plant disease detection and diagnosis.\" Computers and Electronics in Agriculture, 145, 311-318."
+    },
+    {
+      "id": 7,
+      "title": "When LLMs get significantly worse",
+      "problem": "WRONG PAPER. Cited for McNemar test and bootstrap CI. This paper is about detecting LLM performance degradation, not about statistical tests for classification comparison.",
+      "fix": "Replace with: McNemar, Q. (1947). \"Note on the sampling error of the difference between correlated proportions or percentages.\" Psychometrika, 12(2), 153-157. AND/OR: Dietterich, T.G. (1998). \"Approximate statistical tests for comparing supervised classification learning algorithms.\" Neural Computation, 10(7), 1895-1923."
+    },
+    {
+      "id": 11,
+      "title": "The Plant Pathology Challenge 2020 data set",
+      "problem": "WRONG PAPER. The paper says \"Thapa et al. collected PlantDoc\" but Thapa et al. created the Plant Pathology Challenge 2020 (apple leaves), NOT PlantDoc. PlantDoc was created by Singh et al. [3].",
+      "fix": "Either: (a) Remove this citation and refer to [3] for PlantDoc; or (b) keep but fix the text: \"The Plant Pathology Challenge [11] and PlantDoc [3] were created because the field lacked challenging evaluation benchmarks.\" Best option: replace with the actual PlantDoc follow-up paper if one exists, or just cite [3] again."
+    },
+    {
+      "id": 24,
+      "title": "Fuzzy Aura Topological Spaces with Applications to Rough Set Theory",
+      "problem": "ORPHAN + IRRELEVANT. Not cited anywhere in the paper text. The paper is about mathematical fuzzy topology, which has NOTHING to do with fuzzy string matching used in label alignment.",
+      "fix": "Remove entirely. If a fuzzy matching reference is needed, cite: Cohen, W.W. et al. (2003). \"A comparison of string distance metrics for name-matching tasks.\" IJCAI Workshop. Or cite the RapidFuzz library documentation."
+    },
+    {
+      "id": 27,
+      "title": "Unpaired Image-to-Image Translation using CycleGAN",
+      "problem": "WRONG PAPER. Cited in Section 3.2 for \"target-domain images are included in each batch to estimate covariance.\" CycleGAN has nothing to do with batching strategy for covariance estimation. This appears to be a random/incorrect insertion.",
+      "fix": "Remove citation. The statement about batch composition for CORAL does not need a citation -- it is a description of your own method. If a reference is needed, cite the original CORAL paper [5] or Deep CORAL [26]."
+    }
+  ],
+  "duplicates": [
+    {
+      "id": 4,
+      "title": "Domain-Adversarial Training of Neural Networks",
+      "fix": "Keep ONE entry (preferably the 2016 JMLR version: Ganin et al. \"Domain-Adversarial Training of Neural Networks.\" JMLR 17(59):1-35, 2016). Remove [15] and [17]."
+    },
+    {
+      "id": 6,
+      "title": "Sentence-BERT",
+      "fix": "Remove [25], keep [6]."
+    },
+    {
+      "id": 13,
+      "title": "Contrastive Adaptation Network for UDA",
+      "fix": "Remove [18], keep [13]."
+    },
+    {
+      "id": 15,
+      "title": "Domain-Adversarial Training of Neural Networks",
+      "fix": "Remove. Keep only [4] (renumber)."
+    },
+    {
+      "id": 17,
+      "title": "Domain-Adversarial Training of Neural Networks",
+      "fix": "Remove. Keep only [4] (renumber)."
+    },
+    {
+      "id": 18,
+      "title": "Contrastive Adaptation Network for UDA",
+      "fix": "Remove. Keep only [13] (renumber)."
+    },
+    {
+      "id": 25,
+      "title": "Sentence-BERT",
+      "fix": "Remove. Keep only [6]."
+    }
+  ],
+  "warnings": [
+    {
+      "id": 8,
+      "title": "AI Benchmark: Running Deep Neural Networks on Android",
+      "problem": "Cited in TWO contexts: (a) \"Edge deployment\" in Section 1 -- acceptable but weak; (b) Section 3.1 for label-space alignment -- WRONG context, ref [8] has nothing to do with label alignment.",
+      "fix": "Remove citation from Section 3.1. For edge deployment, consider replacing with: Banbury et al. (2021). \"MLPerf Tiny Benchmark.\" NeurIPS Datasets and Benchmarks. OR: Howard et al. (2019). \"Searching for MobileNetV3.\" ICCV."
+    },
+    {
+      "id": 21,
+      "title": "Study for Performance of MobileNetV1 and MobileNetV2 Based on Breast Cancer",
+      "problem": "Cited for \"MobileNetV1 and MobileNetV2 have served as standard baselines for mobile deployment.\" This is a weak citation -- a breast cancer study is not the standard ref for mobile architectures.",
+      "fix": "Replace with: Howard, A.G. et al. (2017). \"MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications.\" arXiv:1704.04861. This is the ORIGINAL MobileNet paper and the correct citation for architectural baselines."
+    }
+  ],
+  "missing": [
+    {
+      "topic": "McNemar test (original)",
+      "suggestion": "McNemar, Q. (1947). \"Note on the sampling error of the difference between correlated proportions or percentages.\" Psychometrika, 12(2), 153-157.",
+      "reason": "McNemar test is used throughout but never cited with the original source. Current ref [7] is an LLM degradation paper."
+    },
+    {
+      "topic": "MobileNetV1 (original)",
+      "suggestion": "Howard, A.G. et al. (2017). \"MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications.\" arXiv:1704.04861.",
+      "reason": "MobileNetV1 is used but the original paper is not cited."
+    },
+    {
+      "topic": "Bootstrap confidence intervals",
+      "suggestion": "Efron, B. & Tibshirani, R.J. (1993). \"An Introduction to the Bootstrap.\" Chapman & Hall/CRC.",
+      "reason": "Bootstrap CI is used but never cited."
+    },
+    {
+      "topic": "Fuzzy string matching",
+      "suggestion": "Cohen, W.W., Ravikumar, P. & Fienberg, S.E. (2003). \"A Comparison of String Distance Metrics for Name-Matching Tasks.\" IIWeb Workshop, IJCAI.",
+      "reason": "Fuzzy string matching is a core method but has no proper citation. Current orphan ref [24] is about fuzzy topology."
+    },
+    {
+      "topic": "ResNet-50",
+      "suggestion": "He, K. et al. (2016). \"Deep Residual Learning for Image Recognition.\" CVPR.",
+      "reason": "ResNet-50 is the primary backbone but the original paper is not cited."
+    },
+    {
+      "topic": "ImageNet pretraining",
+      "suggestion": "Deng, J. et al. (2009). \"ImageNet: A large-scale hierarchical image database.\" CVPR.",
+      "reason": "All models use ImageNet-pretrained weights but ImageNet is not cited."
+    }
+  ]
+}

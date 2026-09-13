@@ -1,0 +1,1618 @@
+path,y_true,y_pred,prob_top1
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_8.jpg,0,4,0.9740734100341797
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_53.jpg,0,6,0.9933886528015137
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_37.jpg,0,6,0.5645633339881897
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_83.jpg,0,3,0.9879828691482544
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_76.jpg,0,6,0.761903703212738
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_35.jpg,0,3,0.8640549778938293
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_7.jpg,0,0,0.7016995549201965
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_11.jpg,0,3,0.6220897436141968
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_16.jpg,0,7,0.9999961853027344
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_52.jpg,0,6,0.948173463344574
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_24.jpg,0,4,0.5287320017814636
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_62.jpg,0,4,0.6619148254394531
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_81.jpg,0,5,0.8794540166854858
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_26.jpg,0,6,0.9991952776908875
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_79.jpg,0,6,0.9986677169799805
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_59.jpg,0,13,0.5509431958198547
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_77.jpg,0,7,0.9687354564666748
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_45.jpg,0,3,0.9964904189109802
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_50.jpg,0,14,0.7711775302886963
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_41.jpg,0,6,0.9952698349952698
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_82.jpg,0,2,0.7503497004508972
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_17.jpg,0,6,0.6674776673316956
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_30.jpg,0,6,0.998389720916748
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_67.jpg,0,6,0.9798949360847473
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_66.jpg,0,3,0.5708850026130676
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_65.jpg,0,13,0.7040066123008728
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_63.jpg,0,0,0.29827457666397095
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_40.jpg,0,7,0.9999998807907104
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_80.jpg,0,12,0.5329303741455078
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_57.jpg,0,10,0.5783330202102661
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_22.jpg,0,0,0.9987119436264038
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_23.jpg,0,8,0.3602498769760132
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_69.jpg,0,4,0.9155983924865723
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_38.jpg,0,3,0.883618175983429
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_1.jpg,0,13,0.6091936826705933
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_73.jpg,0,6,0.8149082064628601
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_74.jpg,0,14,0.976836085319519
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_19.jpg,0,6,0.9833407998085022
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_25.jpg,0,14,0.9979208111763
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_9.jpg,0,6,0.5646275281906128
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_78.jpg,0,3,0.47796234488487244
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_47.jpg,0,0,0.984715461730957
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_31.jpg,0,0,0.7364458441734314
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_3.jpg,0,0,0.779724657535553
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_68.jpg,0,0,0.9566792845726013
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_61.jpg,0,7,0.8455840945243835
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_5.jpg,0,10,0.7399448156356812
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_56.jpg,0,6,0.9990819692611694
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_55.jpg,0,14,0.47987276315689087
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_32.jpg,0,6,0.45328018069267273
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_18.jpg,0,10,0.9314376711845398
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_44.jpg,0,6,0.9015992283821106
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_42.jpg,0,6,0.9083002805709839
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_34.jpg,0,12,0.5014747977256775
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_43.jpg,0,3,0.9006158709526062
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_49.jpg,0,6,0.9353803396224976
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_14.jpg,0,12,0.4880957007408142
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_12.jpg,0,14,0.5299602746963501
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_6.jpg,0,14,0.42633384466171265
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_51.jpg,0,6,0.94052654504776
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_2.jpg,0,2,0.995647132396698
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_54.jpg,0,7,0.9837620854377747
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_36.jpg,0,7,0.9976451992988586
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_20.jpg,0,3,0.8535881042480469
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_28.jpg,0,14,0.998196542263031
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_72.jpg,0,6,0.9900450110435486
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_10.jpg,0,6,0.8155688047409058
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_71.jpg,0,2,0.97214275598526
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_64.jpg,0,6,0.9499818086624146
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_4.jpg,0,6,0.999855637550354
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_70.jpg,0,0,0.8550752401351929
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_48.jpg,0,14,0.8067948222160339
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_27.jpg,0,14,0.867638349533081
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_13.jpg,0,0,0.6010116934776306
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_33.jpg,0,3,0.9889938235282898
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_60.jpg,0,6,0.951900839805603
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_58.jpg,0,3,0.6056469082832336
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_21.jpg,0,0,0.6278873085975647
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_15.jpg,0,2,0.7274683713912964
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_46.jpg,0,6,0.9773503541946411
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_29.jpg,0,3,0.9291115403175354
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_75.jpg,0,6,0.8425676822662354
+data/shared_subset/sbert/target/Apple_Scab_Leaf/train_Apple Scab Leaf_39.jpg,0,6,0.4619921147823334
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_34.jpg,1,9,0.9677140712738037
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_73.jpg,1,6,0.7635471820831299
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_43.jpg,1,14,0.9882175326347351
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_12.jpg,1,3,0.9258082509040833
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_70.jpg,1,6,0.8208450675010681
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_47_3.jpg,1,3,0.9158405661582947
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_48.jpg,1,3,0.6880316138267517
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_50.jpg,1,14,0.9839688539505005
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_75.jpg,1,3,0.9856160879135132
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_17.jpg,1,3,0.9984110593795776
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_58_1.jpg,1,6,0.7493789196014404
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_47_5.jpg,1,7,0.5345877408981323
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_63.jpg,1,3,0.9778677225112915
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_8.jpg,1,3,0.9998737573623657
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_78.jpg,1,7,0.9835072755813599
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_49.jpg,1,3,0.9996446371078491
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_11.jpg,1,3,0.9999977350234985
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_29.jpg,1,9,0.9443241357803345
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_60.jpg,1,6,0.6356632113456726
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_36_2.jpg,1,7,0.942956805229187
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_18.jpg,1,6,0.9126642942428589
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_59.jpg,1,6,0.8254833221435547
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_40.jpg,1,1,0.8983452916145325
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_62.jpg,1,9,0.47110411524772644
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_66_4.jpg,1,6,0.9891778230667114
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_28.jpg,1,6,0.48021599650382996
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_21.jpg,1,4,0.5023371577262878
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_1.jpg,1,9,0.7114307284355164
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_69.jpg,1,6,0.6642534136772156
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_47_4.jpg,1,3,0.7985273599624634
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_39_2.jpg,1,2,0.7968367338180542
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_66_3.jpg,1,6,0.9991976618766785
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_16.jpg,1,14,0.9884395599365234
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_26.jpg,1,6,0.9373115301132202
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_41.jpg,1,4,0.9977960586547852
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_61.jpg,1,3,0.7752437591552734
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_32.jpg,1,3,0.6924728751182556
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_64.jpg,1,3,0.7303299903869629
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_13.jpg,1,3,0.7297155857086182
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_65.jpg,1,6,0.9999533891677856
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_42_4.jpg,1,10,0.5647560358047485
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_47_2.jpg,1,7,0.4686601459980011
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_14.jpg,1,4,0.9575388431549072
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_52.jpg,1,6,0.8100736141204834
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_27.jpg,1,8,0.42967909574508667
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_44.jpg,1,6,0.5995887517929077
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_45.jpg,1,14,0.8591006994247437
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_6.jpg,1,6,0.9984732270240784
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_71_1.jpg,1,14,0.9999960660934448
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_15.jpg,1,6,0.9977967739105225
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_31.jpg,1,3,0.7245368361473083
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_22.jpg,1,1,0.9717954993247986
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_76.jpg,1,3,0.8359895944595337
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_25.jpg,1,3,0.6546305418014526
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_79.jpg,1,3,0.9731572866439819
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_71_2.jpg,1,14,0.9994667172431946
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_58_2.jpg,1,7,0.7191746830940247
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_38.jpg,1,4,0.4306265115737915
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_42_1.jpg,1,3,0.9895181059837341
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_24.jpg,1,14,0.9614492058753967
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_66_1.jpg,1,6,0.9989914298057556
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_7.jpg,1,6,0.8936628103256226
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_30.jpg,1,3,0.9994408488273621
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_3.jpg,1,3,0.9999947547912598
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_42_3.jpg,1,10,0.7492411732673645
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_5.jpg,1,14,0.9999992847442627
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_33.jpg,1,3,0.9998108744621277
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_55_1.jpg,1,3,0.8056069016456604
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_51.jpg,1,3,0.9985508322715759
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_9.jpg,1,6,0.9997554421424866
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_47_1.jpg,1,1,0.9229133725166321
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_36_1.jpg,1,3,0.9205837845802307
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_55_2.jpg,1,14,0.9283108115196228
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_46.jpg,1,3,0.684211254119873
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_23.jpg,1,6,0.9272609353065491
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_68.jpg,1,8,0.962622344493866
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_37.jpg,1,3,0.999992847442627
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_10.jpg,1,14,0.882415771484375
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_72.jpg,1,3,0.97409987449646
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_39_1.jpg,1,2,0.6300140023231506
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_19.jpg,1,1,0.9131955504417419
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_42_2.jpg,1,14,0.9780727028846741
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_53.jpg,1,3,0.9787223935127258
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_56.jpg,1,14,0.9970117807388306
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_66_2.jpg,1,6,0.9988075494766235
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_57_1.jpg,1,6,0.6781274080276489
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_2.jpg,1,1,0.7974844574928284
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_57_2.jpg,1,6,0.5840513706207275
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_77.jpg,1,6,0.9999048709869385
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_54.jpg,1,6,0.9999961853027344
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_20.jpg,1,3,0.999971866607666
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_67.jpg,1,3,0.9977033734321594
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_4.jpg,1,1,0.9999986886978149
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_35.jpg,1,12,0.48325610160827637
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_74.jpg,1,3,0.9214698076248169
+data/shared_subset/sbert/target/Apple_rust_leaf/train_Apple rust leaf_36_3.jpg,1,6,0.7464129328727722
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_32_1.jpg,2,3,0.44340354204177856
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_9_5.jpg,2,6,0.9437107443809509
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_6.jpg,2,9,0.941601574420929
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_50_3.jpg,2,6,0.4068949818611145
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_32_2.jpg,2,13,0.7005933523178101
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_8.jpg,2,2,0.9929072856903076
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_36_1.jpg,2,3,0.4908364415168762
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_49.jpg,2,2,0.9998966455459595
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_30_2.jpg,2,2,0.9596651792526245
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_47_1.jpg,2,10,0.7169259190559387
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_30_1.jpg,2,2,0.8599855899810791
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_34_2.jpg,2,2,0.9873325228691101
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_29.jpg,2,6,0.9518206119537354
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_47_3.jpg,2,7,0.7631669044494629
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_45.jpg,2,2,0.5300567746162415
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_4.jpg,2,6,0.6742968559265137
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_9_4.jpg,2,7,0.980851411819458
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_24_2.jpg,2,6,0.8211261034011841
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_5.jpg,2,3,0.7247486114501953
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_26.jpg,2,2,0.7368758916854858
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_34_1.jpg,2,2,0.9175697565078735
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_50_2.jpg,2,10,0.5916760563850403
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_47_2.jpg,2,7,0.905049204826355
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_50_1.jpg,2,2,0.7494848966598511
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_14.jpg,2,6,0.673150897026062
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_36_2.jpg,2,2,0.9995802044868469
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_42.jpg,2,10,0.7905383706092834
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_9_6.jpg,2,10,0.4150002598762512
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_9_3.jpg,2,7,0.9968429803848267
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_52.jpg,2,6,0.49424484372138977
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_9_2.jpg,2,7,0.9540252089500427
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_24_1.jpg,2,6,0.9928361773490906
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_9_1.jpg,2,7,0.9999239444732666
+data/shared_subset/sbert/target/Bell_pepper_leaf/train_Bell_pepper leaf_3.jpg,2,10,0.8895976543426514
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_26.jpg,3,6,0.2749585211277008
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_27.jpg,3,3,0.6982645392417908
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_9.jpg,3,3,0.9999504089355469
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_41.jpg,3,10,0.78160560131073
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_8.jpg,3,2,0.575390100479126
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_58.jpg,3,3,0.7363201379776001
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_38.jpg,3,14,0.9999996423721313
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_17_2.jpg,3,14,0.6606824398040771
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_10.jpg,3,10,0.4164815843105316
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_17_1.jpg,3,3,0.6407862901687622
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_42_2.jpg,3,6,0.9320787191390991
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_53.jpg,3,3,0.9996905326843262
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_13_2.jpg,3,6,0.9939036965370178
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_32.jpg,3,3,0.687724769115448
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_42_3.jpg,3,6,0.9225546717643738
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_39.jpg,3,14,0.5137708783149719
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_4.jpg,3,6,0.7749516367912292
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_25_1.jpg,3,14,0.5895196795463562
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_15.jpg,3,3,0.9871015548706055
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_61.jpg,3,3,0.8794430494308472
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_2_1.jpg,3,14,0.7483965158462524
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_48.jpg,3,14,0.9917431473731995
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_20_1.jpg,3,3,0.9993822574615479
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_19.jpg,3,6,0.9972892999649048
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_31.jpg,3,6,0.8691406846046448
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_16.jpg,3,12,0.6560280323028564
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_3.jpg,3,12,0.5927262306213379
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_33.jpg,3,8,0.7283668518066406
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_57.jpg,3,6,0.8858569264411926
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_52.jpg,3,14,0.9435945153236389
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_34.jpg,3,8,0.49994033575057983
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_24.jpg,3,3,0.736577570438385
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_56.jpg,3,3,0.9941603541374207
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_28.jpg,3,3,1.0
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_6.jpg,3,6,0.9755217432975769
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_13_1.jpg,3,14,0.5165860652923584
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_43_2.jpg,3,2,0.9878582954406738
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_11.jpg,3,6,0.8036699295043945
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_21.jpg,3,3,0.8921068906784058
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_25_2.jpg,3,5,0.4368140697479248
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_22.jpg,3,3,0.49067333340644836
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_42_1.jpg,3,3,0.9271820187568665
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_17_3.jpg,3,3,0.8931987285614014
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_45.jpg,3,6,0.9947171807289124
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_55.jpg,3,3,0.5918970704078674
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_18.jpg,3,14,0.9399848580360413
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_14.jpg,3,2,0.6832885146141052
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_44.jpg,3,14,0.9366814494132996
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_7.jpg,3,14,0.5423741340637207
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_29_2.jpg,3,3,0.8992859721183777
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_30_1.jpg,3,3,0.7244445085525513
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_40.jpg,3,13,0.49672332406044006
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_23.jpg,3,6,0.8904028534889221
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_42_5.jpg,3,3,0.8336108922958374
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_42_4.jpg,3,2,0.8712364435195923
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_30_2.jpg,3,3,0.43253669142723083
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_49.jpg,3,3,0.9997392296791077
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_29_1.jpg,3,3,0.8921369910240173
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_1.jpg,3,4,0.5654850602149963
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_36.jpg,3,3,0.5105194449424744
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_37.jpg,3,3,0.999711811542511
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_60.jpg,3,3,0.747226893901825
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_46.jpg,3,14,0.8842012882232666
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_35.jpg,3,6,0.9992836117744446
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_20_2.jpg,3,3,0.8164624571800232
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_50.jpg,3,3,0.943560004234314
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_5.jpg,3,3,0.9702140092849731
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_51.jpg,3,2,0.9996082186698914
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_62_1.jpg,3,10,0.741682767868042
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_2_2.jpg,3,14,0.9590215086936951
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_59.jpg,3,3,0.9963458180427551
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_12.jpg,3,6,0.9270618557929993
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_47.jpg,3,10,0.6127741932868958
+data/shared_subset/sbert/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_43_1.jpg,3,6,0.9864529967308044
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_85_2.jpg,4,6,0.9881695508956909
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_17.jpg,4,10,0.9136156439781189
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_54.jpg,4,6,0.6274941563606262
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_78_1.jpg,4,4,0.6851171255111694
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_7_1.jpg,4,6,0.9870616793632507
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_30.jpg,4,6,0.9552280306816101
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_98_5.jpg,4,6,0.6077100038528442
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_44.jpg,4,6,0.9590429663658142
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_104_1.jpg,4,10,0.999515175819397
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_46.jpg,4,6,0.9788022041320801
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_68.jpg,4,4,0.999140739440918
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_94_1.jpg,4,2,0.9775832891464233
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_86.jpg,4,6,0.8221662044525146
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_94_5.jpg,4,2,0.8644793629646301
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_51.jpg,4,8,0.5437923073768616
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_98_4.jpg,4,14,0.9409112930297852
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_108.jpg,4,6,0.9975449442863464
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_76.jpg,4,14,0.811825156211853
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_35.jpg,4,14,0.8109186291694641
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_20.jpg,4,6,0.963745653629303
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_83_3.jpg,4,4,0.8362438678741455
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_94_2.jpg,4,14,0.7089401483535767
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_88_5.jpg,4,7,0.9874522089958191
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_18.jpg,4,14,0.5719769597053528
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_106.jpg,4,14,0.8651800155639648
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_48.jpg,4,0,0.7000049352645874
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_94_4.jpg,4,2,0.9816680550575256
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_37.jpg,4,10,0.7495836615562439
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_71.jpg,4,14,0.712607741355896
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_14.jpg,4,6,0.9715061783790588
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_13_4.jpg,4,6,0.9685325026512146
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_2.jpg,4,14,0.8673825860023499
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_82.jpg,4,4,0.6775700449943542
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_80.jpg,4,4,0.9900307655334473
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_85_6.jpg,4,6,0.9854195713996887
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_66_2.jpg,4,7,0.9999998807907104
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_28_1.jpg,4,6,0.8191681504249573
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_9.jpg,4,6,0.9908440709114075
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_52.jpg,4,7,0.9919827580451965
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_24.jpg,4,6,0.9911772012710571
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_78_3.jpg,4,4,0.8528967499732971
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_101.jpg,4,3,0.9041591882705688
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_93.jpg,4,7,0.8752768039703369
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_91.jpg,4,6,0.6387109160423279
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_72.jpg,4,6,0.998281717300415
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_4.jpg,4,14,0.9933945536613464
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_98_7.jpg,4,7,0.5517225861549377
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_83_2.jpg,4,4,0.7653539776802063
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_81.jpg,4,14,0.905123233795166
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_1.jpg,4,3,0.5563551187515259
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_58.jpg,4,14,0.9999454021453857
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_83_6.jpg,4,9,0.5018664598464966
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_98_3.jpg,4,14,0.9263437986373901
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_13_1.jpg,4,6,0.9739232063293457
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_40.jpg,4,6,0.8547457456588745
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_78_54.jpg,4,7,0.7544634938240051
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_13_7.jpg,4,6,0.9964569211006165
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_83_1.jpg,4,6,0.9847544431686401
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_85_1.jpg,4,6,0.9498751759529114
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_41_3.jpg,4,6,0.9324995875358582
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_97.jpg,4,6,0.9887730479240417
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_98_1.jpg,4,6,0.9386159777641296
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_5.jpg,4,7,0.5807687044143677
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_98_8.jpg,4,7,0.9933962225914001
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_88_2.jpg,4,1,0.6211695671081543
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_94_6.jpg,4,2,0.996051013469696
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_79.jpg,4,10,0.5729442834854126
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_105.jpg,4,7,0.9065791964530945
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_70.jpg,4,14,0.9815998673439026
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_13_6.jpg,4,6,0.638731062412262
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_41_1.jpg,4,7,0.9221898913383484
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_13_2.jpg,4,6,0.9346743822097778
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_90.jpg,4,10,0.9960454106330872
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_10.jpg,4,14,1.0
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_47.jpg,4,10,0.9803280234336853
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_67.jpg,4,6,0.9945833086967468
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_33.jpg,4,14,0.8974478840827942
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_38.jpg,4,10,0.4231093227863312
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_88_3.jpg,4,7,0.38369524478912354
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_49.jpg,4,3,0.9979056119918823
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_57.jpg,4,6,0.5561808347702026
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_83_7.jpg,4,4,0.8096463084220886
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_41_5.jpg,4,6,0.8835919499397278
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_66_1.jpg,4,7,0.9965254664421082
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_95.jpg,4,6,0.9204718470573425
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_29.jpg,4,14,0.9844145774841309
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_84.jpg,4,6,0.9913523197174072
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_88_4.jpg,4,1,0.7003368139266968
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_56.jpg,4,8,0.97010338306427
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_64.jpg,4,7,0.5282190442085266
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_99_1.jpg,4,14,0.9685475826263428
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_42.jpg,4,4,0.5791024565696716
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_98_6.jpg,4,6,0.5185953974723816
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_88_1.jpg,4,1,0.815242350101471
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_3.jpg,4,6,0.9981120824813843
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_75.jpg,4,3,0.9133650660514832
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_100.jpg,4,6,0.7952784895896912
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_15.jpg,4,4,0.6765849590301514
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_73.jpg,4,14,0.6262884736061096
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_39_2.jpg,4,6,0.6947057247161865
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_50.jpg,4,6,0.9632455706596375
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_27.jpg,4,7,0.9017758965492249
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_85_4.jpg,4,6,0.8085548877716064
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_13_5.jpg,4,6,0.6964104771614075
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_43.jpg,4,3,0.533523440361023
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_60.jpg,4,6,0.9990704655647278
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_41_6.jpg,4,6,0.8054659366607666
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_31.jpg,4,5,0.9642983675003052
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_13_3.jpg,4,6,0.8838368654251099
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_59.jpg,4,6,0.9999545812606812
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_66_3.jpg,4,7,0.9976361989974976
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_21.jpg,4,4,0.8108885288238525
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_22.jpg,4,6,0.7348160147666931
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_96.jpg,4,14,0.9974753260612488
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_85_3.jpg,4,6,0.890047550201416
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_39_1.jpg,4,6,0.9402651190757751
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_107.jpg,4,2,0.8318641781806946
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_99_2.jpg,4,14,0.9975327253341675
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_77.jpg,4,2,0.7692402005195618
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_7_2.jpg,4,6,0.9997859597206116
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_69.jpg,4,4,0.9891270995140076
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_78_2.jpg,4,4,0.9827468395233154
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_109.jpg,4,6,0.9636213183403015
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_89.jpg,4,7,0.5279953479766846
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_94_3.jpg,4,14,0.724225640296936
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_8.jpg,4,2,0.8112792372703552
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_83_5.jpg,4,4,0.8646748065948486
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_32.jpg,4,4,0.6371164917945862
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_41_4.jpg,4,6,0.993558943271637
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_104_2.jpg,4,10,0.797355592250824
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_6.jpg,4,4,0.7812982797622681
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_19.jpg,4,14,0.6663419604301453
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_25.jpg,4,6,0.9874075651168823
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_87.jpg,4,6,0.9990507960319519
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_102.jpg,4,14,0.9999934434890747
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_63.jpg,4,10,0.8687429428100586
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf late blight_60.jpg,4,14,0.9510610103607178
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_83_4.jpg,4,6,0.941096842288971
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_61.jpg,4,14,0.9124215245246887
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_78_4.jpg,4,4,0.8202599883079529
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_12.jpg,4,6,0.9503026008605957
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_65.jpg,4,6,0.8924629092216492
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_11.jpg,4,4,0.7049068212509155
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_85_5.jpg,4,6,0.9748237729072571
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_26.jpg,4,7,0.2741154432296753
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_16.jpg,4,3,0.6320847868919373
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_45.jpg,4,6,0.869071900844574
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_34.jpg,4,14,0.9999909400939941
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_55.jpg,4,4,0.9671893119812012
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_74.jpg,4,2,0.803803026676178
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_23.jpg,4,4,0.9980888962745667
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_62.jpg,4,8,0.49354472756385803
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_36.jpg,4,6,0.7754371762275696
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_41_2.jpg,4,6,0.993683934211731
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_53.jpg,4,6,0.8811962008476257
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_92.jpg,4,3,0.526710033416748
+data/shared_subset/sbert/target/Potato_leaf_early_blight/train_Potato leaf early blight_98_2.jpg,4,14,0.5845924615859985
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_42_4.jpg,5,4,0.7800318598747253
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_69_3.jpg,5,10,0.9930770397186279
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_12_6.jpg,5,10,0.6896622776985168
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_80_1.jpg,5,4,0.6951008439064026
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_35_5.jpg,5,7,0.7734301686286926
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_49_2.jpg,5,6,0.5692359209060669
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_10_2.jpg,5,6,0.6941837072372437
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_94.jpg,5,2,0.9911946058273315
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_35_6.jpg,5,7,0.8399040699005127
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_13.jpg,5,2,0.9886119961738586
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_83_2.jpg,5,10,0.9471681714057922
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_25.jpg,5,14,0.8434944748878479
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_92_2.jpg,5,6,0.8821226358413696
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_12_1.jpg,5,10,0.6652345657348633
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_52.jpg,5,14,0.5115135908126831
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_73.jpg,5,5,0.9633776545524597
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_65_1.jpg,5,10,0.9664220213890076
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_38_1.jpg,5,10,0.9979388117790222
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_95.jpg,5,10,0.5363373756408691
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_48_4.jpg,5,7,0.9997163414955139
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_10_3.jpg,5,7,0.9526406526565552
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_10_1.jpg,5,10,0.7714824676513672
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_31.jpg,5,6,0.9751099944114685
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_76.jpg,5,3,0.8491761684417725
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_12_4.jpg,5,10,0.862999439239502
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_21_4.jpg,5,2,0.7373285889625549
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_79.jpg,5,14,0.9999479055404663
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_12_3.jpg,5,6,0.6244194507598877
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_96.jpg,5,14,0.9994345307350159
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_58.jpg,5,4,0.6982965469360352
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_68.jpg,5,6,0.9909500479698181
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_38_2.jpg,5,10,0.9990178346633911
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_55_5.jpg,5,7,0.3835636079311371
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_10_6.jpg,5,7,0.9680438041687012
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_19.jpg,5,6,0.7777032852172852
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_12_2.jpg,5,10,0.9719902276992798
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_10_4.jpg,5,7,0.7147021889686584
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_91_5.jpg,5,7,0.8045658469200134
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_41.jpg,5,10,0.97181636095047
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_55_10.jpg,5,7,0.9928895235061646
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_40_4.jpg,5,13,0.8671236634254456
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_67.jpg,5,10,0.5190033912658691
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_8.jpg,5,7,0.5869110226631165
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_39_1.jpg,5,10,0.6797290444374084
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_39_2.jpg,5,10,0.5929913520812988
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_55_4.jpg,5,7,0.7785014510154724
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_72.jpg,5,14,0.9967865943908691
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_39_3.jpg,5,10,0.9815412759780884
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_56.jpg,5,2,0.9802693724632263
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_61.jpg,5,6,0.9732255935668945
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_40_1.jpg,5,12,0.62238609790802
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_50.jpg,5,6,0.9620840549468994
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_10_8.jpg,5,7,0.9592623114585876
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_83_4.jpg,5,2,0.7704136371612549
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_55_9.jpg,5,2,0.28654980659484863
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_91_2.jpg,5,7,0.6080609560012817
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_74.jpg,5,10,0.9693707823753357
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_40_6.jpg,5,6,0.5819010138511658
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_2_4.jpg,5,3,0.4915187656879425
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_92_1.jpg,5,6,0.9998832941055298
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_16.jpg,5,10,0.7332837581634521
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_83_1.jpg,5,10,0.9909226298332214
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_97_3.jpg,5,13,0.9877132177352905
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_97_4.jpg,5,13,0.8506530523300171
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_39_5.jpg,5,7,0.7612754106521606
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_39_4.jpg,5,10,0.9625983834266663
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_80_2.jpg,5,4,0.9801763296127319
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_40_7.jpg,5,13,0.43811166286468506
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_48_6.jpg,5,10,0.650245189666748
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_29.jpg,5,2,0.38739776611328125
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_80_4.jpg,5,4,0.31327393651008606
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_66.jpg,5,6,0.9948377013206482
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_53.jpg,5,7,0.5344012379646301
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_24.jpg,5,6,0.9371265769004822
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_55_1.jpg,5,7,0.9993374943733215
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_75.jpg,5,6,0.8417109251022339
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_70.jpg,5,6,0.9942556023597717
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_36_2.jpg,5,10,0.9987826943397522
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_40_8.jpg,5,13,0.9736940860748291
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_97_6.jpg,5,12,0.932334840297699
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_42_8.jpg,5,3,0.5560055375099182
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_81.jpg,5,4,0.9454240798950195
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_2_1.jpg,5,6,0.4830286502838135
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_88.jpg,5,2,0.9749515652656555
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_10_7.jpg,5,7,0.7521499395370483
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_33_2.jpg,5,3,0.544204831123352
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_55_7.jpg,5,3,0.6093301773071289
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_83_3.jpg,5,10,0.8847653269767761
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_21_3.jpg,5,2,0.9787156581878662
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_12_5.jpg,5,10,0.9451054930686951
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_5.jpg,5,7,0.9999289512634277
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_1.jpg,5,10,0.6047930717468262
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_26.jpg,5,6,0.7191069722175598
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_28.jpg,5,6,0.9510557055473328
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_48_3.jpg,5,10,0.6916934847831726
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_86.jpg,5,6,0.7072181105613708
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_3.jpg,5,6,0.7910149693489075
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_10_9.jpg,5,7,0.8294056057929993
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_63_2.jpg,5,6,0.9988973140716553
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_40_3.jpg,5,7,0.5754775404930115
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_85_5.jpg,5,6,0.6278786063194275
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_18.jpg,5,2,0.990199089050293
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_30.jpg,5,6,0.9491757154464722
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_23.jpg,5,14,0.6784442067146301
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_77.jpg,5,6,0.8134510517120361
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_49_3.jpg,5,10,0.6068030595779419
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_46.jpg,5,14,0.9039613604545593
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_48_7.jpg,5,10,0.5670686364173889
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_36_1.jpg,5,7,0.5203130841255188
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_63_1.jpg,5,6,0.9999904632568359
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_57.jpg,5,0,0.7313464879989624
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_93_2.jpg,5,10,0.39533793926239014
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_17.jpg,5,2,0.5915713906288147
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_47.jpg,5,0,0.42778289318084717
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_59.jpg,5,6,0.9986936450004578
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_4.jpg,5,10,0.9943115711212158
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_14.jpg,5,6,0.92141193151474
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_27.jpg,5,14,0.989012598991394
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_90.jpg,5,7,0.9579429626464844
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_43.jpg,5,14,0.9794455170631409
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_40_2.jpg,5,3,0.9081332087516785
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_78_3.jpg,5,6,0.9699311852455139
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_69_2.jpg,5,10,0.6760817170143127
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_44.jpg,5,6,0.5149229764938354
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_7.jpg,5,6,0.7489414811134338
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_21_6.jpg,5,2,0.9514878392219543
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_60_1.jpg,5,6,0.5938473343849182
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_71.jpg,5,14,0.5306275486946106
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_45.jpg,5,10,0.987080991268158
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_80_3.jpg,5,4,0.9206357002258301
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_35_8.jpg,5,6,0.6980474591255188
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_10_5.jpg,5,7,0.9064598679542542
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_20.jpg,5,4,0.8062134385108948
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_91_1.jpg,5,7,0.9999057054519653
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_62.jpg,5,10,0.8596751689910889
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_22.jpg,5,2,0.6116841435432434
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_97_2.jpg,5,3,0.3422287702560425
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_42_10.jpg,5,6,0.9971845746040344
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_54.jpg,5,7,0.9929700493812561
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_42_5.jpg,5,6,0.9396648406982422
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_91_3.jpg,5,7,0.9188821911811829
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_85_2.jpg,5,10,0.8684138059616089
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_34.jpg,5,4,0.9975501894950867
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_35_2.jpg,5,6,0.9992089867591858
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_32.jpg,5,3,0.7594113349914551
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_21_5.jpg,5,2,0.9928027987480164
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_55_6.jpg,5,3,0.630855143070221
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_97_8.jpg,5,12,0.6983119249343872
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_89.jpg,5,6,0.9501104950904846
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_97_1.jpg,5,8,0.48941075801849365
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_42_7.jpg,5,6,0.6659762263298035
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_78_1.jpg,5,10,0.9223781824111938
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_97_7.jpg,5,13,0.9487415552139282
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_82.jpg,5,10,0.755638062953949
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_85_4.jpg,5,14,0.9976407289505005
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_97_5.jpg,5,13,0.9964703321456909
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_65_2.jpg,5,2,0.6632681488990784
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_85_3.jpg,5,6,0.5644887089729309
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_2_3.jpg,5,6,0.4630567729473114
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_40_9.jpg,5,13,0.4815673232078552
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_84_2.jpg,5,6,0.9866978526115417
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_42_9.jpg,5,4,0.7365273237228394
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_48_2.jpg,5,7,0.883554995059967
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_93_1.jpg,5,7,0.7514947056770325
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_85_1.jpg,5,14,0.8049350380897522
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_33_1.jpg,5,3,0.4871692955493927
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_42_6.jpg,5,4,0.3618537485599518
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_84_1.jpg,5,6,0.554753303527832
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_49_1.jpg,5,6,0.6303220391273499
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_91_4.jpg,5,14,0.6765246987342834
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_42_2.jpg,5,4,0.777927577495575
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_48_1.jpg,5,7,0.9978455305099487
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_55_3.jpg,5,6,0.9299471974372864
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_35_7.jpg,5,13,0.6254069209098816
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_42_3.jpg,5,6,0.7550488710403442
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_69_1.jpg,5,10,0.6155745983123779
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_15.jpg,5,6,0.9773464798927307
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_21_1.jpg,5,10,0.8785183429718018
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_35_4.jpg,5,2,0.37644320726394653
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_42_1.jpg,5,6,0.9948425889015198
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_35_1.jpg,5,6,0.7031927108764648
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_6.jpg,5,14,0.9785556793212891
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_36_3.jpg,5,10,0.8506789207458496
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_55_2.jpg,5,7,0.8959185481071472
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_35_3.jpg,5,6,0.959681510925293
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_37.jpg,5,10,0.4205705523490906
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_78_4.jpg,5,10,0.84571772813797
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_11.jpg,5,6,0.9898003935813904
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_40_5.jpg,5,12,0.846214771270752
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_21_2.jpg,5,10,0.9984595775604248
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_87.jpg,5,8,0.8038214445114136
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_2_2.jpg,5,0,0.9593752026557922
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_51.jpg,5,4,0.9591547250747681
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_64.jpg,5,6,0.9451600313186646
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_55_8.jpg,5,7,0.9800747632980347
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_84_3.jpg,5,6,0.6467028856277466
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_9.jpg,5,6,0.6048051714897156
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_48_5.jpg,5,7,0.9994257688522339
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_69_4.jpg,5,10,0.9720673561096191
+data/shared_subset/sbert/target/Potato_leaf_late_blight/train_Potato leaf late blight_78_2.jpg,5,6,0.9839161038398743
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_6.jpg,6,6,0.9999151229858398
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_121.jpg,6,6,0.999769389629364
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_66.jpg,6,6,0.9995669722557068
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_72.jpg,6,6,0.9988850951194763
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_124.jpg,6,2,0.9979973435401917
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_99.jpg,6,6,0.9999998807907104
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_73.jpg,6,6,0.999998927116394
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_80.jpg,6,6,0.9997326731681824
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_113.jpg,6,6,0.9999954700469971
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_13.jpg,6,6,0.9451508522033691
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_1.jpg,6,6,0.9993183612823486
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_110.jpg,6,14,0.9948740601539612
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_53.jpg,6,6,0.6479315757751465
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_32.jpg,6,6,0.9841088652610779
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_79.jpg,6,6,0.9999449253082275
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_57.jpg,6,6,0.9016757607460022
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_94.jpg,6,6,0.9999997615814209
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_51.jpg,6,6,0.9999216794967651
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_102.jpg,6,7,0.8452189564704895
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_107.jpg,6,6,0.9999996423721313
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_8.jpg,6,6,0.9999996423721313
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_68.jpg,6,6,0.9989919066429138
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_118.jpg,6,6,0.9284464120864868
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_69.jpg,6,6,0.9999533891677856
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_25.jpg,6,6,0.9957285523414612
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_38.jpg,6,6,0.992146909236908
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_81.jpg,6,6,0.9293637275695801
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_58.jpg,6,6,0.98641437292099
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_71.jpg,6,6,0.9895290732383728
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_15.jpg,6,6,0.9999302625656128
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_11.jpg,6,6,0.9988430738449097
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_104.jpg,6,6,0.9395378232002258
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_29.jpg,6,6,0.7597888112068176
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_27.jpg,6,6,0.989108681678772
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_41.jpg,6,14,0.9971689581871033
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_14.jpg,6,6,0.9935065507888794
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_108.jpg,6,6,0.9688453674316406
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_115.jpg,6,6,0.9999978542327881
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_96.jpg,6,7,0.9779880046844482
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_20.jpg,6,6,0.9999964237213135
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_5.jpg,6,6,0.8698615431785583
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_2.jpg,6,6,0.9990012049674988
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_78.jpg,6,6,0.9988368153572083
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_114.jpg,6,6,0.9999432563781738
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_48.jpg,6,6,0.9498084783554077
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_49.jpg,6,2,0.9999992847442627
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_90.jpg,6,6,0.9999821186065674
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_82.jpg,6,6,0.8655181527137756
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_101.jpg,6,6,0.9999544620513916
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_106.jpg,6,6,0.9925755262374878
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_46.jpg,6,6,0.9952685236930847
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_10.jpg,6,2,0.5249279141426086
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_45.jpg,6,6,0.9968921542167664
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_24.jpg,6,6,0.9977524876594543
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_64.jpg,6,2,0.981696367263794
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_28.jpg,6,6,0.9999842643737793
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_123.jpg,6,6,0.9864369034767151
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_4.jpg,6,6,0.9562982320785522
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_60.jpg,6,6,0.9516776204109192
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_76.jpg,6,6,0.9998711347579956
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_52.jpg,6,14,0.9936058521270752
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_77.jpg,6,14,0.9711164832115173
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_22.jpg,6,6,0.9999910593032837
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_93.jpg,6,6,0.9999977350234985
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_103.jpg,6,14,0.5073403716087341
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_122.jpg,6,6,0.9997475743293762
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_40.jpg,6,6,0.9513835906982422
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_35.jpg,6,6,0.9999662637710571
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_98.jpg,6,6,0.8869321942329407
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_59.jpg,6,2,0.9740890860557556
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_88.jpg,6,6,0.9406503438949585
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_18.jpg,6,14,0.999228835105896
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_26.jpg,6,6,0.9999998807907104
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_74.jpg,6,14,0.9998395442962646
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_100.jpg,6,6,0.9557427763938904
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_21.jpg,6,6,0.898302435874939
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_85.jpg,6,6,0.9999998807907104
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_112.jpg,6,6,0.9999996423721313
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_56.jpg,6,6,0.9995903372764587
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_55.jpg,6,3,0.8873844742774963
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_91.jpg,6,6,0.9999030828475952
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_117.jpg,6,6,0.9997156262397766
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_44.jpg,6,6,0.9999200105667114
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_16.jpg,6,14,0.9465789198875427
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_95.jpg,6,6,0.9999595880508423
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_75.jpg,6,6,0.9999998807907104
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_97.jpg,6,6,0.997538685798645
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_87.jpg,6,14,0.9862293004989624
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_120.jpg,6,6,0.7928549647331238
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_9.jpg,6,6,0.920268177986145
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_109.jpg,6,6,0.9983887672424316
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_37.jpg,6,6,0.7493078708648682
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_86.jpg,6,6,0.994269847869873
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_7.jpg,6,6,0.9999997615814209
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_111.jpg,6,6,0.9995942711830139
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_62.jpg,6,6,0.9997361302375793
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_54.jpg,6,6,0.9847662448883057
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_43.jpg,6,14,0.9975250363349915
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_116.jpg,6,6,0.9999663829803467
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_92.jpg,6,14,0.8892739415168762
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_19.jpg,6,6,0.9999996423721313
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_61.jpg,6,6,0.910483717918396
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_105.jpg,6,14,0.8910778760910034
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_63.jpg,6,3,0.7384042739868164
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_23.jpg,6,6,0.9999550580978394
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_36.jpg,6,6,0.9990540146827698
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_65.jpg,6,6,0.9999996423721313
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_67.jpg,6,6,0.6905064582824707
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_17.jpg,6,6,0.999993085861206
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_3.jpg,6,6,0.9999420642852783
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_83.jpg,6,6,0.579035758972168
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_31.jpg,6,6,0.999972939491272
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_50.jpg,6,6,0.9999915361404419
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_119.jpg,6,6,0.8396673202514648
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_39.jpg,6,6,0.9991223216056824
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_34.jpg,6,6,0.9997625946998596
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_12.jpg,6,6,0.9261870980262756
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_33.jpg,6,6,0.8382146954536438
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_47.jpg,6,6,0.9988975524902344
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_30.jpg,6,6,0.9999290704727173
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_84.jpg,6,6,0.9999794960021973
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_89.jpg,6,14,0.9601578116416931
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_42.jpg,6,6,0.9472405314445496
+data/shared_subset/sbert/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_70.jpg,6,6,0.5256235003471375
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_69.jpg,7,6,0.9925941824913025
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_38.jpg,7,6,0.46418502926826477
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_6.jpg,7,6,0.9557747840881348
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_22.jpg,7,7,0.9834802746772766
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_57.jpg,7,10,0.5995084643363953
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_74.jpg,7,7,0.8418567180633545
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_77.jpg,7,6,0.8690842390060425
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_43.jpg,7,6,0.8669371604919434
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_73.jpg,7,14,0.7764616012573242
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_51.jpg,7,14,0.9999992847442627
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_19.jpg,7,3,0.9273664355278015
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_52.jpg,7,3,0.4186323881149292
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_35.jpg,7,6,0.7810038328170776
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_16.jpg,7,4,0.3806828260421753
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_53.jpg,7,14,0.912830650806427
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_14.jpg,7,2,0.998084306716919
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_62.jpg,7,3,0.9496444463729858
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_20.jpg,7,10,0.46506965160369873
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_42.jpg,7,4,0.9815757274627686
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_48.jpg,7,6,0.9761829972267151
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_61.jpg,7,7,0.9962134957313538
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_59.jpg,7,14,0.9364320635795593
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_65.jpg,7,6,0.7753380537033081
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_70.jpg,7,14,0.5555394291877747
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_27.jpg,7,7,0.5756098031997681
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_46.jpg,7,6,0.997612476348877
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_10.jpg,7,6,0.6967416405677795
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_50.jpg,7,6,0.5102091431617737
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_39.jpg,7,7,0.5945568084716797
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_3.jpg,7,14,0.8611086010932922
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_4.jpg,7,14,0.9967629909515381
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_28.jpg,7,7,0.7950744032859802
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_7.jpg,7,3,0.999812662601471
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_21.jpg,7,14,0.981374979019165
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_71.jpg,7,7,0.9998681545257568
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_44.jpg,7,3,0.9884927868843079
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_72.jpg,7,7,0.8637394309043884
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_58.jpg,7,14,0.9999711513519287
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_17.jpg,7,7,0.9464313387870789
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_75.jpg,7,7,0.3494788408279419
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_26.jpg,7,6,0.3345867991447449
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_34.jpg,7,6,0.9325563311576843
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_78.jpg,7,6,0.8653650879859924
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_5.jpg,7,14,0.9999350309371948
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_25.jpg,7,6,0.9989075660705566
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_12.jpg,7,14,0.8981257677078247
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_13.jpg,7,14,0.9999986886978149
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_56.jpg,7,7,0.9999915361404419
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_49.jpg,7,6,0.9994693398475647
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_47.jpg,7,6,0.8687542676925659
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_11.jpg,7,8,0.47849059104919434
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_9.jpg,7,6,0.5116285085678101
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_54.jpg,7,14,0.7759711146354675
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_68.jpg,7,14,0.514806866645813
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_31.jpg,7,6,0.9978814721107483
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_66.jpg,7,6,0.5788590908050537
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_32.jpg,7,6,0.8099867105484009
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_55.jpg,7,6,0.8548837304115295
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_79.jpg,7,6,0.865452766418457
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_67.jpg,7,6,0.5934295058250427
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_29.jpg,7,6,0.8872418403625488
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_15.jpg,7,4,0.8816256523132324
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_60.jpg,7,14,0.669134795665741
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_8.jpg,7,14,0.9734935760498047
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_18.jpg,7,7,0.5243538618087769
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_30.jpg,7,6,0.9912700653076172
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_45.jpg,7,6,0.8463019728660583
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_24.jpg,7,7,0.6689623594284058
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_63.jpg,7,6,0.8336935043334961
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_64.jpg,7,7,0.45152050256729126
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_37.jpg,7,6,0.6340712308883667
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_33.jpg,7,6,0.7596464157104492
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_1.jpg,7,7,0.9247411489486694
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_2.jpg,7,6,0.8005369901657104
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_23.jpg,7,4,0.42227283120155334
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_76.jpg,7,6,0.9973651766777039
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_36.jpg,7,6,0.7656393647193909
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_41.jpg,7,6,0.7871652245521545
+data/shared_subset/sbert/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_40.jpg,7,14,0.9999994039535522
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_70.jpg,8,6,0.8283378481864929
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_56.jpg,8,14,0.5831682085990906
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_138_1.jpg,8,3,0.7934346199035645
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_102.jpg,8,9,0.4464697241783142
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_82.jpg,8,3,0.6546779274940491
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_83.jpg,8,7,0.9668263792991638
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_18.jpg,8,6,0.866592288017273
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_107.jpg,8,3,0.5938355326652527
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_5_2.jpg,8,6,0.6162956357002258
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_113.jpg,8,3,0.9652292728424072
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_63.jpg,8,8,0.9931848645210266
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_34.jpg,8,6,0.9946118593215942
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_66.jpg,8,14,0.9475710988044739
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_69.jpg,8,14,0.9806047677993774
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_129.jpg,8,8,0.9672760963439941
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_84.jpg,8,6,0.9938392043113708
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_47.jpg,8,3,0.5771675109863281
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_134_2.jpg,8,6,0.7112888693809509
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_13.jpg,8,7,0.9999464750289917
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_122.jpg,8,14,0.8014293909072876
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_99.jpg,8,14,0.8659181594848633
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_128.jpg,8,3,0.9946869611740112
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_2.jpg,8,6,0.5051560997962952
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_101.jpg,8,8,0.8774192333221436
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_28.jpg,8,6,0.6874012351036072
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_33.jpg,8,7,0.9998798370361328
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_35.jpg,8,8,0.9958571791648865
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_97.jpg,8,4,0.5259445309638977
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_93.jpg,8,6,0.935584545135498
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_103.jpg,8,7,0.9999133348464966
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_59.jpg,8,7,0.514621913433075
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_100.jpg,8,6,0.9934597015380859
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_62.jpg,8,3,0.9565259218215942
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_112.jpg,8,6,0.6480245590209961
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_21.jpg,8,6,0.672733724117279
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_124_1.jpg,8,2,0.6162506341934204
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_105.jpg,8,6,0.551153838634491
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_133.jpg,8,6,0.8743239045143127
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_68.jpg,8,6,0.9961304664611816
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_5.jpg,8,6,0.8936754465103149
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_72.jpg,8,14,0.7020728588104248
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_57.jpg,8,7,0.9808710217475891
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_111.jpg,8,6,0.998940646648407
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_91.jpg,8,14,0.9900175929069519
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_1.jpg,8,12,0.9952345490455627
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_130.jpg,8,6,0.9842893481254578
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_140_2.jpg,8,6,0.9820854067802429
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_86.jpg,8,10,0.8531476259231567
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_118.jpg,8,6,0.6821417212486267
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_53.jpg,8,6,0.9965226650238037
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_39.jpg,8,6,0.9699402451515198
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_134_1.jpg,8,14,0.4306756854057312
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_6.jpg,8,6,0.9993036985397339
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_134_6.jpg,8,7,0.7470031380653381
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_7.jpg,8,4,0.9983165264129639
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_119.jpg,8,14,0.9912669062614441
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_58.jpg,8,14,0.9942917823791504
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_140_3.jpg,8,6,0.988640308380127
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_15.jpg,8,6,0.9584440588951111
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_92.jpg,8,14,0.702426552772522
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_22.jpg,8,7,0.9923244714736938
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_24.jpg,8,8,0.7480932474136353
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_109.jpg,8,8,0.57097327709198
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_131.jpg,8,8,0.5387017130851746
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_137.jpg,8,8,0.522205650806427
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_123.jpg,8,6,0.9613494277000427
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_65.jpg,8,6,0.7565926313400269
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_55.jpg,8,14,0.5221637487411499
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_36.jpg,8,6,0.9596668481826782
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_95.jpg,8,6,0.6084452271461487
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_61.jpg,8,14,0.8412119746208191
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_60.jpg,8,6,0.7428898811340332
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_17.jpg,8,6,0.969394862651825
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_114.jpg,8,14,0.9939481019973755
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_64.jpg,8,6,0.9998934268951416
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_134_3.jpg,8,6,0.8850098848342896
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_81.jpg,8,7,0.9689532518386841
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_9.jpg,8,8,0.720318078994751
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_40.jpg,8,6,0.9995784163475037
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_77.jpg,8,3,0.9714972972869873
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_41.jpg,8,7,0.9552193284034729
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_90.jpg,8,6,0.9872811436653137
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_104.jpg,8,6,0.9973267316818237
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_127.jpg,8,6,0.8158811926841736
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_88.jpg,8,6,0.9936663508415222
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_29.jpg,8,9,0.9030634760856628
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_106.jpg,8,6,0.997893750667572
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_30.jpg,8,6,0.9934086799621582
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_80.jpg,8,7,0.5179194808006287
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_125.jpg,8,6,0.9917988777160645
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_44.jpg,8,14,0.9999995231628418
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_25.jpg,8,14,0.9899082183837891
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_96.jpg,8,6,0.9994819760322571
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_79.jpg,8,6,0.9871708750724792
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_23.jpg,8,14,0.9783705472946167
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_124_2.jpg,8,8,0.6778246760368347
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_89.jpg,8,8,0.9652343988418579
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_49.jpg,8,14,0.9570960402488708
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_10.jpg,8,6,0.9923461675643921
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_134_7.jpg,8,7,0.3066282272338867
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_134_4.jpg,8,6,0.937560498714447
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_38.jpg,8,6,0.95867919921875
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_14.jpg,8,3,0.9589663743972778
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_27.jpg,8,14,0.5602292418479919
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_54.jpg,8,2,0.8445037603378296
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_121.jpg,8,6,0.9813663959503174
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_37.jpg,8,14,0.9332922697067261
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_138_2.jpg,8,4,0.8228322863578796
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_110.jpg,8,14,0.9872697591781616
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_120.jpg,8,14,0.9751640558242798
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_73.jpg,8,6,0.9884898066520691
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_74.jpg,8,13,0.3742746412754059
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_139.jpg,8,14,0.9766393303871155
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_16.jpg,8,6,0.9621567726135254
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_87.jpg,8,14,0.9996212720870972
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_78.jpg,8,6,0.9688141345977783
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_50.jpg,8,7,0.6259584426879883
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_5_1.jpg,8,7,0.4074561893939972
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_43.jpg,8,6,0.6861900687217712
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_48.jpg,8,8,0.8947421908378601
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_26.jpg,8,6,0.7587097883224487
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_115.jpg,8,7,0.6191068887710571
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_12.jpg,8,14,0.8655567169189453
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_52.jpg,8,14,0.99949049949646
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_71.jpg,8,8,0.7889795899391174
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_98.jpg,8,6,0.5642567873001099
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_4.jpg,8,14,0.936357855796814
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_140_1.jpg,8,6,0.9981326460838318
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_108.jpg,8,14,0.41708269715309143
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_32.jpg,8,6,0.9980792999267578
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_31.jpg,8,8,0.6058715581893921
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_75.jpg,8,14,0.9693903923034668
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_132.jpg,8,7,0.9999828338623047
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_46.jpg,8,6,0.92951899766922
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_116.jpg,8,6,0.6223781108856201
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_20.jpg,8,3,0.9978263974189758
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_67.jpg,8,14,0.8005795478820801
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_3.jpg,8,7,0.9997989535331726
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_94.jpg,8,6,0.8714399933815002
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_134_5.jpg,8,2,0.871168315410614
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_11.jpg,8,3,0.826582670211792
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_76.jpg,8,6,0.8462180495262146
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_8.jpg,8,8,0.9931848645210266
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_117.jpg,8,14,0.9876124262809753
+data/shared_subset/sbert/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_85.jpg,8,6,0.9920215010643005
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_48.jpg,9,6,0.5746024250984192
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_30.jpg,9,13,0.9936554431915283
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_17.jpg,9,6,0.8278822302818298
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_64.jpg,9,14,0.4920077323913574
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_19.jpg,9,14,0.9743509292602539
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_73.jpg,9,8,0.6759282946586609
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_3.jpg,9,6,0.9923506379127502
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_32.jpg,9,7,0.9999583959579468
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_74.jpg,9,3,0.9776064157485962
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_24.jpg,9,14,0.7738224864006042
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_71.jpg,9,14,0.9986929297447205
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_49.jpg,9,3,0.8063753843307495
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_94.jpg,9,14,0.581093966960907
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_39.jpg,9,7,0.9994848966598511
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_44.jpg,9,6,0.6976079344749451
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_31.jpg,9,6,0.8763120770454407
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_15.jpg,9,6,0.9848811626434326
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_22.jpg,9,6,0.969616174697876
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_42.jpg,9,14,0.7820619940757751
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_1.jpg,9,6,0.921174943447113
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_99.jpg,9,6,0.9307408332824707
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_72.jpg,9,14,0.9979972243309021
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_35.jpg,9,4,0.6384710073471069
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_43.jpg,9,3,0.9842696189880371
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_76.jpg,9,14,0.9997335076332092
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_7.jpg,9,7,0.7937000393867493
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_18.jpg,9,4,0.2162758857011795
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_85.jpg,9,3,0.9845112562179565
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_75.jpg,9,14,0.8055197596549988
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_33.jpg,9,14,0.9925625920295715
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_97.jpg,9,7,0.4330766499042511
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_101.jpg,9,6,0.9914771914482117
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_93.jpg,9,14,0.9999995231628418
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_59.jpg,9,7,0.9983963370323181
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_60.jpg,9,6,0.9560118317604065
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_91.jpg,9,3,0.991912841796875
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_4.jpg,9,6,0.9979859590530396
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_90.jpg,9,6,0.8558579087257385
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_68.jpg,9,6,0.9616742134094238
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_82.jpg,9,6,0.6282265186309814
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_20.jpg,9,6,0.781995952129364
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_53.jpg,9,7,0.5957639813423157
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_66.jpg,9,14,0.9999310970306396
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_55.jpg,9,6,0.9912084341049194
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_10.jpg,9,13,0.7542675137519836
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_61.jpg,9,14,1.0
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_27.jpg,9,8,0.37334540486335754
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_86.jpg,9,3,0.9413361549377441
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_5.jpg,9,6,0.909122884273529
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_11.jpg,9,6,0.9967247843742371
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_54.jpg,9,6,0.9988896250724792
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_16.jpg,9,14,0.9991517066955566
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_25.jpg,9,3,0.7339671850204468
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_89.jpg,9,6,0.9922971129417419
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_47.jpg,9,6,0.9962040781974792
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_50.jpg,9,3,0.6654579639434814
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_40.jpg,9,6,0.9359619617462158
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_14.jpg,9,6,0.9550415873527527
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_23.jpg,9,3,0.9964926838874817
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_28.jpg,9,10,0.7156733870506287
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_57.jpg,9,6,0.6872960925102234
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_96.jpg,9,14,0.9999990463256836
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_88.jpg,9,3,0.8206865191459656
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_51.jpg,9,14,0.9944414496421814
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_95.jpg,9,7,0.3965611457824707
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_46.jpg,9,7,0.9998137354850769
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_36.jpg,9,14,0.6954883933067322
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_2.jpg,9,7,0.9832707047462463
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_98.jpg,9,6,0.7582383155822754
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_56.jpg,9,14,0.8374841213226318
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_78.jpg,9,14,0.7699441909790039
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_45.jpg,9,6,0.9192422032356262
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_62.jpg,9,6,0.9999533891677856
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_26.jpg,9,3,0.35257765650749207
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_67.jpg,9,14,0.9920578598976135
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_37.jpg,9,6,0.8641067743301392
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_87.jpg,9,6,0.479094922542572
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_65.jpg,9,6,0.9885009527206421
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_8.jpg,9,14,0.8647308945655823
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_29.jpg,9,2,0.7871285676956177
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_52.jpg,9,14,1.0
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_83.jpg,9,3,0.5247326493263245
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_92.jpg,9,8,0.9972053170204163
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_21.jpg,9,6,0.9959738850593567
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_58.jpg,9,13,0.5924704670906067
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_63.jpg,9,6,0.7518845200538635
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_9.jpg,9,3,0.9975785613059998
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_41.jpg,9,14,0.830785870552063
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_81.jpg,9,6,0.9476523399353027
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_13.jpg,9,14,0.6448056101799011
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_69.jpg,9,7,0.4093714952468872
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_70.jpg,9,6,0.9998524188995361
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_38.jpg,9,2,0.9962426424026489
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_100.jpg,9,14,0.5066884756088257
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_84.jpg,9,6,0.4942283034324646
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_77.jpg,9,4,0.7094722986221313
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_12.jpg,9,6,0.6473747491836548
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_80.jpg,9,7,0.9998477697372437
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_34.jpg,9,2,0.9991093277931213
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_79.jpg,9,6,0.7115356922149658
+data/shared_subset/sbert/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_6.jpg,9,3,0.7433549165725708
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_3.jpg,10,10,0.5703340768814087
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_78.jpg,10,10,0.9897671341896057
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_95.jpg,10,3,0.6597140431404114
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_51.jpg,10,14,0.9998660087585449
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_65.jpg,10,7,0.4383894205093384
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_10.jpg,10,6,0.6622830629348755
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_9.jpg,10,10,0.8730421662330627
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_84.jpg,10,10,0.9533835053443909
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_28.jpg,10,10,0.9897197484970093
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_23.jpg,10,2,0.8573589324951172
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_74.jpg,10,6,0.6969187259674072
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_90.jpg,10,7,0.6027984023094177
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_97.jpg,10,10,0.72004634141922
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_76.jpg,10,6,0.9935805797576904
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_87.jpg,10,2,0.9472415447235107
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_68.jpg,10,10,0.31707119941711426
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_99.jpg,10,13,0.9187992811203003
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_77.jpg,10,10,0.7767285704612732
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_34.jpg,10,6,0.9802442789077759
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_6.jpg,10,6,0.6689659357070923
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_86.jpg,10,8,0.5434062480926514
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_60.jpg,10,10,0.4759054183959961
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_91.jpg,10,7,0.9782853126525879
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_46.jpg,10,14,0.5255874395370483
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_89.jpg,10,3,0.7827517986297607
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_36.jpg,10,14,0.9999998807907104
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_101.jpg,10,10,0.6809913516044617
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_29.jpg,10,10,0.462045818567276
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_42.jpg,10,14,0.9999152421951294
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_16.jpg,10,6,0.970276415348053
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_38.jpg,10,10,0.4651024341583252
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_55.jpg,10,14,0.9996539354324341
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_100.jpg,10,7,0.9999880790710449
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_70.jpg,10,14,0.9545289874076843
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_49.jpg,10,6,0.38996702432632446
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_79.jpg,10,6,0.9946204423904419
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_11.jpg,10,7,0.9884342551231384
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_21.jpg,10,7,0.648469090461731
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_57.jpg,10,6,0.8944357633590698
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_83.jpg,10,10,0.9376277923583984
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_1.jpg,10,7,0.9991925358772278
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_2.jpg,10,0,0.8150923252105713
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_66.jpg,10,14,0.7747327089309692
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_58.jpg,10,6,0.9996501207351685
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_47.jpg,10,10,0.989270806312561
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_96.jpg,10,7,0.4995746612548828
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_19.jpg,10,6,0.6014543175697327
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_20.jpg,10,3,0.9968283772468567
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_50.jpg,10,7,0.9810784459114075
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_75.jpg,10,6,0.9398346543312073
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_44.jpg,10,10,0.9808761477470398
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_22.jpg,10,7,0.8401520252227783
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_59.jpg,10,6,0.34706613421440125
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_26.jpg,10,10,0.8291478157043457
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_24.jpg,10,6,0.9997369647026062
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_94.jpg,10,3,0.6010901927947998
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_54.jpg,10,10,0.9491673111915588
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_43.jpg,10,6,0.9983287453651428
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_61.jpg,10,6,0.6921945214271545
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_63.jpg,10,6,0.6847586631774902
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_71.jpg,10,0,0.962461531162262
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_82.jpg,10,14,0.941835880279541
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_27.jpg,10,6,0.5219365954399109
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_32.jpg,10,0,0.7931798100471497
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_17.jpg,10,6,0.32622575759887695
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_85.jpg,10,13,0.8641843199729919
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_8.jpg,10,6,0.9920778870582581
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_39.jpg,10,2,0.932407796382904
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_41.jpg,10,10,0.8788334727287292
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_25.jpg,10,10,0.520117998123169
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_80.jpg,10,2,0.8738505840301514
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_4.jpg,10,14,0.9957072734832764
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_73.jpg,10,6,0.9998886585235596
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_48.jpg,10,6,0.9950070381164551
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_72.jpg,10,10,0.9681025743484497
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_98.jpg,10,6,0.9648112058639526
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_14.jpg,10,6,0.7621760964393616
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_52.jpg,10,10,0.6810207962989807
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_15.jpg,10,3,0.9970358610153198
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_62.jpg,10,6,0.9633078575134277
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_33.jpg,10,4,0.7539971470832825
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_69.jpg,10,4,0.9580865502357483
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_56.jpg,10,14,0.9806299805641174
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_88.jpg,10,0,0.9893890023231506
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_5.jpg,10,14,0.9988576173782349
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_40.jpg,10,14,0.8140279054641724
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_12.jpg,10,6,0.9982636570930481
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_35.jpg,10,2,0.9532259702682495
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_45.jpg,10,6,0.3619009554386139
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_31.jpg,10,10,0.3825158476829529
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_81.jpg,10,14,0.4831983745098114
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_13.jpg,10,6,0.9067819118499756
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_18.jpg,10,0,0.7953912615776062
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_53.jpg,10,0,0.4509887397289276
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_67.jpg,10,6,0.9920284152030945
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_30.jpg,10,0,0.5848050713539124
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_64.jpg,10,6,0.6295191645622253
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_92.jpg,10,2,0.9915947318077087
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_7.jpg,10,6,0.9723076820373535
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_93.jpg,10,10,0.919104814529419
+data/shared_subset/sbert/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_37.jpg,10,14,0.535677433013916
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_35.jpg,11,13,0.8360140323638916
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_2.jpg,11,7,0.990009069442749
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_40.jpg,11,6,0.9988345503807068
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_28.jpg,11,6,0.9982861876487732
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_15.jpg,11,2,0.9923328161239624
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_8.jpg,11,14,0.5582654476165771
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_1.jpg,11,2,0.7871630787849426
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_19.jpg,11,2,0.9769706726074219
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_20.jpg,11,13,0.5181205868721008
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_41.jpg,11,6,0.9999940395355225
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_34.jpg,11,14,0.8871511220932007
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_27.jpg,11,14,0.9998507499694824
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_9.jpg,11,14,0.985451877117157
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_36.jpg,11,7,0.9999748468399048
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_39.jpg,11,6,0.9699637293815613
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_30.jpg,11,10,0.6010956764221191
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_44.jpg,11,6,0.7784097790718079
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_10.jpg,11,2,0.6524638533592224
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_12.jpg,11,6,0.8526552319526672
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_25.jpg,11,14,0.9998555183410645
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_16.jpg,11,6,0.9797000288963318
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_29.jpg,11,2,0.9992745518684387
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_43.jpg,11,6,0.9999762773513794
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_7.jpg,11,6,0.8083736896514893
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_26.jpg,11,14,0.8956022262573242
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_11.jpg,11,7,0.5022900104522705
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_18.jpg,11,6,0.8879473209381104
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_37.jpg,11,6,0.8844834566116333
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_33.jpg,11,7,0.9999996423721313
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_6.jpg,11,6,0.9997052550315857
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_32.jpg,11,12,0.889228880405426
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_5.jpg,11,10,0.7176036834716797
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_4.jpg,11,2,0.48546186089515686
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_17.jpg,11,3,0.5623419880867004
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_21.jpg,11,14,0.9603604078292847
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_22.jpg,11,14,0.9305230975151062
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_38.jpg,11,6,0.878553569316864
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_23.jpg,11,14,0.9958305954933167
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_42.jpg,11,13,0.9810006022453308
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_3.jpg,11,6,0.9989429116249084
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_31.jpg,11,6,0.6755474209785461
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_13.jpg,11,6,0.9776841402053833
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_24.jpg,11,6,0.6660956740379333
+data/shared_subset/sbert/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_14.jpg,11,14,0.9891490340232849
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_41_2.jpg,12,6,0.8334580063819885
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_52.jpg,12,14,0.9999282360076904
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_19_4.jpg,12,6,0.6600962281227112
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_68_1.jpg,12,6,0.9998589754104614
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_35_3.jpg,12,6,0.9669649004936218
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_24_5.jpg,12,2,0.9909839630126953
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_13_3.jpg,12,3,0.9771285057067871
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_23_3.jpg,12,6,0.9990574717521667
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_30_2.jpg,12,6,0.9896180033683777
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_11_2.jpg,12,6,0.8099980354309082
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_46_9.jpg,12,6,0.9988049268722534
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_33.jpg,12,6,0.9809561371803284
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_59_1.jpg,12,6,0.9986194372177124
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_7.jpg,12,7,0.8396146297454834
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_65_2.jpg,12,12,0.9434559941291809
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_34.jpg,12,12,0.9996964931488037
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_69_6.jpg,12,14,0.8754824995994568
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_13_2.jpg,12,3,0.8378318548202515
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_3_10.jpg,12,2,0.5314128994941711
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_12_6.jpg,12,6,0.9336707592010498
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_48_6.jpg,12,7,0.9059769511222839
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_66_6.jpg,12,14,0.8821554183959961
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_1.jpg,12,12,0.9672516584396362
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_24_1.jpg,12,2,0.8425502181053162
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_51_3.jpg,12,6,0.7851151823997498
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_42.jpg,12,14,0.9318545460700989
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_6.jpg,12,12,0.9042902588844299
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_11_6.jpg,12,6,0.9834896326065063
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_1_2.jpg,12,12,0.8106880784034729
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_19_1.jpg,12,6,0.4652668535709381
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_62.jpg,12,6,0.9795923829078674
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_66_1.jpg,12,6,0.9948144555091858
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_15.jpg,12,12,0.9998652935028076
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_65_3.jpg,12,12,0.9932651519775391
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_46_10.jpg,12,6,0.9998449087142944
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_27_2.jpg,12,2,0.9200013279914856
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_69_7.jpg,12,3,0.7776816487312317
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_28.jpg,12,6,0.9999827146530151
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_39_1.jpg,12,6,0.9916744828224182
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_41_3.jpg,12,6,0.8748006820678711
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_35.jpg,12,3,0.6500058770179749
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_27.jpg,12,12,0.7437528371810913
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_69_1.jpg,12,7,0.911596953868866
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_40_4.jpg,12,6,0.6475170254707336
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_3_3.jpg,12,7,0.9996771812438965
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_34.jpg,12,6,0.9986955523490906
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_13.jpg,12,12,0.8688218593597412
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_35_1.jpg,12,6,0.9999768733978271
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_31.jpg,12,3,0.7906794548034668
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_3_7.jpg,12,2,0.9705870151519775
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_8.jpg,12,12,0.9999243021011353
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_48_1.jpg,12,7,0.991438090801239
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_3_4.jpg,12,6,0.8365052938461304
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_28.jpg,12,12,0.999872088432312
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_57_2.jpg,12,6,0.9998370409011841
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_12_7.jpg,12,6,0.9817212820053101
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_47.jpg,12,6,0.5972275733947754
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_14.jpg,12,14,0.9997614026069641
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_36.jpg,12,12,0.9885194897651672
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_19.jpg,12,6,0.8521272540092468
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_60.jpg,12,6,0.8464136719703674
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_39_2.jpg,12,6,0.9754385948181152
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_17_1.jpg,12,2,0.6348562240600586
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_58_1.jpg,12,6,0.569002091884613
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_33.jpg,12,12,0.9914742708206177
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_38_3.jpg,12,12,0.6871713399887085
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_12_2.jpg,12,6,0.8579062223434448
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_41_1.jpg,12,10,0.6250174641609192
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_67.jpg,12,2,0.9299730658531189
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_2.jpg,12,6,0.9997084736824036
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_19_2.jpg,12,12,0.9944373369216919
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_46_6.jpg,12,12,0.8549032211303711
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_27_4.jpg,12,3,0.6687119603157043
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_66_2.jpg,12,6,0.6137515306472778
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_66_5.jpg,12,14,0.9938684105873108
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_3_1.jpg,12,6,0.9864392280578613
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_23.jpg,12,12,0.9955366849899292
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_48_4.jpg,12,7,0.956987202167511
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_65_1.jpg,12,12,0.4931696057319641
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_1_5.jpg,12,12,0.9925887584686279
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_27_1.jpg,12,14,0.5160399675369263
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_46_4.jpg,12,6,0.9705697298049927
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_24.jpg,12,12,0.9998340606689453
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_21_1.jpg,12,12,0.9586150050163269
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_35_6.jpg,12,6,0.7056295871734619
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_25_2.jpg,12,6,0.973554253578186
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_38_2.jpg,12,10,0.6273784041404724
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_69_4.jpg,12,14,0.8059931993484497
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_19_5.jpg,12,12,0.8671578168869019
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_46_7.jpg,12,6,0.9812962412834167
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_31.jpg,12,14,0.9955925345420837
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_32.jpg,12,6,0.8233351707458496
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_57_1.jpg,12,12,0.7653025388717651
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_1_3.jpg,12,6,0.30499398708343506
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_40_3.jpg,12,6,0.985113263130188
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_21_4.jpg,12,6,0.6634367108345032
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_23_4.jpg,12,6,0.9809660911560059
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_61.jpg,12,6,0.9997888207435608
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_3_8.jpg,12,6,0.9663323163986206
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_48_3.jpg,12,3,0.9577295780181885
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_48_5.jpg,12,7,0.9997465014457703
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_35_5.jpg,12,6,0.9883842468261719
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_55_2.jpg,12,6,0.5558984875679016
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_22.jpg,12,10,0.25623518228530884
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_40_1.jpg,12,3,0.5026085376739502
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_5_2.jpg,12,6,0.9999768733978271
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_27_3.jpg,12,3,0.3310111463069916
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_17_2.jpg,12,6,0.46595850586891174
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_66_3.jpg,12,6,0.7601879835128784
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_3.jpg,12,3,0.7282684445381165
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_29.jpg,12,12,0.999925971031189
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_7.jpg,12,12,0.9999842643737793
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_59_2.jpg,12,6,0.9176966547966003
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_24_4.jpg,12,2,0.998149037361145
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_12_4.jpg,12,6,0.5011361837387085
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_21_3.jpg,12,4,0.7773223519325256
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_65_4.jpg,12,12,0.9784755706787109
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_41_4.jpg,12,3,0.9223917722702026
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_14.jpg,12,12,0.9974111914634705
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_16.jpg,12,3,0.9999426603317261
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_1_4.jpg,12,12,0.9555707573890686
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_20.jpg,12,3,0.8853446841239929
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_39_4.jpg,12,14,0.705244243144989
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_2.jpg,12,12,0.9998277425765991
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_38_1.jpg,12,12,0.6863568425178528
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_13_1.jpg,12,6,0.6254875063896179
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_56.jpg,12,14,0.9875445365905762
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_51_2.jpg,12,10,0.9548429846763611
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_46_3.jpg,12,6,0.9999580383300781
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_6_3.jpg,12,3,0.9360711574554443
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_23_1.jpg,12,6,0.9953294992446899
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_58_3.jpg,12,12,0.9974472522735596
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_30_1.jpg,12,6,0.9994561076164246
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_11_4.jpg,12,6,0.9996533393859863
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_4.jpg,12,3,0.8869389295578003
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_10.jpg,12,10,0.5379398465156555
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_11_7.jpg,12,6,0.999998927116394
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_11_1.jpg,12,6,0.9893413186073303
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_5.jpg,12,6,0.8743090629577637
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_3_6.jpg,12,6,0.9946359992027283
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_26.jpg,12,6,0.9705519676208496
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_25_1.jpg,12,6,0.9994297623634338
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_36.jpg,12,7,0.9999995231628418
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_63_2.jpg,12,6,0.9994083642959595
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_11_10.jpg,12,12,0.6769816875457764
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_6_2.jpg,12,6,0.8653064966201782
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_66_7.jpg,12,14,0.8291788697242737
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_1_1.jpg,12,7,0.9990849494934082
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_11_9.jpg,12,6,0.9997380375862122
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_46_5.jpg,12,6,0.6589699387550354
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_21.jpg,12,12,0.9973927736282349
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_40_2.jpg,12,6,0.9816733598709106
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_3_9.jpg,12,2,0.7106046080589294
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_45.jpg,12,2,0.5166202187538147
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_23_2.jpg,12,6,0.9960241317749023
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_58_2.jpg,12,6,0.4969373643398285
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_21_2.jpg,12,12,0.9356057047843933
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_48_8.jpg,12,3,0.6688007712364197
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_18.jpg,12,12,0.9198731780052185
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_51_1.jpg,12,3,0.9779117107391357
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_54.jpg,12,6,0.9015594720840454
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_68_2.jpg,12,6,0.9999173879623413
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_35_4.jpg,12,6,0.9989234805107117
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_46_2.jpg,12,10,0.7760430574417114
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_11.jpg,12,12,0.9985468983650208
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_3_5.jpg,12,6,0.9442529082298279
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_35_2.jpg,12,6,0.9678930640220642
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_6_1.jpg,12,6,0.7737130522727966
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_10.jpg,12,12,0.9266640543937683
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_20.jpg,12,7,1.0
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_35_8.jpg,12,6,0.9999727010726929
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_26.jpg,12,12,0.9994204044342041
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_69_5.jpg,12,14,0.9960848093032837
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_5_1.jpg,12,6,0.9999414682388306
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_69_3.jpg,12,14,0.5982055068016052
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_32.jpg,12,12,0.9570484161376953
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_11_3.jpg,12,6,0.9931150078773499
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_48_2.jpg,12,6,0.6472615599632263
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_12_1.jpg,12,6,0.9999558925628662
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_63_1.jpg,12,6,0.9909182786941528
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_22.jpg,12,12,0.9780047535896301
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_66_4.jpg,12,6,0.8421027064323425
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_46_1.jpg,12,6,0.9957597851753235
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_35_7.jpg,12,6,0.8805345892906189
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_4.jpg,12,6,0.9999538660049438
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_30_3.jpg,12,6,0.9994435906410217
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_21_5.jpg,12,4,0.4974431097507477
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_39_3.jpg,12,6,0.9703435301780701
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_44.jpg,12,12,0.9998372793197632
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_12.jpg,12,12,0.7920464873313904
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_30.jpg,12,3,0.594680905342102
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_68_3.jpg,12,6,0.9993195533752441
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_17.jpg,12,6,0.9652048349380493
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_55_1.jpg,12,6,0.9867881536483765
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_48_7.jpg,12,7,0.9910929799079895
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_11_5.jpg,12,6,0.999756395816803
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_29.jpg,12,6,0.9970319271087646
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_6_5.jpg,12,6,0.5618489384651184
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_53_2.jpg,12,7,0.8790727257728577
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_16.jpg,12,14,0.9541548490524292
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_70.jpg,12,6,0.9999946355819702
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_24_3.jpg,12,7,0.4798511564731598
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_43.jpg,12,6,0.9989008903503418
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_53_1.jpg,12,10,0.47722452878952026
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_64.jpg,12,6,0.9587190747261047
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_69_2.jpg,12,7,0.8772212266921997
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_6_4.jpg,12,3,0.991068959236145
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_25.jpg,12,12,0.9937692284584045
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_9.jpg,12,12,0.9956687688827515
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_12_3.jpg,12,6,0.9988986253738403
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_12_5.jpg,12,6,0.9999483823776245
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_24_2.jpg,12,2,0.8541151881217957
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_5.jpg,12,12,0.9682912230491638
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_3_2.jpg,12,6,0.9664552211761475
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_66_8.jpg,12,6,0.5968137383460999
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_19_3.jpg,12,7,0.5919665098190308
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_68_4.jpg,12,6,0.9978031516075134
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_46_8.jpg,12,6,0.9987886548042297
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_15.jpg,12,2,0.7445874214172363
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_63_3.jpg,12,6,0.9999254941940308
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_50.jpg,12,6,0.9994639754295349
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_49.jpg,12,14,0.5060232877731323
+data/shared_subset/sbert/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_11_8.jpg,12,6,0.9549750685691833
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_8.jpg,13,6,0.9946436882019043
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_9.jpg,13,10,0.9776934385299683
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_81.jpg,13,6,0.7923558354377747
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_47.jpg,13,6,0.7909934520721436
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_44.jpg,13,6,0.9753465056419373
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_19.jpg,13,6,0.978801965713501
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_38.jpg,13,10,0.815193235874176
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_26.jpg,13,14,0.5499559044837952
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_39.jpg,13,6,0.9882178902626038
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_79.jpg,13,6,0.9997965693473816
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_75.jpg,13,6,0.9627408981323242
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_78.jpg,13,13,0.9611269235610962
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_49.jpg,13,13,0.9874497652053833
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_77.jpg,13,10,0.7443829774856567
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_71.jpg,13,14,0.8369686603546143
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_31.jpg,13,0,0.8386573195457458
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_36.jpg,13,14,0.4700084924697876
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_52.jpg,13,6,0.9610484838485718
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_12.jpg,13,7,0.8841663002967834
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_24.jpg,13,6,0.9951949715614319
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_54.jpg,13,6,0.988831102848053
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_65.jpg,13,14,0.5520680546760559
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_21.jpg,13,6,0.9973631501197815
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_18.jpg,13,7,0.4357616603374481
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_59.jpg,13,6,0.9952157735824585
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_27.jpg,13,14,0.7623229622840881
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_6.jpg,13,6,0.9899747967720032
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_2.jpg,13,6,0.22593474388122559
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_29.jpg,13,0,0.30917978286743164
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_68.jpg,13,6,0.9996652603149414
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_35.jpg,13,13,0.997509241104126
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_43.jpg,13,3,0.9999988079071045
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_51.jpg,13,6,0.8221147060394287
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_69.jpg,13,3,0.9568891525268555
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_60.jpg,13,6,0.40868672728538513
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_15.jpg,13,6,0.9949470162391663
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_40.jpg,13,6,0.999626874923706
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_22.jpg,13,14,0.8205004334449768
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_63.jpg,13,6,0.9988645315170288
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_72.jpg,13,14,0.6771566271781921
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_23.jpg,13,10,0.9999548196792603
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_56.jpg,13,9,0.3685784935951233
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_14.jpg,13,10,0.8311326503753662
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_33.jpg,13,3,0.6127849221229553
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_62.jpg,13,3,0.9862064719200134
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_1.jpg,13,3,0.9990501999855042
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_30.jpg,13,3,0.9701414108276367
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_11.jpg,13,6,0.9987015724182129
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_4.jpg,13,2,0.6675728559494019
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_64.jpg,13,6,0.9999822378158569
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_76.jpg,13,2,0.6508816480636597
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_58.jpg,13,7,0.9999909400939941
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_66.jpg,13,7,0.925827145576477
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_7.jpg,13,6,0.9977908134460449
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_37.jpg,13,1,0.5475218892097473
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_3.jpg,13,13,0.8743448853492737
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_41.jpg,13,6,0.4723736047744751
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_83.jpg,13,6,0.5992967486381531
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_45.jpg,13,6,0.9995195865631104
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_13.jpg,13,7,0.8943657875061035
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_25.jpg,13,6,0.676717221736908
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_73.jpg,13,6,0.8827055096626282
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_61.jpg,13,14,0.8440195918083191
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_16.jpg,13,6,0.7554799914360046
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_46.jpg,13,7,0.8978527784347534
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_28.jpg,13,14,0.8055416345596313
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_67.jpg,13,12,0.5983208417892456
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_5.jpg,13,10,0.5056763291358948
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_42.jpg,13,10,0.4925866723060608
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_70.jpg,13,3,0.9961403012275696
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_34.jpg,13,3,0.6586161255836487
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_32.jpg,13,6,0.9997537732124329
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_85.jpg,13,14,0.7401835918426514
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_17.jpg,13,6,0.561482846736908
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_53.jpg,13,14,0.9998575448989868
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_10.jpg,13,14,0.9926706552505493
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_48.jpg,13,14,0.6410753726959229
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_57.jpg,13,7,0.9999672174453735
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_82.jpg,13,3,0.46180152893066406
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_80.jpg,13,14,0.999987006187439
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_50.jpg,13,6,0.9718739986419678
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_20.jpg,13,6,0.9136633276939392
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_74.jpg,13,4,0.7612062692642212
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_55.jpg,13,14,0.5539376139640808
+data/shared_subset/sbert/target/Tomato_mold_leaf/train_Tomato mold leaf_84.jpg,13,6,0.9970218539237976
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_19.jpg,14,14,0.9964832067489624
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_9.jpg,14,1,0.9997689127922058
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_48_5.jpg,14,6,0.819624125957489
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_52_3.jpg,14,14,0.8208310008049011
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_25.jpg,14,14,0.9990074038505554
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_47.jpg,14,14,1.0
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_10.jpg,14,14,0.8204443454742432
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_54.jpg,14,0,0.672957718372345
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_2_1.jpg,14,6,0.9999812841415405
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_52_2.jpg,14,14,0.9999653100967407
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_53.jpg,14,12,0.8151611089706421
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_37.jpg,14,14,1.0
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_52_1.jpg,14,1,0.9962592124938965
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_38_3.jpg,14,0,0.588370680809021
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_45_2.jpg,14,8,0.4000037908554077
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_6.jpg,14,6,0.9346232414245605
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_29_1.jpg,14,12,0.5062879920005798
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_41.jpg,14,8,0.6892473697662354
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_12_2.jpg,14,14,0.5158040523529053
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_3.jpg,14,14,0.7677290439605713
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_56.jpg,14,3,0.9985902905464172
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_55_1.jpg,14,1,0.9999996423721313
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_29_3.jpg,14,7,0.7856287956237793
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_49.jpg,14,14,0.9998656511306763
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_32.jpg,14,3,0.7921202182769775
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_5.jpg,14,6,0.8992595672607422
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_23.jpg,14,14,0.9343540072441101
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_40.jpg,14,14,0.999984622001648
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_11.jpg,14,14,0.9999077320098877
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_16.jpg,14,14,0.9875084757804871
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_39.jpg,14,10,0.9885827302932739
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_45_1.jpg,14,14,0.9459461569786072
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_4.jpg,14,14,0.9987629652023315
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_48_2.jpg,14,4,0.6220335364341736
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_33.jpg,14,14,0.9972219467163086
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_17_3.jpg,14,14,0.9999992847442627
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_22.jpg,14,6,0.9999972581863403
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_17_2.jpg,14,14,1.0
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_13.jpg,14,6,0.9779937267303467
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_34.jpg,14,4,0.49431711435317993
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_44.jpg,14,1,0.7725912928581238
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_20.jpg,14,0,0.6151564717292786
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_50.jpg,14,6,0.9926851987838745
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_14.jpg,14,14,0.9998049139976501
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_7.jpg,14,14,0.9999750852584839
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_29_2.jpg,14,9,0.9089391827583313
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_35.jpg,14,14,0.9995373487472534
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_21.jpg,14,1,0.6040148735046387
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_42.jpg,14,14,1.0
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_17_1.jpg,14,14,1.0
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_38_1.jpg,14,1,0.9999114274978638
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_24_2.jpg,14,6,0.6812134385108948
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_30.jpg,14,1,0.7337980270385742
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_27.jpg,14,14,0.9801008701324463
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_36.jpg,14,14,0.942712664604187
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_12_1.jpg,14,1,0.9999992847442627
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_18.jpg,14,14,0.8477446436882019
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_46.jpg,14,1,0.9999845027923584
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_48_3.jpg,14,1,0.6618480086326599
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_1.jpg,14,6,0.9994980096817017
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_28.jpg,14,14,0.7529494166374207
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_24_1.jpg,14,3,0.9999991655349731
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_31.jpg,14,1,0.9999428987503052
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_48_1.jpg,14,14,0.6183977723121643
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_15.jpg,14,0,0.9913299083709717
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_26.jpg,14,6,0.9384053349494934
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_8.jpg,14,14,0.9995176792144775
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_43.jpg,14,14,0.6211374998092651
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_48_4.jpg,14,14,0.9886496067047119
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_51.jpg,14,6,0.6410073637962341
+data/shared_subset/sbert/target/grape_leaf_black_rot/train_grape leaf black rot_38_2.jpg,14,1,0.9442516565322876

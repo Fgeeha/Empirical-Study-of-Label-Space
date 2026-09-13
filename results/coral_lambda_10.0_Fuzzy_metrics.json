@@ -1,0 +1,9 @@
+{
+  "lambda": 10.0,
+  "strategy": "Fuzzy",
+  "pv_accuracy": 0.9699428914938383,
+  "pv_macro_f1": 0.9626934603514026,
+  "target_accuracy": 0.23320795271359485,
+  "target_macro_f1": 0.1944856346006511,
+  "delta_f1": 0.7682078257507514
+}

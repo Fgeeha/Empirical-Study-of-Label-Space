@@ -1,0 +1,420 @@
+[1m============================================================[0m
+[1m ECCV 2026 Full Pipeline[0m
+[1m Plant Disease Recognition + Domain Adaptation + Edge Deploy[0m
+[1m============================================================[0m
+  Phases:     1 -> 8
+  Strategies: hybrid Fuzzy sbert
+  Target:     plantdoc
+  Server:     http://192.168.1.4:8000
+  Log:        logs/pipeline_20260207_205316.log
+  Dry run:    true
+
+
+[1m[0;36m################################################################[0m
+[1m[0;36m# PHASE 1: Data Preparation[0m
+[1m[0;36m################################################################[0m
+
+[0;32m[STEP 1][0m Collect PV classes
+  [DRY] poetry run python scripts/1.1_collect_classes_pv.py
+[0;32m[STEP 2][0m Collect PlantDoc classes
+  [DRY] poetry run python scripts/1.2_collect_classes_plantdoc.py
+[0;32m[STEP 3][0m Collect FCDD classes
+  [DRY] poetry run python scripts/1.3_collect_classes_fcdd.py
+[0;32m[STEP 4][0m Build shared subset (Fuzzy)
+  [DRY] poetry run python scripts/2.4_build_shared_subset.py
+[0;32m[STEP 5][0m Build shared subset (SBERT)
+  [DRY] poetry run python scripts/2.5_build_shared_subset_sbert.py
+[0;32m[STEP 6][0m Build shared subset (Hybrid)
+  [DRY] poetry run python scripts/2.6_build_shared_subset_hybrid.py
+[0;32m[STEP 7][0m Filter shared subset (hybrid)
+  [DRY] poetry run python scripts/3.1_filter_shared_subset.py --mapping configs/class_mapping_hybrid.json
+[0;32m[STEP 8][0m Filter shared subset (Fuzzy)
+  [DRY] poetry run python scripts/3.1_filter_shared_subset.py --mapping configs/class_mapping_Fuzzy.json
+[0;32m[STEP 9][0m Filter shared subset (sbert)
+  [DRY] poetry run python scripts/3.1_filter_shared_subset.py --mapping configs/class_mapping_sbert.json
+[0;32m[STEP 10][0m Split PV dataset (hybrid)
+  [DRY] poetry run python scripts/4.1_split_pv_dataset.py --strategy hybrid
+[0;32m[STEP 11][0m Split PV dataset (Fuzzy)
+  [DRY] poetry run python scripts/4.1_split_pv_dataset.py --strategy Fuzzy
+[0;32m[STEP 12][0m Split PV dataset (sbert)
+  [DRY] poetry run python scripts/4.1_split_pv_dataset.py --strategy sbert
+[0;32m[STEP 13][0m Prepare calibration set (hybrid)
+  [DRY] poetry run python scripts/8.1_prepare_pv_calibration.py --strategy hybrid
+[0;32m[STEP 14][0m Prepare calibration set (Fuzzy)
+  [DRY] poetry run python scripts/8.1_prepare_pv_calibration.py --strategy Fuzzy
+[0;32m[STEP 15][0m Prepare calibration set (sbert)
+  [DRY] poetry run python scripts/8.1_prepare_pv_calibration.py --strategy sbert
+[0;32m[STEP 16][0m Prepare target test (hybrid)
+  [DRY] poetry run python scripts/5.1_prepare_target_test.py --strategy hybrid --target plantdoc
+[0;32m[STEP 17][0m Prepare target test (Fuzzy)
+  [DRY] poetry run python scripts/5.1_prepare_target_test.py --strategy Fuzzy --target plantdoc
+[0;32m[STEP 18][0m Prepare target test (sbert)
+  [DRY] poetry run python scripts/5.1_prepare_target_test.py --strategy sbert --target plantdoc
+[0;32m[STEP 19][0m Split target dataset (hybrid)
+  [DRY] poetry run python scripts/5.5.1_split_target_dataset.py --strategy hybrid --target plantdoc
+[0;32m[STEP 20][0m Split target dataset (Fuzzy)
+  [DRY] poetry run python scripts/5.5.1_split_target_dataset.py --strategy Fuzzy --target plantdoc
+[0;32m[STEP 21][0m Split target dataset (sbert)
+  [DRY] poetry run python scripts/5.5.1_split_target_dataset.py --strategy sbert --target plantdoc
+[0;32m[STEP 22][0m Prepare target unlabeled (hybrid)
+  [DRY] poetry run python scripts/6.2_prepare_target_unlabeled.py --strategy hybrid --target plantdoc
+[0;32m[STEP 23][0m Prepare target unlabeled (Fuzzy)
+  [DRY] poetry run python scripts/6.2_prepare_target_unlabeled.py --strategy Fuzzy --target plantdoc
+[0;32m[STEP 24][0m Prepare target unlabeled (sbert)
+  [DRY] poetry run python scripts/6.2_prepare_target_unlabeled.py --strategy sbert --target plantdoc
+
+[1m[0;36m################################################################[0m
+[1m[0;36m# PHASE 2: Model Training (GPU)[0m
+[1m[0;36m################################################################[0m
+
+[0;32m[STEP 25][0m Train ResNet-50 (hybrid)
+  [DRY] poetry run python scripts/4.2_train_resnet50_pv.py --strategy hybrid
+[0;32m[STEP 26][0m Train EfficientNet-B3 (hybrid)
+  [DRY] poetry run python scripts/4.2b_train_efficientnet_pv.py --strategy hybrid
+[0;32m[STEP 27][0m Train MobileNetV2 baseline (hybrid)
+  [DRY] poetry run python scripts/4.2c_train_mobilenet_baseline_pv.py --strategy hybrid
+[0;32m[STEP 28][0m Train MobileNetV2 edge (hybrid)
+  [DRY] poetry run python scripts/9.0_train_mobilenetv2_pv.py --strategy hybrid
+[0;32m[STEP 29][0m Train MobileNetV1 (hybrid)
+  [DRY] poetry run python scripts/10.6_train_mobilenetv1_pv.py --strategy hybrid
+[0;32m[STEP 30][0m Train EfficientNet-Lite0 (hybrid)
+  [DRY] poetry run python scripts/10.8_train_efficientnet_lite0_pv.py --strategy hybrid
+[0;32m[STEP 31][0m Train ResNet-50 (Fuzzy)
+  [DRY] poetry run python scripts/4.2_train_resnet50_pv.py --strategy Fuzzy
+[0;32m[STEP 32][0m Train EfficientNet-B3 (Fuzzy)
+  [DRY] poetry run python scripts/4.2b_train_efficientnet_pv.py --strategy Fuzzy
+[0;32m[STEP 33][0m Train MobileNetV2 baseline (Fuzzy)
+  [DRY] poetry run python scripts/4.2c_train_mobilenet_baseline_pv.py --strategy Fuzzy
+[0;32m[STEP 34][0m Train MobileNetV2 edge (Fuzzy)
+  [DRY] poetry run python scripts/9.0_train_mobilenetv2_pv.py --strategy Fuzzy
+[0;32m[STEP 35][0m Train MobileNetV1 (Fuzzy)
+  [DRY] poetry run python scripts/10.6_train_mobilenetv1_pv.py --strategy Fuzzy
+[0;32m[STEP 36][0m Train EfficientNet-Lite0 (Fuzzy)
+  [DRY] poetry run python scripts/10.8_train_efficientnet_lite0_pv.py --strategy Fuzzy
+[0;32m[STEP 37][0m Train ResNet-50 (sbert)
+  [DRY] poetry run python scripts/4.2_train_resnet50_pv.py --strategy sbert
+[0;32m[STEP 38][0m Train EfficientNet-B3 (sbert)
+  [DRY] poetry run python scripts/4.2b_train_efficientnet_pv.py --strategy sbert
+[0;32m[STEP 39][0m Train MobileNetV2 baseline (sbert)
+  [DRY] poetry run python scripts/4.2c_train_mobilenet_baseline_pv.py --strategy sbert
+[0;32m[STEP 40][0m Train MobileNetV2 edge (sbert)
+  [DRY] poetry run python scripts/9.0_train_mobilenetv2_pv.py --strategy sbert
+[0;32m[STEP 41][0m Train MobileNetV1 (sbert)
+  [DRY] poetry run python scripts/10.6_train_mobilenetv1_pv.py --strategy sbert
+[0;32m[STEP 42][0m Train EfficientNet-Lite0 (sbert)
+  [DRY] poetry run python scripts/10.8_train_efficientnet_lite0_pv.py --strategy sbert
+[0;32m[STEP 43][0m Train CORAL ResNet-50 (hybrid, lambda=0.01)
+  [DRY] poetry run python scripts/6.3_train_coral.py --strategy hybrid --target plantdoc --lambda_coral 0.01 --epochs 20
+[0;32m[STEP 44][0m Train CORAL ResNet-50 (hybrid, lambda=0.1)
+  [DRY] poetry run python scripts/6.3_train_coral.py --strategy hybrid --target plantdoc --lambda_coral 0.1 --epochs 20
+[0;32m[STEP 45][0m Train CORAL ResNet-50 (hybrid, lambda=1.0)
+  [DRY] poetry run python scripts/6.3_train_coral.py --strategy hybrid --target plantdoc --lambda_coral 1.0 --epochs 20
+[0;32m[STEP 46][0m Train CORAL ResNet-50 (hybrid, lambda=10.0)
+  [DRY] poetry run python scripts/6.3_train_coral.py --strategy hybrid --target plantdoc --lambda_coral 10.0 --epochs 20
+[0;32m[STEP 47][0m Train CORAL ResNet-50 (Fuzzy, lambda=0.01)
+  [DRY] poetry run python scripts/6.3_train_coral.py --strategy Fuzzy --target plantdoc --lambda_coral 0.01 --epochs 20
+[0;32m[STEP 48][0m Train CORAL ResNet-50 (Fuzzy, lambda=0.1)
+  [DRY] poetry run python scripts/6.3_train_coral.py --strategy Fuzzy --target plantdoc --lambda_coral 0.1 --epochs 20
+[0;32m[STEP 49][0m Train CORAL ResNet-50 (Fuzzy, lambda=1.0)
+  [DRY] poetry run python scripts/6.3_train_coral.py --strategy Fuzzy --target plantdoc --lambda_coral 1.0 --epochs 20
+[0;32m[STEP 50][0m Train CORAL ResNet-50 (Fuzzy, lambda=10.0)
+  [DRY] poetry run python scripts/6.3_train_coral.py --strategy Fuzzy --target plantdoc --lambda_coral 10.0 --epochs 20
+[0;32m[STEP 51][0m Train CORAL ResNet-50 (sbert, lambda=0.01)
+  [DRY] poetry run python scripts/6.3_train_coral.py --strategy sbert --target plantdoc --lambda_coral 0.01 --epochs 20
+[0;32m[STEP 52][0m Train CORAL ResNet-50 (sbert, lambda=0.1)
+  [DRY] poetry run python scripts/6.3_train_coral.py --strategy sbert --target plantdoc --lambda_coral 0.1 --epochs 20
+[0;32m[STEP 53][0m Train CORAL ResNet-50 (sbert, lambda=1.0)
+  [DRY] poetry run python scripts/6.3_train_coral.py --strategy sbert --target plantdoc --lambda_coral 1.0 --epochs 20
+[0;32m[STEP 54][0m Train CORAL ResNet-50 (sbert, lambda=10.0)
+  [DRY] poetry run python scripts/6.3_train_coral.py --strategy sbert --target plantdoc --lambda_coral 10.0 --epochs 20
+[0;32m[STEP 55][0m Train CORAL MobileNetV2 (hybrid, lambda=0.1)
+  [DRY] poetry run python scripts/9.1_train_coral_mobilenetv2.py --strategy hybrid --target plantdoc --lambda_coral 0.1 --epochs 20
+[0;32m[STEP 56][0m Train CORAL MobileNetV2 (Fuzzy, lambda=0.1)
+  [DRY] poetry run python scripts/9.1_train_coral_mobilenetv2.py --strategy Fuzzy --target plantdoc --lambda_coral 0.1 --epochs 20
+[0;32m[STEP 57][0m Train CORAL MobileNetV2 (sbert, lambda=0.01)
+  [DRY] poetry run python scripts/9.1_train_coral_mobilenetv2.py --strategy sbert --target plantdoc --lambda_coral 0.01 --epochs 20
+[0;32m[STEP 58][0m Fine-tune ResNet-50 on target (hybrid)
+  [DRY] poetry run python scripts/5.5.2_finetune_target.py --strategy hybrid --target plantdoc
+[0;32m[STEP 59][0m Fine-tune ResNet-50 on target (Fuzzy)
+  [DRY] poetry run python scripts/5.5.2_finetune_target.py --strategy Fuzzy --target plantdoc
+[0;32m[STEP 60][0m Fine-tune ResNet-50 on target (sbert)
+  [DRY] poetry run python scripts/5.5.2_finetune_target.py --strategy sbert --target plantdoc
+
+[1m[0;36m################################################################[0m
+[1m[0;36m# PHASE 3: Evaluation[0m
+[1m[0;36m################################################################[0m
+
+[0;32m[STEP 61][0m Eval ResNet-50 on PV (hybrid)
+  [DRY] poetry run python scripts/4.3_eval_resnet50_pv.py --strategy hybrid
+[0;32m[STEP 62][0m Eval EfficientNet-B3 on PV (hybrid)
+  [DRY] poetry run python scripts/4.3b_eval_efficientnet_pv.py --strategy hybrid
+[0;32m[STEP 63][0m Eval MobileNetV2 on PV (hybrid)
+  [DRY] poetry run python scripts/4.3c_eval_mobilenet_baseline_pv.py --strategy hybrid
+[0;32m[STEP 64][0m Eval ResNet-50 on PV (Fuzzy)
+  [DRY] poetry run python scripts/4.3_eval_resnet50_pv.py --strategy Fuzzy
+[0;32m[STEP 65][0m Eval EfficientNet-B3 on PV (Fuzzy)
+  [DRY] poetry run python scripts/4.3b_eval_efficientnet_pv.py --strategy Fuzzy
+[0;32m[STEP 66][0m Eval MobileNetV2 on PV (Fuzzy)
+  [DRY] poetry run python scripts/4.3c_eval_mobilenet_baseline_pv.py --strategy Fuzzy
+[0;32m[STEP 67][0m Eval ResNet-50 on PV (sbert)
+  [DRY] poetry run python scripts/4.3_eval_resnet50_pv.py --strategy sbert
+[0;32m[STEP 68][0m Eval EfficientNet-B3 on PV (sbert)
+  [DRY] poetry run python scripts/4.3b_eval_efficientnet_pv.py --strategy sbert
+[0;32m[STEP 69][0m Eval MobileNetV2 on PV (sbert)
+  [DRY] poetry run python scripts/4.3c_eval_mobilenet_baseline_pv.py --strategy sbert
+[0;32m[STEP 70][0m Build baseline summary (T-Baseline)
+  [DRY] poetry run python scripts/4.4_build_baseline_summary.py
+[0;32m[STEP 71][0m Plot confusion matrices (hybrid)
+  [DRY] poetry run python scripts/4.5_plot_all_cm.py --strategy hybrid
+[0;32m[STEP 72][0m Plot confusion matrices (Fuzzy)
+  [DRY] poetry run python scripts/4.5_plot_all_cm.py --strategy Fuzzy
+[0;32m[STEP 73][0m Plot confusion matrices (sbert)
+  [DRY] poetry run python scripts/4.5_plot_all_cm.py --strategy sbert
+[0;32m[STEP 74][0m Infer target ResNet-50 (hybrid)
+  [DRY] poetry run python scripts/5.2_infer_target.py --strategy hybrid --model resnet50
+[0;32m[STEP 75][0m Eval target ResNet-50 (hybrid)
+  [DRY] poetry run python scripts/5.3_eval_target.py --strategy hybrid --model resnet50
+[0;32m[STEP 76][0m Infer target ResNet-50 (Fuzzy)
+  [DRY] poetry run python scripts/5.2_infer_target.py --strategy Fuzzy --model resnet50
+[0;32m[STEP 77][0m Eval target ResNet-50 (Fuzzy)
+  [DRY] poetry run python scripts/5.3_eval_target.py --strategy Fuzzy --model resnet50
+[0;32m[STEP 78][0m Infer target ResNet-50 (sbert)
+  [DRY] poetry run python scripts/5.2_infer_target.py --strategy sbert --model resnet50
+[0;32m[STEP 79][0m Eval target ResNet-50 (sbert)
+  [DRY] poetry run python scripts/5.3_eval_target.py --strategy sbert --model resnet50
+[0;32m[STEP 80][0m Build T1 domain shift
+  [DRY] poetry run python scripts/5.4_build_T1_domain_shift.py
+[0;32m[STEP 81][0m Eval fine-tuned target (hybrid)
+  [DRY] poetry run python scripts/5.5.3_eval_finetuned_target.py --strategy hybrid --target plantdoc
+[0;32m[STEP 82][0m Eval fine-tuned target (Fuzzy)
+  [DRY] poetry run python scripts/5.5.3_eval_finetuned_target.py --strategy Fuzzy --target plantdoc
+[0;32m[STEP 83][0m Eval fine-tuned target (sbert)
+  [DRY] poetry run python scripts/5.5.3_eval_finetuned_target.py --strategy sbert --target plantdoc
+[0;32m[STEP 84][0m Eval CORAL (hybrid, lambda=0.01)
+  [DRY] poetry run python scripts/6.4_eval_coral.py --strategy hybrid --target plantdoc --lambda_coral 0.01
+[0;32m[STEP 85][0m Eval CORAL (hybrid, lambda=0.1)
+  [DRY] poetry run python scripts/6.4_eval_coral.py --strategy hybrid --target plantdoc --lambda_coral 0.1
+[0;32m[STEP 86][0m Eval CORAL (hybrid, lambda=1.0)
+  [DRY] poetry run python scripts/6.4_eval_coral.py --strategy hybrid --target plantdoc --lambda_coral 1.0
+[0;32m[STEP 87][0m Eval CORAL (hybrid, lambda=10.0)
+  [DRY] poetry run python scripts/6.4_eval_coral.py --strategy hybrid --target plantdoc --lambda_coral 10.0
+[0;32m[STEP 88][0m Eval CORAL (Fuzzy, lambda=0.01)
+  [DRY] poetry run python scripts/6.4_eval_coral.py --strategy Fuzzy --target plantdoc --lambda_coral 0.01
+[0;32m[STEP 89][0m Eval CORAL (Fuzzy, lambda=0.1)
+  [DRY] poetry run python scripts/6.4_eval_coral.py --strategy Fuzzy --target plantdoc --lambda_coral 0.1
+[0;32m[STEP 90][0m Eval CORAL (Fuzzy, lambda=1.0)
+  [DRY] poetry run python scripts/6.4_eval_coral.py --strategy Fuzzy --target plantdoc --lambda_coral 1.0
+[0;32m[STEP 91][0m Eval CORAL (Fuzzy, lambda=10.0)
+  [DRY] poetry run python scripts/6.4_eval_coral.py --strategy Fuzzy --target plantdoc --lambda_coral 10.0
+[0;32m[STEP 92][0m Eval CORAL (sbert, lambda=0.01)
+  [DRY] poetry run python scripts/6.4_eval_coral.py --strategy sbert --target plantdoc --lambda_coral 0.01
+[0;32m[STEP 93][0m Eval CORAL (sbert, lambda=0.1)
+  [DRY] poetry run python scripts/6.4_eval_coral.py --strategy sbert --target plantdoc --lambda_coral 0.1
+[0;32m[STEP 94][0m Eval CORAL (sbert, lambda=1.0)
+  [DRY] poetry run python scripts/6.4_eval_coral.py --strategy sbert --target plantdoc --lambda_coral 1.0
+[0;32m[STEP 95][0m Eval CORAL (sbert, lambda=10.0)
+  [DRY] poetry run python scripts/6.4_eval_coral.py --strategy sbert --target plantdoc --lambda_coral 10.0
+[0;32m[STEP 96][0m Build T2 CORAL sweep (hybrid)
+  [DRY] poetry run python scripts/6.5_build_T2_coral_sweep.py --strategy hybrid
+[0;32m[STEP 97][0m Build T2 CORAL sweep (Fuzzy)
+  [DRY] poetry run python scripts/6.5_build_T2_coral_sweep.py --strategy Fuzzy
+[0;32m[STEP 98][0m Build T2 CORAL sweep (sbert)
+  [DRY] poetry run python scripts/6.5_build_T2_coral_sweep.py --strategy sbert
+[0;32m[STEP 99][0m Plot lambda vs F1 (hybrid)
+  [DRY] poetry run python scripts/6.6_plot_lambda_vs_f1.py --strategy hybrid
+[0;32m[STEP 100][0m Plot lambda vs F1 (Fuzzy)
+  [DRY] poetry run python scripts/6.6_plot_lambda_vs_f1.py --strategy Fuzzy
+[0;32m[STEP 101][0m Plot lambda vs F1 (sbert)
+  [DRY] poetry run python scripts/6.6_plot_lambda_vs_f1.py --strategy sbert
+[0;32m[STEP 102][0m Statistical tests (hybrid)
+  [DRY] poetry run python scripts/6.7_statistical_tests.py --strategy hybrid
+[0;32m[STEP 103][0m Statistical tests (Fuzzy)
+  [DRY] poetry run python scripts/6.7_statistical_tests.py --strategy Fuzzy
+[0;32m[STEP 104][0m Statistical tests (sbert)
+  [DRY] poetry run python scripts/6.7_statistical_tests.py --strategy sbert
+[0;32m[STEP 105][0m Build T5 ablation
+  [DRY] poetry run python scripts/6.7_build_T5_ablation.py
+
+[1m[0;36m################################################################[0m
+[1m[0;36m# PHASE 4: Analysis and Visualization[0m
+[1m[0;36m################################################################[0m
+
+[0;32m[STEP 106][0m Extract features baseline (hybrid)
+  [DRY] poetry run python scripts/7.1_extract_features_tsne.py --strategy hybrid --target plantdoc --mode baseline
+[0;32m[STEP 107][0m Extract features CORAL (hybrid)
+  [DRY] poetry run python scripts/7.1_extract_features_tsne.py --strategy hybrid --target plantdoc --mode coral
+[0;32m[STEP 108][0m Plot t-SNE (hybrid)
+  [DRY] poetry run python scripts/7.6_tsne_plot.py --strategy hybrid --target plantdoc --lambda_coral 0.1
+[0;32m[STEP 109][0m Extract features baseline (Fuzzy)
+  [DRY] poetry run python scripts/7.1_extract_features_tsne.py --strategy Fuzzy --target plantdoc --mode baseline
+[0;32m[STEP 110][0m Extract features CORAL (Fuzzy)
+  [DRY] poetry run python scripts/7.1_extract_features_tsne.py --strategy Fuzzy --target plantdoc --mode coral
+[0;32m[STEP 111][0m Plot t-SNE (Fuzzy)
+  [DRY] poetry run python scripts/7.6_tsne_plot.py --strategy Fuzzy --target plantdoc --lambda_coral 0.1
+[0;32m[STEP 112][0m Extract features baseline (sbert)
+  [DRY] poetry run python scripts/7.1_extract_features_tsne.py --strategy sbert --target plantdoc --mode baseline
+[0;32m[STEP 113][0m Extract features CORAL (sbert)
+  [DRY] poetry run python scripts/7.1_extract_features_tsne.py --strategy sbert --target plantdoc --mode coral
+[0;32m[STEP 114][0m Plot t-SNE (sbert)
+  [DRY] poetry run python scripts/7.6_tsne_plot.py --strategy sbert --target plantdoc --lambda_coral 0.01
+[0;32m[STEP 115][0m Error category shift
+  [DRY] poetry run python scripts/7.3_error_shift.py
+[0;32m[STEP 116][0m Per-class F1 (hybrid)
+  [DRY] poetry run python scripts/7.7_per_class_f1.py --strategy hybrid
+[0;32m[STEP 117][0m Per-class F1 (Fuzzy)
+  [DRY] poetry run python scripts/7.7_per_class_f1.py --strategy Fuzzy
+[0;32m[STEP 118][0m Per-class F1 (sbert)
+  [DRY] poetry run python scripts/7.7_per_class_f1.py --strategy sbert
+[0;32m[STEP 119][0m Build T7 SOTA
+  [DRY] poetry run python scripts/7.5_build_T7_sota.py
+[0;32m[STEP 120][0m Build T5 ablation summary
+  [DRY] poetry run python scripts/7.8_build_T5_ablation_summary.py
+
+[1m[0;36m################################################################[0m
+[1m[0;36m# PHASE 5: Quantization and TFLite Export[0m
+[1m[0;36m################################################################[0m
+
+[0;32m[STEP 121][0m Export ResNet-50 weights (hybrid)
+  [DRY] poetry run python scripts/8.2a_export_torch_weights.py --strategy hybrid
+[0;32m[STEP 122][0m Export MobileNetV2 weights (hybrid)
+  [DRY] poetry run python scripts/9.1a_export_mobilenetv2_weights.py --strategy hybrid
+[0;32m[STEP 123][0m Export EfficientNet-B3 weights (hybrid)
+  [DRY] poetry run python scripts/10.1_export_efficientnet_weights.py --strategy hybrid
+[0;32m[STEP 124][0m Export ResNet-50 weights (Fuzzy)
+  [DRY] poetry run python scripts/8.2a_export_torch_weights.py --strategy Fuzzy
+[0;32m[STEP 125][0m Export MobileNetV2 weights (Fuzzy)
+  [DRY] poetry run python scripts/9.1a_export_mobilenetv2_weights.py --strategy Fuzzy
+[0;32m[STEP 126][0m Export EfficientNet-B3 weights (Fuzzy)
+  [DRY] poetry run python scripts/10.1_export_efficientnet_weights.py --strategy Fuzzy
+[0;32m[STEP 127][0m Export ResNet-50 weights (sbert)
+  [DRY] poetry run python scripts/8.2a_export_torch_weights.py --strategy sbert
+[0;32m[STEP 128][0m Export MobileNetV2 weights (sbert)
+  [DRY] poetry run python scripts/9.1a_export_mobilenetv2_weights.py --strategy sbert
+[0;32m[STEP 129][0m Export EfficientNet-B3 weights (sbert)
+  [DRY] poetry run python scripts/10.1_export_efficientnet_weights.py --strategy sbert
+[0;32m[STEP 130][0m ResNet-50 SavedModel (hybrid)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/8.2b_build_tf_savedmodel.py --strategy hybrid
+[0;32m[STEP 131][0m ResNet-50 FP32 TFLite (hybrid)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/8.3_export_tflite_fp32.py --strategy hybrid
+[0;32m[STEP 132][0m ResNet-50 INT8 TFLite via SavedModel (hybrid)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/8.4_export_tflite_int8.py --strategy hybrid
+[0;32m[STEP 133][0m ResNet-50 SavedModel (Fuzzy)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/8.2b_build_tf_savedmodel.py --strategy Fuzzy
+[0;32m[STEP 134][0m ResNet-50 FP32 TFLite (Fuzzy)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/8.3_export_tflite_fp32.py --strategy Fuzzy
+[0;32m[STEP 135][0m ResNet-50 INT8 TFLite via SavedModel (Fuzzy)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/8.4_export_tflite_int8.py --strategy Fuzzy
+[0;32m[STEP 136][0m ResNet-50 SavedModel (sbert)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/8.2b_build_tf_savedmodel.py --strategy sbert
+[0;32m[STEP 137][0m ResNet-50 FP32 TFLite (sbert)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/8.3_export_tflite_fp32.py --strategy sbert
+[0;32m[STEP 138][0m ResNet-50 INT8 TFLite via SavedModel (sbert)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/8.4_export_tflite_int8.py --strategy sbert
+[0;32m[STEP 139][0m T3 quant eval (hybrid)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/8.5_eval_tflite_quant.py --strategy hybrid
+[0;32m[STEP 140][0m Plot quant tradeoff (hybrid)
+  [DRY] poetry run python scripts/8.6_plot_quant_tradeoff.py --strategy hybrid
+[0;32m[STEP 141][0m T3 quant eval (Fuzzy)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/8.5_eval_tflite_quant.py --strategy Fuzzy
+[0;32m[STEP 142][0m Plot quant tradeoff (Fuzzy)
+  [DRY] poetry run python scripts/8.6_plot_quant_tradeoff.py --strategy Fuzzy
+[0;32m[STEP 143][0m T3 quant eval (sbert)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/8.5_eval_tflite_quant.py --strategy sbert
+[0;32m[STEP 144][0m Plot quant tradeoff (sbert)
+  [DRY] poetry run python scripts/8.6_plot_quant_tradeoff.py --strategy sbert
+[0;32m[STEP 145][0m ResNet-50 INT8 EdgeTPU (hybrid)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/10.4_export_tflite_int8_resnet50.py --strategy hybrid
+[0;32m[STEP 146][0m MobileNetV2 INT8 EdgeTPU (hybrid)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/9.2_export_tflite_int8_mobilenet.py --strategy hybrid
+[0;32m[STEP 147][0m MobileNetV1 INT8 EdgeTPU (hybrid)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/10.7_export_tflite_int8_mobilenetv1.py --strategy hybrid
+[0;32m[STEP 148][0m EfficientNet-Lite0 INT8 EdgeTPU (hybrid)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/10.9_export_tflite_int8_efficientnet_lite0.py --strategy hybrid
+[0;32m[STEP 149][0m EfficientNet-B3 INT8 CPU-only (hybrid)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/10.3_export_tflite_int8_efficientnet.py --strategy hybrid
+[0;32m[STEP 150][0m ResNet-50 INT8 EdgeTPU (Fuzzy)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/10.4_export_tflite_int8_resnet50.py --strategy Fuzzy
+[0;32m[STEP 151][0m MobileNetV2 INT8 EdgeTPU (Fuzzy)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/9.2_export_tflite_int8_mobilenet.py --strategy Fuzzy
+[0;32m[STEP 152][0m MobileNetV1 INT8 EdgeTPU (Fuzzy)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/10.7_export_tflite_int8_mobilenetv1.py --strategy Fuzzy
+[0;32m[STEP 153][0m EfficientNet-Lite0 INT8 EdgeTPU (Fuzzy)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/10.9_export_tflite_int8_efficientnet_lite0.py --strategy Fuzzy
+[0;32m[STEP 154][0m EfficientNet-B3 INT8 CPU-only (Fuzzy)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/10.3_export_tflite_int8_efficientnet.py --strategy Fuzzy
+[0;32m[STEP 155][0m ResNet-50 INT8 EdgeTPU (sbert)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/10.4_export_tflite_int8_resnet50.py --strategy sbert
+[0;32m[STEP 156][0m MobileNetV2 INT8 EdgeTPU (sbert)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/9.2_export_tflite_int8_mobilenet.py --strategy sbert
+[0;32m[STEP 157][0m MobileNetV1 INT8 EdgeTPU (sbert)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/10.7_export_tflite_int8_mobilenetv1.py --strategy sbert
+[0;32m[STEP 158][0m EfficientNet-Lite0 INT8 EdgeTPU (sbert)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/10.9_export_tflite_int8_efficientnet_lite0.py --strategy sbert
+[0;32m[STEP 159][0m EfficientNet-B3 INT8 CPU-only (sbert)
+  [DRY] CUDA_VISIBLE_DEVICES='' poetry run python scripts/10.3_export_tflite_int8_efficientnet.py --strategy sbert
+
+[1m[0;36m################################################################[0m
+[1m[0;36m# PHASE 6: EdgeTPU Compilation[0m
+[1m[0;36m################################################################[0m
+
+[0;32m[STEP 160][0m Compile EdgeTPU models (all)
+  [DRY] bash scripts/9.6_compile_edgetpu_models.sh
+
+[1m[0;36m################################################################[0m
+[1m[0;36m# PHASE 7: Edge-Bench: Upload Models and Run Benchmarks[0m
+[1m[0;36m################################################################[0m
+
+[0;32m[STEP 161][0m Upload models to Edge-Bench
+  [DRY] poetry run python scripts/9.10_upload_models_edgebench.py --server http://192.168.1.4:8000
+[0;32m[STEP 162][0m Run Edge-Bench experiments
+  [DRY] poetry run python scripts/9.9_run_edgebench.py --server http://192.168.1.4:8000 --export-csv results/edgebench/raw_from_bench.csv
+
+[1m[0;36m################################################################[0m
+[1m[0;36m# PHASE 8: Results Collection and Final Plots[0m
+[1m[0;36m################################################################[0m
+
+[0;32m[STEP 163][0m Fetch Edge-Bench results
+  [DRY] poetry run python scripts/11.1_fetch_edgebench_results.py --server http://192.168.1.4:8000
+[0;32m[STEP 164][0m Build T4 from Edge-Bench
+  [DRY] poetry run python scripts/11.2_build_T4_from_edgebench.py
+[0;32m[STEP 165][0m Plot Edge-Bench analysis (F7-F10)
+  [DRY] poetry run python scripts/11.3_plot_edgebench_analysis.py
+
+[1m================================================================[0m
+[1m PIPELINE COMPLETE[0m
+[1m================================================================[0m
+
+  Steps run:     165
+  [0;32mSucceeded:[0m    0
+  [0;31mFailed:[0m       0
+  [0;33mSkipped:[0m      165
+  Log:           logs/pipeline_20260207_205316.log
+
+Key result files:
+  [0;32m[OK][0m results/baseline_pv_metrics.csv
+  [0;32m[OK][0m results/T1_domain_shift.csv
+  [0;32m[OK][0m results/T2_coral_sweep_hybrid.csv
+  [0;32m[OK][0m results/T3_quant_fp32_vs_int8_hybrid.csv
+  [0;32m[OK][0m results/T5_ablation.csv
+  [0;32m[OK][0m results/T6_per_class_f1_hybrid.csv
+  [0;32m[OK][0m results/T7_sota.csv
+  [0;33m[--][0m results/edgebench/raw_results.csv
+  [0;33m[--][0m results/T4_edgebench.csv
+  [0;33m[--][0m results/T4_edgebench.tex
+
+Key figures:
+  [0;32m[OK][0m figures/F2_f1_vs_lambda_hybrid.png
+  [0;32m[OK][0m figures/F3_tsne_baseline_hybrid.png
+  [0;32m[OK][0m figures/F3_tsne_coral_hybrid.png
+  [0;32m[OK][0m figures/F4_quant_tradeoff_hybrid.png
+  [0;32m[OK][0m figures/F5_latency_comparison.png
+  [0;33m[--][0m figures/F7_latency_comparison.pdf
+  [0;33m[--][0m figures/F8_throughput_comparison.pdf
+  [0;33m[--][0m figures/F9_speedup_heatmap.pdf
+  [0;33m[--][0m figures/F10_size_vs_latency.pdf
+
+TFLite models:
+  INT8 TFLite:  30
+  EdgeTPU:      1
+
+[0;32mAll steps completed successfully.[0m

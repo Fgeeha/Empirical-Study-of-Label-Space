@@ -1,0 +1,15 @@
+65227222226b458e8  dann42_hybrid_full_integer_quant_edgetpu.tflite
+4bfdc2d75d443ccea  dann42_hybrid_full_integer_quant.tflite
+339dcd92c902952e0  efficientnet_b3_hybrid_full_integer_quant.tflite
+0fb657393fe9ce936  efficientnet_lite0_int8_ptq_hybrid_edgetpu.tflite
+b9546a1a6166e5577  efficientnet_lite0_int8_ptq_hybrid.tflite
+9c955e9abd8826226  mobilenetv1_hybrid_full_integer_quant_edgetpu.tflite
+2b5bd39da785d76a0  mobilenetv1_hybrid_full_integer_quant.tflite
+62475eb475e272e84  mobilenetv2_hybrid_full_integer_quant_edgetpu.tflite
+1a8ea530b81ce6d49  mobilenetv2_hybrid_full_integer_quant.tflite
+46ae94a51b98a66ac  resnet50_hybrid_full_integer_quant_edgetpu.tflite
+ccf841ad57363eeb2  resnet50_hybrid_full_integer_quant.tflite
+3.11.2 2.14.0
+PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+6.12.96+rpt-rpi-v8
+temp=37.4'C

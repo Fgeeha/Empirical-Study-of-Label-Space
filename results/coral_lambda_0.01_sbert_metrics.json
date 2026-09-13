@@ -1,0 +1,9 @@
+{
+  "lambda": 0.01,
+  "strategy": "sbert",
+  "pv_accuracy": 0.9632665452337583,
+  "pv_macro_f1": 0.962442894780372,
+  "target_accuracy": 0.23747680890538034,
+  "target_macro_f1": 0.19856584827217408,
+  "delta_f1": 0.763877046508198
+}

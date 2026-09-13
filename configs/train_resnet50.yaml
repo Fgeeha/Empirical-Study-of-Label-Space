@@ -1,0 +1,31 @@
+seed: 42
+
+model:
+  name: resnet50
+  pretrained: true
+  num_classes: null   # будет подставлено автоматически
+
+training:
+  epochs: 30
+  batch_size: 32
+  lr: 0.0003
+  optimizer: adamw
+  weight_decay: 0.0001
+  scheduler: cosine
+  early_stopping_patience: 5
+
+data:
+  img_size: 224
+  num_workers: 4
+  normalization: imagenet
+
+augmentation:
+  train:
+    horizontal_flip: true
+    rotation_deg: 15
+    color_jitter:
+      brightness: 0.2
+      contrast: 0.2
+      saturation: 0.2
+  val_test:
+    enabled: false

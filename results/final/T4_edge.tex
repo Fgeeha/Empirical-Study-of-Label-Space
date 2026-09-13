@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\caption{Edge deployment latency on Raspberry Pi~4 with Coral USB Accelerator. All models use INT8 PTQ.}
+\label{tab:edge_latency}
+\begin{tabular}{lcccc}
+\toprule
+Model & Strategy & CPU (ms) & EdgeTPU (ms) & Speedup \\
+\midrule
+EffNet-Lite0 & Fuzzy & 32.3 & 6.3 & 5.1x \\
+EffNet-Lite0 & hybrid & 32.4 & 6.3 & 5.1x \\
+EffNet-Lite0 & sbert & 32.4 & 6.3 & 5.2x \\
+MobileNetV1 & Fuzzy & 29.7 & 5.5 & 5.4x \\
+MobileNetV1 & hybrid & 29.5 & 4.6 & 6.4x \\
+MobileNetV1 & sbert & 29.4 & 5.5 & 5.3x \\
+MobileNetV2 & Fuzzy & 38.4 & 5.8 & 6.6x \\
+MobileNetV2 & hybrid & 38.4 & 5.9 & 6.5x \\
+MobileNetV2 & sbert & 38.5 & 5.3 & 7.2x \\
+ResNet-50 & Fuzzy & 186.9 & 55.4 & 3.4x \\
+ResNet-50 & hybrid & 188.9 & 56.0 & 3.4x \\
+ResNet-50 & sbert & 188.0 & 56.2 & 3.3x \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,16 @@
+SUMMARY OF HYPERPARAMETER CORRECTIONS
+======================================
+
+The following values in the paper text must be updated:
+
+  "SGD with momentum 0.9"           -> "AdamW with weight decay 0.0001"
+  "a learning rate of 0.001"         -> "a learning rate of 3e-04"
+  "The batch size is 64"             -> "The batch size is 32"
+  "cosine annealing over 50 epochs"  -> "20 epochs without a learning-rate scheduler"
+  "[27]" (CycleGAN citation)         -> remove
+
+Additionally:
+  - Delete the duplicate paragraph in Section 3.2
+  - Add training details to Section 4 (augmentation, early stopping)
+  - Add \cite{loshchilov2019adamw} for AdamW
+  - Add supplementary hyperparameter table (tab:hyperparams)

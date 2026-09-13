@@ -1,0 +1,10 @@
+Edge TPU Compiler version 16.0.384591198
+Input: export/mobilenetv1_int8_ptq_sbert.tflite
+Output: export/edgetpu/mobilenetv1_int8_ptq_sbert_edgetpu.tflite
+
+Operator                       Count      Status
+
+FULLY_CONNECTED                1          Mapped to Edge TPU
+MEAN                           1          Mapped to Edge TPU
+CONV_2D                        14         Mapped to Edge TPU
+DEPTHWISE_CONV_2D              13         Mapped to Edge TPU

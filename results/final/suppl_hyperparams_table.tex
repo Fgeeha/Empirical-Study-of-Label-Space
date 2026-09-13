@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\caption{Complete training hyperparameters for all experimental settings. All values correspond to the configuration used to produce the reported results.}
+\label{tab:hyperparams}
+\begin{tabular}{lccc}
+\toprule
+Parameter & Baseline & CORAL & Fine-tune \\
+\midrule
+Optimizer & AdamW & AdamW & AdamW \\
+Learning rate & 3e-04 & 3e-04 & 3e-05 \\
+Weight decay & 0.0001 & 0.0001 & 0.0001 \\
+Batch size & 32 & 32 & 32 \\
+Epochs & 30 & 20 & 30 \\
+LR scheduler & None & None & None \\
+Early stopping & patience=5 & No & patience=5 \\
+Backbone freeze & -- & -- & first 3 epochs \\
+Input size & 224x224 & 224x224 & 224x224 \\
+Normalization & ImageNet & ImageNet & ImageNet \\
+Random seed & 42 & 42 & 42 \\
+\bottomrule
+\end{tabular}
+\end{table}

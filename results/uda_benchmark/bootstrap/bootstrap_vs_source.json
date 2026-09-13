@@ -1,0 +1,42 @@
+{
+  "adabn": {
+    "vs_source_only": {
+      "mean_diff": 0.0014252897434112617,
+      "ci_lower": -0.00021137278253459887,
+      "ci_upper": 0.003505127390132797,
+      "significant": false
+    }
+  },
+  "coral": {
+    "vs_source_only": {
+      "mean_diff": 0.04267739045413033,
+      "ci_lower": 0.025003857841072327,
+      "ci_upper": 0.06040634098513785,
+      "significant": true
+    }
+  },
+  "dann": {
+    "vs_source_only": {
+      "mean_diff": 0.08604240642367963,
+      "ci_lower": 0.0671961485007529,
+      "ci_upper": 0.1046939215859263,
+      "significant": true
+    }
+  },
+  "mcc": {
+    "vs_source_only": {
+      "mean_diff": -0.07650179255581466,
+      "ci_lower": -0.09588650839076791,
+      "ci_upper": -0.05711281661009557,
+      "significant": false
+    }
+  },
+  "cdan": {
+    "vs_source_only": {
+      "mean_diff": 0.11273804335345011,
+      "ci_lower": 0.09405932446567247,
+      "ci_upper": 0.13105333985013173,
+      "significant": true
+    }
+  }
+}

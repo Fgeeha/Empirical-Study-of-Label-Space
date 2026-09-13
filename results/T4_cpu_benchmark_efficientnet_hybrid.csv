@@ -1,0 +1,2 @@
+device,model,n_samples,latency_mean_ms,latency_median_ms,latency_p95_ms,latency_p99_ms,fps,cpu_mean_pct,ram_mean_pct,temp_mean_c,temp_max_c,platform
+cpu_pytorch,EfficientNet,100,12.657432820342365,12.364145499304868,14.806959304041811,15.412873979657888,79.00496207989761,,,,,x86_64

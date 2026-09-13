@@ -1,0 +1,34 @@
+# pytest run 2026-09-07
+# interpreter: /home/nkolesnikov/aspirantura/code/adversarial-da-plant/.venv/bin/python
+# python 3.12.12 torch 2.11.0+cu128
+# git: 2fbb60d7c
+============================= test session starts ==============================
+platform linux -- Python 3.12.12, pytest-8.4.2, pluggy-1.6.0 -- /home/nkolesnikov/aspirantura/code/adversarial-da-plant/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/nkolesnikov/aspirantura/code/plant-disease-eccv2026
+configfile: pyproject.toml
+plugins: cov-5.0.0
+collecting ... collected 20 items
+
+tests/test_uda_methods.py::TestCORAL::test_coral_loss_zero_when_same_distribution PASSED [  5%]
+tests/test_uda_methods.py::TestCORAL::test_coral_loss_positive_when_different PASSED [ 10%]
+tests/test_uda_methods.py::TestCORAL::test_coral_loss_differentiable PASSED [ 15%]
+tests/test_uda_methods.py::TestCORAL::test_coral_loss_symmetric PASSED   [ 20%]
+tests/test_uda_methods.py::TestDANN::test_gradient_reversal_forward PASSED [ 25%]
+tests/test_uda_methods.py::TestDANN::test_gradient_reversal_backward PASSED [ 30%]
+tests/test_uda_methods.py::TestDANN::test_discriminator_output_shape PASSED [ 35%]
+tests/test_uda_methods.py::TestDANN::test_dann_no_target_labels_in_training PASSED [ 40%]
+tests/test_uda_methods.py::TestCDAN::test_entropy_weight_shape PASSED    [ 45%]
+tests/test_uda_methods.py::TestCDAN::test_entropy_weight_range PASSED    [ 50%]
+tests/test_uda_methods.py::TestCDAN::test_entropy_weight_uniform_prediction PASSED [ 55%]
+tests/test_uda_methods.py::TestCDAN::test_cdan_discriminator_output_shape PASSED [ 60%]
+tests/test_uda_methods.py::TestCDAN::test_cdan_discriminator_differentiable PASSED [ 65%]
+tests/test_uda_methods.py::TestMCC::test_mcc_loss_positive PASSED        [ 70%]
+tests/test_uda_methods.py::TestMCC::test_mcc_loss_zero_at_one_hot PASSED [ 75%]
+tests/test_uda_methods.py::TestMCC::test_mcc_loss_large_when_confused PASSED [ 80%]
+tests/test_uda_methods.py::TestMCC::test_mcc_loss_differentiable PASSED  [ 85%]
+tests/test_uda_methods.py::TestMCC::test_mcc_temperature_effect PASSED   [ 90%]
+tests/test_uda_methods.py::TestDeterminism::test_coral_loss_deterministic PASSED [ 95%]
+tests/test_uda_methods.py::TestDeterminism::test_mcc_loss_deterministic PASSED [100%]
+
+============================== 20 passed in 3.36s ==============================

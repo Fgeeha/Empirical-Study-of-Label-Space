@@ -1,0 +1,33 @@
+Change 1: Section 3.2, paragraph 3 (CORAL training protocol)
+----------------------------------------------------------------------
+OLD: The batch size is 64 in all cases; target-domain images [27] are included in each batch to estimate covariance, but they are not used in the classification loss. All runs use SGD with momentum 0.9, a learning rate of 0.001, and cosine annealing over 50 epochs.
+
+NEW: The batch size is 32 in all cases; target-domain images are included in each batch to estimate the target covariance matrix, but they do not contribute to the classification loss. All CORAL runs use AdamW with a learning rate of 3e-04, weight decay 0.0001, and are trained for 20 epochs without a learning-rate scheduler.
+
+  * SGD -> AdamW (code uses torch.optim.AdamW in all scripts)
+  * momentum 0.9 -> removed (AdamW uses default betas)
+  * lr 0.001 -> 0.0003 (from yaml config)
+  * batch_size 64 -> 32 (from yaml config)
+  * 50 epochs -> 20 epochs (6.3_train_coral.py default)
+  * cosine annealing -> no scheduler (no scheduler in code)
+  * [27] CycleGAN citation -> removed (irrelevant)
+
+
+Change 2: Section 3.2, DUPLICATE paragraph (immediately after)
+----------------------------------------------------------------------
+OLD: We perform CORAL adaptation using a ResNet-50 backbone... [identical copy]
+
+NEW: [DELETE ENTIRELY -- this is a duplicate paragraph]
+
+  * The paragraph starting with "We perform CORAL adaptation" appears twice in a row. Remove the second instance.
+
+
+Change 3: Section 4 (Experimental Setup), model training paragraph
+----------------------------------------------------------------------
+OLD: [No explicit training protocol paragraph in Section 4 -- details are only in Section 3.2]
+
+NEW: Training uses the AdamW optimizer with a learning rate of 3e-04, weight decay 0.0001, and a batch size of 32. Baseline models are trained for up to 30 epochs with early stopping (patience 5). Training-time data augmentation consists of random horizontal flipping, random rotation up to +/-15 degrees, and color jitter. For fine-tuning on the target domain, the learning rate is reduced by a factor of 0.1 to 3e-05, the backbone is frozen for the first 3 epochs.
+
+  * Add explicit training details to Section 4.
+  * This is needed because reviewers expect all hyperparams to be in the experimental setup section.
+

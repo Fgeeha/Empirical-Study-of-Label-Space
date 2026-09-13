@@ -1,0 +1,58 @@
+[INFO] device=cuda, strategy=hybrid, epochs=20, seeds=[42]
+
+[DANN] strategy=hybrid, epochs=20, seed=42
+  num_classes=18, source=17195, target=1568, test=1969
+  Epoch 00: cls_loss=0.3426, dom_loss=1.2792, alpha=0.244
+  Epoch 00: target_f1=0.2429, target_acc=0.3057
+  Epoch 01: cls_loss=0.1722, dom_loss=1.3649, alpha=0.462
+  Epoch 01: target_f1=0.2801, target_acc=0.3352
+  Epoch 02: cls_loss=0.1467, dom_loss=1.3826, alpha=0.635
+  Epoch 02: target_f1=0.2760, target_acc=0.3291
+  Epoch 03: cls_loss=0.1123, dom_loss=1.3887, alpha=0.761
+  Epoch 03: target_f1=0.2661, target_acc=0.3215
+  Epoch 04: cls_loss=0.1069, dom_loss=1.3819, alpha=0.848
+  Epoch 04: target_f1=0.2400, target_acc=0.2905
+  Epoch 05: cls_loss=0.0935, dom_loss=1.3882, alpha=0.905
+  Epoch 05: target_f1=0.2293, target_acc=0.2880
+  Epoch 06: cls_loss=0.0799, dom_loss=1.3862, alpha=0.941
+  Epoch 06: target_f1=0.2049, target_acc=0.2580
+  Epoch 07: cls_loss=0.0809, dom_loss=1.3862, alpha=0.964
+  Epoch 07: target_f1=0.2265, target_acc=0.2778
+  Epoch 08: cls_loss=0.0730, dom_loss=1.3859, alpha=0.978
+  Epoch 08: target_f1=0.2505, target_acc=0.3032
+  Epoch 09: cls_loss=0.0704, dom_loss=1.3855, alpha=0.987
+  Epoch 09: target_f1=0.2788, target_acc=0.3118
+  Epoch 10: cls_loss=0.0601, dom_loss=1.3855, alpha=0.992
+  Epoch 10: target_f1=0.2079, target_acc=0.2478
+  Epoch 11: cls_loss=0.0631, dom_loss=1.3865, alpha=0.995
+  Epoch 11: target_f1=0.1868, target_acc=0.2372
+  Epoch 12: cls_loss=0.0462, dom_loss=1.3859, alpha=0.997
+  Epoch 12: target_f1=0.1387, target_acc=0.1727
+  Epoch 13: cls_loss=0.0525, dom_loss=1.3858, alpha=0.998
+  Epoch 13: target_f1=0.2157, target_acc=0.2550
+  Epoch 14: cls_loss=0.0519, dom_loss=1.3863, alpha=0.999
+  Epoch 14: target_f1=0.2088, target_acc=0.2529
+  Epoch 15: cls_loss=0.0497, dom_loss=1.3863, alpha=0.999
+  Epoch 15: target_f1=0.1587, target_acc=0.2042
+  Epoch 16: cls_loss=0.0444, dom_loss=1.3863, alpha=1.000
+  Epoch 16: target_f1=0.1813, target_acc=0.2250
+  Epoch 17: cls_loss=0.0391, dom_loss=1.3863, alpha=1.000
+  Epoch 17: target_f1=0.1569, target_acc=0.2128
+  Epoch 18: cls_loss=0.0439, dom_loss=1.3855, alpha=1.000
+  Epoch 18: target_f1=0.1909, target_acc=0.2240
+  Epoch 19: cls_loss=0.0383, dom_loss=1.3875, alpha=1.000
+  Epoch 19: target_f1=0.1976, target_acc=0.2534
+  [BEST] target_f1=0.2801, target_acc=0.3352 → models/dann_hybrid_seed42.pt
+
+=== DANN RESULTS (hybrid, 1 seeds) ===
+Target Macro-F1: 0.2801 ± 0.0
+Target Accuracy: 0.3352
+
+[SAVED] experiments/E2_dann/dann_results.json
+[SAVED] experiments/E2_dann/dann_vs_coral_comparison.csv
+
+Comparison table:
+              method  target_accuracy target_macro_f1
+Baseline (ResNet-50)           0.1913          0.1555
+       CORAL (λ=0.1)              NaN          0.1869
+   DANN (mean ± std)           0.3352      0.2801±0.0

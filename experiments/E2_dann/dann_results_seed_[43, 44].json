@@ -1,0 +1,19 @@
+{
+  "method": "DANN",
+  "strategy": "hybrid",
+  "seeds": [
+    43,
+    44
+  ],
+  "target_macro_f1_per_seed": [
+    0.275,
+    0.2587
+  ],
+  "target_macro_f1_mean": 0.2669,
+  "target_macro_f1_std": 0.0082,
+  "target_accuracy_mean": 0.3162,
+  "coral_lambda_0.1_f1": 0.1869,
+  "baseline_f1": 0.1555,
+  "git_hash": "8f500ec81",
+  "timestamp": "2026-05-03T15:46:26.351478"
+}

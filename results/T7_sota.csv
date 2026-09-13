@@ -1,0 +1,8 @@
+method,protocol,dataset,class_space,acc,macro_f1,seeds,notes
+Zhang et al. 2020 [TODO: verify],supervised (PlantDoc labels),PlantDoc,original (27),0.52,0.48,N/A,UNVERIFIED — hardcoded; must check against paper
+Singh et al. 2021 [TODO: verify],supervised (PlantDoc labels),PlantDoc,original (27),0.61,0.58,N/A,UNVERIFIED — hardcoded; must check against paper
+Source-only (ours),UDA — no adaptation,PlantDoc,Hybrid (18),0.1915,0.1555,42,ResNet-50 trained on PV only; evaluated on PlantDoc test
+CORAL λ=0.01 (ours),"UDA — unsupervised, no target labels",PlantDoc,Hybrid (18),0.2199,0.1997,42,"best CORAL lambda for Hybrid; seed 42 only (TODO: add seeds 43,44)"
+CORAL λ=1.0 / Fuzzy (ours),"UDA — unsupervised, no target labels",PlantDoc,Fuzzy (16),0.2665,0.231,42,best CORAL result overall (Fuzzy strategy); seed 42 only
+DANN (ours),"UDA — unsupervised, no target labels",PlantDoc,Hybrid (18),0.3371,0.2775±0.0094,"42,43,44",strongest UDA result; mean±std across 3 seeds
+Supervised fine-tune (ours) [upper bound],SUPERVISED — uses PlantDoc training labels,PlantDoc,Hybrid (18),0.8619,0.8523,42,NOT comparable to UDA methods; shows upper bound with target labels

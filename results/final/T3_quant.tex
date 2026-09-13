@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\caption{Quantization impact: FP32 vs.\ INT8 post-training quantization (ResNet-50, TFLite).}
+\label{tab:quantization}
+\begin{tabular}{lccc}
+\toprule
+Strategy & Model & Latency (ms) & Size (MB) \\
+\midrule
+Fuzzy & FP32 & 52.2 & 89.6 \\
+Fuzzy & INT8 & 45.3 & 23.1 \\
+hybrid & FP32 & 57.1 & 89.7 \\
+hybrid & INT8 & 15.5 & 23.1 \\
+sbert & FP32 & 58.9 & 89.6 \\
+sbert & INT8 & 53.5 & 23.1 \\
+\bottomrule
+\end{tabular}
+\end{table}

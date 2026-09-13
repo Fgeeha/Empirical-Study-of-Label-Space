@@ -1,0 +1,50 @@
+{
+  "strategy": "hybrid",
+  "lambda": 0.1,
+  "n_classes": 18,
+  "n_improved": 10,
+  "n_degraded": 7,
+  "n_neutral": 1,
+  "mean_delta_improved": 0.1027,
+  "mean_delta_degraded": -0.066,
+  "top3_improved": [
+    {
+      "class_id": 15,
+      "baseline_f1": 0.0521739130434782,
+      "coral_f1": 0.3642384105960264,
+      "delta_f1": 0.3120644975525482
+    },
+    {
+      "class_id": 1,
+      "baseline_f1": 0.0196078431372549,
+      "coral_f1": 0.1612903225806451,
+      "delta_f1": 0.1416824794433902
+    },
+    {
+      "class_id": 13,
+      "baseline_f1": 0.078125,
+      "coral_f1": 0.1993243243243243,
+      "delta_f1": 0.1211993243243243
+    }
+  ],
+  "worst3_degraded": [
+    {
+      "class_id": 16,
+      "baseline_f1": 0.1261261261261261,
+      "coral_f1": 0.0512820512820512,
+      "delta_f1": -0.0748440748440748
+    },
+    {
+      "class_id": 2,
+      "baseline_f1": 0.2068965517241379,
+      "coral_f1": 0.123076923076923,
+      "delta_f1": -0.0838196286472148
+    },
+    {
+      "class_id": 7,
+      "baseline_f1": 0.2869565217391304,
+      "coral_f1": 0.1139896373056994,
+      "delta_f1": -0.1729668844334309
+    }
+  ]
+}

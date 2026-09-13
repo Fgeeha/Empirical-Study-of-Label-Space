@@ -1,0 +1,4 @@
+method,target_accuracy,target_macro_f1
+Baseline (ResNet-50),0.191467750126968,0.1555368586480264
+CORAL (λ=0.1),0.21584560690705942,0.18691110253617504
+"DANN (mean±std, n=3)",0.3371,0.2775±0.0094

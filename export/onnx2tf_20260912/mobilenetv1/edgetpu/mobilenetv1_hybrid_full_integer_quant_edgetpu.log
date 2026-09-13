@@ -1,0 +1,11 @@
+Edge TPU Compiler version 16.0.384591198
+Input: export/onnx2tf_20260912/mobilenetv1/mobilenetv1_hybrid_full_integer_quant.tflite
+Output: export/onnx2tf_20260912/mobilenetv1/edgetpu/mobilenetv1_hybrid_full_integer_quant_edgetpu.tflite
+
+Operator                       Count      Status
+
+DEPTHWISE_CONV_2D              13         Mapped to Edge TPU
+CONV_2D                        14         Mapped to Edge TPU
+FULLY_CONNECTED                1          Mapped to Edge TPU
+PAD                            5          Mapped to Edge TPU
+MEAN                           1          Mapped to Edge TPU

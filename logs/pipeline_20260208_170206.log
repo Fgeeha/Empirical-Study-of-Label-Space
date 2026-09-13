@@ -1,0 +1,522 @@
+[1m============================================================[0m
+[1m ECCV 2026 Full Pipeline[0m
+[1m Plant Disease Recognition + Domain Adaptation + Edge Deploy[0m
+[1m============================================================[0m
+  Phases:     6 -> 8
+  Strategies: hybrid Fuzzy sbert
+  Target:     plantdoc
+  Server:     http://192.168.1.4:8000
+  Log:        logs/pipeline_20260208_170206.log
+  Dry run:    false
+
+
+[1m[0;36m################################################################[0m
+[1m[0;36m# PHASE 6: EdgeTPU Compilation[0m
+[1m[0;36m################################################################[0m
+
+[0;32m[STEP 1][0m Compile EdgeTPU models (all)
+==============================================
+EdgeTPU Model Compilation
+==============================================
+Edge TPU Compiler version 16.0.384591198
+
+Models to compile: 12
+  - mobilenetv2_int8_ptq_hybrid.tflite
+  - mobilenetv2_int8_ptq_Fuzzy.tflite
+  - mobilenetv2_int8_ptq_sbert.tflite
+  - mobilenetv1_int8_ptq_hybrid.tflite
+  - mobilenetv1_int8_ptq_Fuzzy.tflite
+  - mobilenetv1_int8_ptq_sbert.tflite
+  - efficientnet_lite0_int8_ptq_hybrid.tflite
+  - efficientnet_lite0_int8_ptq_Fuzzy.tflite
+  - efficientnet_lite0_int8_ptq_sbert.tflite
+  - resnet50_int8_ptq_hybrid.tflite
+  - resnet50_int8_ptq_Fuzzy.tflite
+  - resnet50_int8_ptq_sbert.tflite
+
+[SKIP] export/edgetpu/mobilenetv2_int8_ptq_hybrid_edgetpu.tflite already exists (2.8M)
+[SKIP] export/edgetpu/mobilenetv2_int8_ptq_Fuzzy_edgetpu.tflite already exists (2.8M)
+[SKIP] export/edgetpu/mobilenetv2_int8_ptq_sbert_edgetpu.tflite already exists (2.8M)
+[SKIP] export/edgetpu/mobilenetv1_int8_ptq_hybrid_edgetpu.tflite already exists (3.5M)
+[SKIP] export/edgetpu/mobilenetv1_int8_ptq_Fuzzy_edgetpu.tflite already exists (3.5M)
+[SKIP] export/edgetpu/mobilenetv1_int8_ptq_sbert_edgetpu.tflite already exists (3.5M)
+[SKIP] export/edgetpu/efficientnet_lite0_int8_ptq_hybrid_edgetpu.tflite already exists (4.3M)
+[SKIP] export/edgetpu/efficientnet_lite0_int8_ptq_Fuzzy_edgetpu.tflite already exists (4.3M)
+[SKIP] export/edgetpu/efficientnet_lite0_int8_ptq_sbert_edgetpu.tflite already exists (4.3M)
+[SKIP] export/edgetpu/resnet50_int8_ptq_hybrid_edgetpu.tflite already exists (23M)
+[SKIP] export/edgetpu/resnet50_int8_ptq_Fuzzy_edgetpu.tflite already exists (23M)
+[SKIP] export/edgetpu/resnet50_int8_ptq_sbert_edgetpu.tflite already exists (23M)
+==============================================
+Summary
+==============================================
+Compiled: 0
+Skipped:  12
+Failed:   0
+
+EdgeTPU models in: export/edgetpu/
+-rw-rw-r-- 1 nkolesnikov nkolesnikov  4444768 Feb  8 15:39 export/edgetpu/efficientnet_lite0_int8_ptq_Fuzzy_edgetpu.tflite
+-rw-rw-r-- 1 nkolesnikov nkolesnikov  4465248 Feb  8 15:39 export/edgetpu/efficientnet_lite0_int8_ptq_hybrid_edgetpu.tflite
+-rw-rw-r-- 1 nkolesnikov nkolesnikov  4444768 Feb  8 15:39 export/edgetpu/efficientnet_lite0_int8_ptq_sbert_edgetpu.tflite
+-rw-rw-r-- 1 nkolesnikov nkolesnikov  3592800 Feb  8 15:39 export/edgetpu/mobilenetv1_int8_ptq_Fuzzy_edgetpu.tflite
+-rw-rw-r-- 1 nkolesnikov nkolesnikov  3609184 Feb  8 15:39 export/edgetpu/mobilenetv1_int8_ptq_hybrid_edgetpu.tflite
+-rw-rw-r-- 1 nkolesnikov nkolesnikov  3592800 Feb  8 15:39 export/edgetpu/mobilenetv1_int8_ptq_sbert_edgetpu.tflite
+-rw-rw-r-- 1 nkolesnikov nkolesnikov  2855552 Feb  8 15:39 export/edgetpu/mobilenetv2_int8_ptq_Fuzzy_edgetpu.tflite
+-rw-rw-r-- 1 nkolesnikov nkolesnikov  2876032 Feb  8 16:45 export/edgetpu/mobilenetv2_int8_ptq_hybrid_edgetpu.tflite
+-rw-rw-r-- 1 nkolesnikov nkolesnikov  2855552 Feb  8 15:39 export/edgetpu/mobilenetv2_int8_ptq_sbert_edgetpu.tflite
+-rw-rw-r-- 1 nkolesnikov nkolesnikov 24011360 Feb  8 15:39 export/edgetpu/resnet50_int8_ptq_Fuzzy_edgetpu.tflite
+-rw-rw-r-- 1 nkolesnikov nkolesnikov 24044128 Feb  8 15:39 export/edgetpu/resnet50_int8_ptq_hybrid_edgetpu.tflite
+-rw-rw-r-- 1 nkolesnikov nkolesnikov 24011360 Feb  8 15:39 export/edgetpu/resnet50_int8_ptq_sbert_edgetpu.tflite
+
+[1m[0;36m################################################################[0m
+[1m[0;36m# PHASE 7: Edge-Bench: Upload Models and Run Benchmarks[0m
+[1m[0;36m################################################################[0m
+
+[0;32m[STEP 2][0m Upload, deploy to RPi, run benchmarks and wait
+============================================================
+Edge-Bench: Upload -> Deploy -> Benchmark
+============================================================
+  Server:  http://192.168.1.4:8000
+  Runs:    100
+  Timeout: 600s per experiment
+
+Checking server... OK
+
+Discovered 27 model(s):
+  mobilenetv2_int8_ptq_hybrid.tflite (2.6 MB) [cpu]
+  mobilenetv2_int8_ptq_hybrid_edgetpu.tflite (2.7 MB) [edgetpu]
+  mobilenetv2_int8_ptq_Fuzzy.tflite (2.6 MB) [cpu]
+  mobilenetv2_int8_ptq_Fuzzy_edgetpu.tflite (2.7 MB) [edgetpu]
+  mobilenetv2_int8_ptq_sbert.tflite (2.6 MB) [cpu]
+  mobilenetv2_int8_ptq_sbert_edgetpu.tflite (2.7 MB) [edgetpu]
+  mobilenetv1_int8_ptq_hybrid.tflite (3.4 MB) [cpu]
+  mobilenetv1_int8_ptq_hybrid_edgetpu.tflite (3.4 MB) [edgetpu]
+  mobilenetv1_int8_ptq_Fuzzy.tflite (3.4 MB) [cpu]
+  mobilenetv1_int8_ptq_Fuzzy_edgetpu.tflite (3.4 MB) [edgetpu]
+  mobilenetv1_int8_ptq_sbert.tflite (3.4 MB) [cpu]
+  mobilenetv1_int8_ptq_sbert_edgetpu.tflite (3.4 MB) [edgetpu]
+  efficientnet_lite0_int8_ptq_hybrid.tflite (3.8 MB) [cpu]
+  efficientnet_lite0_int8_ptq_hybrid_edgetpu.tflite (4.3 MB) [edgetpu]
+  efficientnet_lite0_int8_ptq_Fuzzy.tflite (3.8 MB) [cpu]
+  efficientnet_lite0_int8_ptq_Fuzzy_edgetpu.tflite (4.2 MB) [edgetpu]
+  efficientnet_lite0_int8_ptq_sbert.tflite (3.8 MB) [cpu]
+  efficientnet_lite0_int8_ptq_sbert_edgetpu.tflite (4.2 MB) [edgetpu]
+  resnet50_int8_ptq_hybrid.tflite (23.1 MB) [cpu]
+  resnet50_int8_ptq_hybrid_edgetpu.tflite (22.9 MB) [edgetpu]
+  resnet50_int8_ptq_Fuzzy.tflite (23.1 MB) [cpu]
+  resnet50_int8_ptq_Fuzzy_edgetpu.tflite (22.9 MB) [edgetpu]
+  resnet50_int8_ptq_sbert.tflite (23.1 MB) [cpu]
+  resnet50_int8_ptq_sbert_edgetpu.tflite (22.9 MB) [edgetpu]
+  efficientnet_int8_ptq_hybrid.tflite (11.7 MB) [cpu]
+  efficientnet_int8_ptq_Fuzzy.tflite (11.7 MB) [cpu]
+  efficientnet_int8_ptq_sbert.tflite (11.7 MB) [cpu]
+
+[STEP 1] Upload models to server
+  Found locally:      27
+  Already on server:  42
+  = mobilenetv2_int8_ptq_hybrid.tflite (exists)
+  = mobilenetv2_int8_ptq_hybrid_edgetpu.tflite (exists)
+  = mobilenetv2_int8_ptq_Fuzzy.tflite (exists)
+  = mobilenetv2_int8_ptq_Fuzzy_edgetpu.tflite (exists)
+  = mobilenetv2_int8_ptq_sbert.tflite (exists)
+  = mobilenetv2_int8_ptq_sbert_edgetpu.tflite (exists)
+  = mobilenetv1_int8_ptq_hybrid.tflite (exists)
+  = mobilenetv1_int8_ptq_hybrid_edgetpu.tflite (exists)
+  = mobilenetv1_int8_ptq_Fuzzy.tflite (exists)
+  = mobilenetv1_int8_ptq_Fuzzy_edgetpu.tflite (exists)
+  = mobilenetv1_int8_ptq_sbert.tflite (exists)
+  = mobilenetv1_int8_ptq_sbert_edgetpu.tflite (exists)
+  = efficientnet_lite0_int8_ptq_hybrid.tflite (exists)
+  = efficientnet_lite0_int8_ptq_hybrid_edgetpu.tflite (exists)
+  = efficientnet_lite0_int8_ptq_Fuzzy.tflite (exists)
+  = efficientnet_lite0_int8_ptq_Fuzzy_edgetpu.tflite (exists)
+  = efficientnet_lite0_int8_ptq_sbert.tflite (exists)
+  = efficientnet_lite0_int8_ptq_sbert_edgetpu.tflite (exists)
+  = resnet50_int8_ptq_hybrid.tflite (exists)
+  = resnet50_int8_ptq_hybrid_edgetpu.tflite (exists)
+  = resnet50_int8_ptq_Fuzzy.tflite (exists)
+  = resnet50_int8_ptq_Fuzzy_edgetpu.tflite (exists)
+  = resnet50_int8_ptq_sbert.tflite (exists)
+  = resnet50_int8_ptq_sbert_edgetpu.tflite (exists)
+  = efficientnet_int8_ptq_hybrid.tflite (exists)
+  = efficientnet_int8_ptq_Fuzzy.tflite (exists)
+  = efficientnet_int8_ptq_sbert.tflite (exists)
+  Total on server: 42
+[WARN] No online devices. Using: raspberrypi (may be offline)
+       Make sure RPi agent is running: cd edge-bench && make agent
+
+[STEP 2] Deploy models to device: raspberrypi
+  -> resnet50_int8_ptq_sbert_edgetpu_1.tflite... OK
+  -> resnet50_int8_ptq_hybrid_edgetpu_1.tflite... OK
+  -> resnet50_int8_ptq_Fuzzy_edgetpu_1.tflite... OK
+  -> mobilenetv2_int8_ptq_sbert_edgetpu.tflite... OK
+  -> mobilenetv2_int8_ptq_hybrid_edgetpu.tflite... OK
+  -> mobilenetv2_int8_ptq_Fuzzy_edgetpu.tflite... OK
+  -> mobilenetv1_int8_ptq_sbert_edgetpu_1.tflite... OK
+  -> mobilenetv1_int8_ptq_hybrid_edgetpu_1.tflite... OK
+  -> mobilenetv1_int8_ptq_Fuzzy_edgetpu_1.tflite... OK
+  -> efficientnet_lite0_int8_ptq_sbert_edgetpu_1.tflite... OK
+  -> efficientnet_lite0_int8_ptq_hybrid_edgetpu_1.tflite... OK
+  -> efficientnet_lite0_int8_ptq_Fuzzy_edgetpu_1.tflite... OK
+  -> resnet50_int8_ptq_sbert_edgetpu.tflite... OK
+  -> resnet50_int8_ptq_sbert.tflite... OK
+  -> resnet50_int8_ptq_hybrid_edgetpu.tflite... OK
+  -> resnet50_int8_ptq_hybrid.tflite... OK
+  -> resnet50_int8_ptq_Fuzzy_edgetpu.tflite... OK
+  -> resnet50_int8_ptq_Fuzzy.tflite... OK
+  -> model_int8_ptq_sbert.tflite... OK
+  -> model_int8_ptq_hybrid.tflite... OK
+  -> model_int8_ptq_Fuzzy.tflite... OK
+  -> model_fp32_sbert.tflite... OK
+  -> model_fp32_hybrid.tflite... OK
+  -> model_fp32_Fuzzy.tflite... OK
+  -> mobilenetv2_int8_ptq_sbert.tflite... OK
+  -> mobilenetv2_int8_ptq_hybrid.tflite... OK
+  -> mobilenetv2_int8_ptq_Fuzzy.tflite... OK
+  -> mobilenetv1_int8_ptq_sbert_edgetpu.tflite... OK
+  -> mobilenetv1_int8_ptq_sbert.tflite... OK
+  -> mobilenetv1_int8_ptq_hybrid_edgetpu.tflite... OK
+  -> mobilenetv1_int8_ptq_hybrid.tflite... OK
+  -> mobilenetv1_int8_ptq_Fuzzy_edgetpu.tflite... OK
+  -> mobilenetv1_int8_ptq_Fuzzy.tflite... OK
+  -> efficientnet_lite0_int8_ptq_sbert_edgetpu.tflite... OK
+  -> efficientnet_lite0_int8_ptq_sbert.tflite... OK
+  -> efficientnet_lite0_int8_ptq_hybrid_edgetpu.tflite... OK
+  -> efficientnet_lite0_int8_ptq_hybrid.tflite... OK
+  -> efficientnet_lite0_int8_ptq_Fuzzy_edgetpu.tflite... OK
+  -> efficientnet_lite0_int8_ptq_Fuzzy.tflite... OK
+  -> efficientnet_int8_ptq_sbert.tflite... OK
+  -> efficientnet_int8_ptq_hybrid.tflite... OK
+  -> efficientnet_int8_ptq_Fuzzy.tflite... OK
+  Deployed: 42/42
+
+[STEP 3] Run benchmark experiments (runs=100, timeout=600s)
+
+  [1/27] mobilenetv2_int8_ptq_hybrid.tflite [cpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [2/27] mobilenetv2_int8_ptq_hybrid_edgetpu.tflite [edgetpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [3/27] mobilenetv2_int8_ptq_Fuzzy.tflite [cpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [4/27] mobilenetv2_int8_ptq_Fuzzy_edgetpu.tflite [edgetpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [5/27] mobilenetv2_int8_ptq_sbert.tflite [cpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [6/27] mobilenetv2_int8_ptq_sbert_edgetpu.tflite [edgetpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [7/27] mobilenetv1_int8_ptq_hybrid.tflite [cpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [8/27] mobilenetv1_int8_ptq_hybrid_edgetpu.tflite [edgetpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [9/27] mobilenetv1_int8_ptq_Fuzzy.tflite [cpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [10/27] mobilenetv1_int8_ptq_Fuzzy_edgetpu.tflite [edgetpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [11/27] mobilenetv1_int8_ptq_sbert.tflite [cpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [12/27] mobilenetv1_int8_ptq_sbert_edgetpu.tflite [edgetpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [13/27] efficientnet_lite0_int8_ptq_hybrid.tflite [cpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [14/27] efficientnet_lite0_int8_ptq_hybrid_edgetpu.tflite [edgetpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [15/27] efficientnet_lite0_int8_ptq_Fuzzy.tflite [cpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [16/27] efficientnet_lite0_int8_ptq_Fuzzy_edgetpu.tflite [edgetpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [17/27] efficientnet_lite0_int8_ptq_sbert.tflite [cpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [18/27] efficientnet_lite0_int8_ptq_sbert_edgetpu.tflite [edgetpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [19/27] resnet50_int8_ptq_hybrid.tflite [cpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [20/27] resnet50_int8_ptq_hybrid_edgetpu.tflite [edgetpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [21/27] resnet50_int8_ptq_Fuzzy.tflite [cpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [22/27] resnet50_int8_ptq_Fuzzy_edgetpu.tflite [edgetpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [23/27] resnet50_int8_ptq_sbert.tflite [cpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [24/27] resnet50_int8_ptq_sbert_edgetpu.tflite [edgetpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [25/27] efficientnet_int8_ptq_hybrid.tflite [cpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [26/27] efficientnet_int8_ptq_Fuzzy.tflite [cpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+  [27/27] efficientnet_int8_ptq_sbert.tflite [cpu]
+    Creating experiment... FAILED (Client error '422 Unprocessable Content' for url 'http://192.168.1.4:8000/api/experiments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
+
+============================================================
+SUMMARY
+============================================================
+  Total experiments:  27
+  Completed:          0
+  Failed/timeout:     27
+
+  Failed experiments:
+    - mobilenetv2_int8_ptq_hybrid.tflite [cpu]: create_failed
+    - mobilenetv2_int8_ptq_hybrid_edgetpu.tflite [edgetpu]: create_failed
+    - mobilenetv2_int8_ptq_Fuzzy.tflite [cpu]: create_failed
+    - mobilenetv2_int8_ptq_Fuzzy_edgetpu.tflite [edgetpu]: create_failed
+    - mobilenetv2_int8_ptq_sbert.tflite [cpu]: create_failed
+    - mobilenetv2_int8_ptq_sbert_edgetpu.tflite [edgetpu]: create_failed
+    - mobilenetv1_int8_ptq_hybrid.tflite [cpu]: create_failed
+    - mobilenetv1_int8_ptq_hybrid_edgetpu.tflite [edgetpu]: create_failed
+    - mobilenetv1_int8_ptq_Fuzzy.tflite [cpu]: create_failed
+    - mobilenetv1_int8_ptq_Fuzzy_edgetpu.tflite [edgetpu]: create_failed
+    - mobilenetv1_int8_ptq_sbert.tflite [cpu]: create_failed
+    - mobilenetv1_int8_ptq_sbert_edgetpu.tflite [edgetpu]: create_failed
+    - efficientnet_lite0_int8_ptq_hybrid.tflite [cpu]: create_failed
+    - efficientnet_lite0_int8_ptq_hybrid_edgetpu.tflite [edgetpu]: create_failed
+    - efficientnet_lite0_int8_ptq_Fuzzy.tflite [cpu]: create_failed
+    - efficientnet_lite0_int8_ptq_Fuzzy_edgetpu.tflite [edgetpu]: create_failed
+    - efficientnet_lite0_int8_ptq_sbert.tflite [cpu]: create_failed
+    - efficientnet_lite0_int8_ptq_sbert_edgetpu.tflite [edgetpu]: create_failed
+    - resnet50_int8_ptq_hybrid.tflite [cpu]: create_failed
+    - resnet50_int8_ptq_hybrid_edgetpu.tflite [edgetpu]: create_failed
+    - resnet50_int8_ptq_Fuzzy.tflite [cpu]: create_failed
+    - resnet50_int8_ptq_Fuzzy_edgetpu.tflite [edgetpu]: create_failed
+    - resnet50_int8_ptq_sbert.tflite [cpu]: create_failed
+    - resnet50_int8_ptq_sbert_edgetpu.tflite [edgetpu]: create_failed
+    - efficientnet_int8_ptq_hybrid.tflite [cpu]: create_failed
+    - efficientnet_int8_ptq_Fuzzy.tflite [cpu]: create_failed
+    - efficientnet_int8_ptq_sbert.tflite [cpu]: create_failed
+[OK] T4 exported: results/edgebench/raw_from_bench.csv
+
+[DONE] View results: http://192.168.1.4:8000/results
+[0;31m[FAIL][0m Upload, deploy to RPi, run benchmarks and wait
+
+[1m[0;36m################################################################[0m
+[1m[0;36m# PHASE 8: Results Collection and Final Plots[0m
+[1m[0;36m################################################################[0m
+
+[0;32m[STEP 3][0m Fetch Edge-Bench results
+============================================================
+Step 11.1: Fetch Edge-Bench Results
+============================================================
+Server:  http://192.168.1.4:8000
+Output:  results/edgebench
+
+Server: OK
+Fetching results...
+  Total results: 27
+  Saved: results/edgebench/raw_results.json
+  Saved: results/edgebench/raw_results.csv
+
+============================================================
+Summary
+============================================================
+  Architectures: ['efficientnet', 'efficientnet_lite0', 'mobilenetv1', 'mobilenetv2', 'resnet50']
+  Strategies:    ['Fuzzy', 'hybrid', 'sbert']
+  Backends:      ['cpu', 'edgetpu']
+  Devices:       ['raspberrypi']
+  Total rows:    27
+
+                            count  avg_latency  avg_fps
+architecture       backend                             
+efficientnet       cpu          3       130.65     7.66
+efficientnet_lite0 cpu          3        32.34    30.92
+                   edgetpu      3         6.29   159.03
+mobilenetv1        cpu          3        29.54    33.86
+                   edgetpu      3         5.22   193.03
+mobilenetv2        cpu          3        38.42    26.03
+                   edgetpu      3         5.68   176.55
+resnet50           cpu          3       187.92     5.32
+                   edgetpu      3        55.90    17.89
+
+Fetching experiment list...
+  Saved: results/edgebench/experiments.json
+  Experiments by status: {'completed': 27}
+
+Done at 2026-02-08 17:03
+[0;32m[STEP 4][0m Build T4 from Edge-Bench
+============================================================
+Step 11.2: Build Table T4 from Edge-Bench
+============================================================
+Loaded 27 results from results/edgebench/raw_results.csv
+
+Main table saved: results/T4_edgebench.csv
+
+============================================================
+Table T4: Edge Deployment Performance
+============================================================
+arch_display strategy backend  latency_mean  latency_p95    fps  model_size_mb
+ MobileNetV2   hybrid     cpu        38.371       39.444  26.06           2.56
+ MobileNetV2   hybrid edgetpu         5.883        6.022 169.98           2.74
+ MobileNetV2    Fuzzy     cpu        38.444       39.653  26.01           2.55
+ MobileNetV2    Fuzzy edgetpu         5.819        6.243 171.85           2.72
+ MobileNetV2    sbert     cpu        38.452       40.050  26.01           2.55
+ MobileNetV2    sbert edgetpu         5.324        7.000 187.83           2.72
+ MobileNetV1   hybrid     cpu        29.508       30.968  33.89           3.36
+ MobileNetV1   hybrid edgetpu         4.630        4.675 215.98           3.44
+ MobileNetV1    Fuzzy     cpu        29.721       30.885  33.65           3.36
+ MobileNetV1    Fuzzy edgetpu         5.506        5.906 181.62           3.43
+ MobileNetV1    sbert     cpu        29.376       30.511  34.04           3.36
+ MobileNetV1    sbert edgetpu         5.510        5.852 181.49           3.43
+EffNet-Lite0   hybrid     cpu        32.403       34.130  30.86           3.79
+EffNet-Lite0   hybrid edgetpu         6.296        6.361 158.83           4.26
+EffNet-Lite0    Fuzzy     cpu        32.272       33.467  30.99           3.79
+EffNet-Lite0    Fuzzy edgetpu         6.291        6.331 158.96           4.24
+EffNet-Lite0    sbert     cpu        32.350       33.432  30.91           3.79
+EffNet-Lite0    sbert edgetpu         6.278        6.318 159.29           4.24
+   ResNet-50   hybrid     cpu       188.861      191.517   5.29          23.15
+   ResNet-50   hybrid edgetpu        56.040       56.592  17.84          22.83
+   ResNet-50    Fuzzy     cpu       186.921      191.176   5.35          23.15
+   ResNet-50    Fuzzy edgetpu        55.426       56.544  18.04          22.80
+   ResNet-50    sbert     cpu       187.971      191.599   5.32          23.14
+   ResNet-50    sbert edgetpu        56.219       56.607  17.79          22.80
+   EffNet-B3   hybrid     cpu       131.069      134.203   7.63          11.72
+   EffNet-B3    Fuzzy     cpu       129.725      131.442   7.71          11.71
+   EffNet-B3    sbert     cpu       131.144      134.789   7.63          11.71
+
+Speedup table saved: results/T4_speedup.csv
+
+============================================================
+EdgeTPU Speedup vs CPU
+============================================================
+arch_display strategy  cpu_latency_ms  edgetpu_latency_ms  speedup_x  cpu_fps  edgetpu_fps
+ MobileNetV2   hybrid           38.37                5.88       6.52     26.1        170.0
+ MobileNetV2    Fuzzy           38.44                5.82       6.61     26.0        171.8
+ MobileNetV2    sbert           38.45                5.32       7.22     26.0        187.8
+ MobileNetV1   hybrid           29.51                4.63       6.37     33.9        216.0
+ MobileNetV1    Fuzzy           29.72                5.51       5.40     33.6        181.6
+ MobileNetV1    sbert           29.38                5.51       5.33     34.0        181.5
+EffNet-Lite0   hybrid           32.40                6.30       5.15     30.9        158.8
+EffNet-Lite0    Fuzzy           32.27                6.29       5.13     31.0        159.0
+EffNet-Lite0    sbert           32.35                6.28       5.15     30.9        159.3
+   ResNet-50   hybrid          188.86               56.04       3.37      5.3         17.8
+   ResNet-50    Fuzzy          186.92               55.43       3.37      5.4         18.0
+   ResNet-50    sbert          187.97               56.22       3.34      5.3         17.8
+
+============================================================
+Average Speedup by Architecture
+============================================================
+              mean_speedup  mean_fps_gain
+arch_display                             
+EffNet-Lite0          5.14           5.14
+MobileNetV1           5.70           5.70
+MobileNetV2           6.78           6.78
+ResNet-50             3.36           3.36
+LaTeX saved: results/T4_edgebench.tex
+
+============================================================
+Coverage Matrix
+============================================================
+strategy            Fuzzy         hybrid          sbert        
+backend               cpu edgetpu    cpu edgetpu    cpu edgetpu
+architecture                                                   
+efficientnet        129.7     NaN  131.1     NaN  131.1     NaN
+efficientnet_lite0   32.3     6.3   32.4     6.3   32.4     6.3
+mobilenetv1          29.7     5.5   29.5     4.6   29.4     5.5
+mobilenetv2          38.4     5.8   38.4     5.9   38.5     5.3
+resnet50            186.9    55.4  188.9    56.0  188.0    56.2
+
+Expected: 27 combinations, Got: 27
+[0;32m[STEP 5][0m Plot Edge-Bench analysis (F7-F10)
+============================================================
+Step 11.3: Generate Edge-Bench Analysis Figures
+============================================================
+Data: 27 rows
+Architectures: ['efficientnet', 'efficientnet_lite0', 'mobilenetv1', 'mobilenetv2', 'resnet50']
+Strategies:    ['Fuzzy', 'hybrid', 'sbert']
+Backends:      ['cpu', 'edgetpu']
+
+Generating figures...
+Saved: figures/F7_latency_comparison.pdf
+Saved: figures/F8_throughput_comparison.pdf
+Saved: figures/F9_speedup_heatmap.pdf
+Saved: figures/F10_size_vs_latency.pdf
+
+All figures saved to figures/
+
+[1m================================================================[0m
+[1m PIPELINE COMPLETE[0m
+[1m================================================================[0m
+
+  Steps run:     5
+  [0;32mSucceeded:[0m    4
+  [0;31mFailed:[0m       1
+  [0;33mSkipped:[0m      0
+  Log:           logs/pipeline_20260208_170206.log
+
+Key result files:
+  [0;32m[OK][0m results/baseline_pv_metrics.csv
+  [0;32m[OK][0m results/T1_domain_shift.csv
+  [0;32m[OK][0m results/T2_coral_sweep_hybrid.csv
+  [0;32m[OK][0m results/T3_quant_fp32_vs_int8_hybrid.csv
+  [0;32m[OK][0m results/T5_ablation.csv
+  [0;32m[OK][0m results/T6_per_class_f1_hybrid.csv
+  [0;32m[OK][0m results/T7_sota.csv
+  [0;32m[OK][0m results/edgebench/raw_results.csv
+  [0;32m[OK][0m results/T4_edgebench.csv
+  [0;32m[OK][0m results/T4_edgebench.tex
+
+Key figures:
+  [0;32m[OK][0m figures/F2_f1_vs_lambda_hybrid.png
+  [0;32m[OK][0m figures/F3_tsne_baseline_hybrid.png
+  [0;32m[OK][0m figures/F3_tsne_coral_hybrid.png
+  [0;32m[OK][0m figures/F4_quant_tradeoff_hybrid.png
+  [0;32m[OK][0m figures/F5_latency_comparison.png
+  [0;32m[OK][0m figures/F7_latency_comparison.pdf
+  [0;32m[OK][0m figures/F8_throughput_comparison.pdf
+  [0;32m[OK][0m figures/F9_speedup_heatmap.pdf
+  [0;32m[OK][0m figures/F10_size_vs_latency.pdf
+
+TFLite models:
+  INT8 TFLite:  30
+  EdgeTPU:      12
+
+[0;31m1 step(s) failed. Check log: logs/pipeline_20260208_170206.log[0m

@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering
+\caption{Comparison with previously published methods on PlantDoc. CORAL (ours) uses no target labels; other methods use PlantDoc training data. Fine-tune UB is included as a supervised upper bound.}
+\label{tab:sota}
+\begin{tabular}{lccc}
+\toprule
+Method & Target Labels & Acc & Macro-F1 \\
+\midrule
+        Zhang et al. (2020) & Yes & 0.52 & 0.48 \\
+        Singh et al. (2021) & Yes & 0.61 & 0.58 \\
+        CORAL (ours, Fuzzy, lambda=1.0) & No & 0.27 & 0.23 \\
+        Fine-tune UB (ours, hybrid) & Yes & 0.86 & 0.85 \\
+\bottomrule
+\end{tabular}
+\end{table}

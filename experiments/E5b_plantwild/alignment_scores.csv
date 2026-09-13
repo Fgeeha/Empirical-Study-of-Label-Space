@@ -1,0 +1,116 @@
+pw_class,pw_images,best_pv_match,best_pv_normalized,cosine
+tomato septoria leaf spot,130,Tomato___Septoria_leaf_spot,tomato septoria leaf spot,1.000000238418579
+tomato leaf mold,156,Tomato___Leaf_Mold,tomato leaf mold,1.0000001192092896
+potato late blight,117,Potato___Late_blight,potato late blight,1.0000001192092896
+tomato late blight,163,Tomato___Late_blight,tomato late blight,1.0000001192092896
+potato early blight,126,Potato___Early_blight,potato early blight,1.0
+strawberry leaf scorch,39,Strawberry___Leaf_scorch,strawberry leaf scorch,1.0
+squash powdery mildew,182,Squash___Powdery_mildew,squash powdery mildew,1.0
+tomato early blight,187,Tomato___Early_blight,tomato early blight,0.9999999403953552
+apple black rot,83,Apple___Black_rot,apple black rot,0.9999999403953552
+grape black rot,122,Grape___Black_rot,grape black rot,0.9999999403953552
+tomato yellow leaf curl virus,93,Tomato___Tomato_Yellow_Leaf_Curl_Virus,tomato tomato yellow leaf curl virus,0.9965432286262512
+tomato mosaic virus,63,Tomato___Tomato_mosaic_virus,tomato tomato mosaic virus,0.9883748888969421
+bell pepper bacterial spot,76,"Pepper,_bell___Bacterial_spot",pepper bell bacterial spot,0.9849491715431213
+apple scab,258,Apple___Apple_scab,apple apple scab,0.9849439859390259
+corn northern leaf blight,130,Corn_(maize)___Northern_Leaf_Blight,corn maize northern leaf blight,0.9571723341941833
+cherry powdery mildew,33,Cherry_(including_sour)___Powdery_mildew,cherry including sour powdery mildew,0.932642936706543
+tomato bacterial leaf spot,110,Tomato___Bacterial_spot,tomato bacterial spot,0.9238812327384949
+corn gray leaf spot,107,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,corn maize cercospora leaf spot gray leaf spot,0.8794021010398865
+corn rust,177,Corn_(maize)___Common_rust_,corn maize common rust,0.8671582341194153
+apple rust,139,Apple___Cedar_apple_rust,apple cedar apple rust,0.8470247983932495
+zucchini powdery mildew,223,Squash___Powdery_mildew,squash powdery mildew,0.8309948444366455
+grape leaf spot,91,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),grape leaf blight isariopsis leaf spot,0.8105477690696716
+zucchini downy mildew,45,Squash___Powdery_mildew,squash powdery mildew,0.7547425627708435
+citrus greening disease,133,Orange___Haunglongbing_(Citrus_greening),orange haunglongbing citrus greening,0.746360182762146
+wheat powdery mildew,271,Squash___Powdery_mildew,squash powdery mildew,0.7285359501838684
+blueberry scorch,43,Blueberry___healthy,blueberry healthy,0.7016299366950989
+cucumber powdery mildew,189,Squash___Powdery_mildew,squash powdery mildew,0.6959023475646973
+lettuce mosaic virus,39,Tomato___Tomato_mosaic_virus,tomato tomato mosaic virus,0.6950571537017822
+apple mosaic virus,89,Tomato___Tomato_mosaic_virus,tomato tomato mosaic virus,0.6915848255157471
+cabbage black rot,131,Grape___Black_rot,grape black rot,0.6907380223274231
+blueberry rust,44,Blueberry___healthy,blueberry healthy,0.6905848383903503
+zucchini yellow mosaic virus,95,Tomato___Tomato_mosaic_virus,tomato tomato mosaic virus,0.6897300481796265
+bean mosaic virus,58,Tomato___Tomato_mosaic_virus,tomato tomato mosaic virus,0.6847137808799744
+tobacco mosaic virus,41,Tomato___Tomato_mosaic_virus,tomato tomato mosaic virus,0.6829943656921387
+strawberry anthracnose,58,Strawberry___Leaf_scorch,strawberry leaf scorch,0.6793347001075745
+bell pepper powdery mildew,28,Squash___Powdery_mildew,squash powdery mildew,0.6775038242340088
+blueberry mummy berry,47,Blueberry___healthy,blueberry healthy,0.6739324927330017
+wheat leaf rust,132,Corn_(maize)___Common_rust_,corn maize common rust,0.671892523765564
+peach rust,8,Peach___healthy,peach healthy,0.6682572960853577
+plum bacterial spot,16,Peach___Bacterial_spot,peach bacterial spot,0.6679325103759766
+bell pepper frogeye leaf spot,31,"Pepper,_bell___Bacterial_spot",pepper bell bacterial spot,0.6657401323318481
+eggplant cercospora leaf spot,60,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,corn maize cercospora leaf spot gray leaf spot,0.6647783517837524
+blueberry anthracnose,42,Blueberry___healthy,blueberry healthy,0.6619735360145569
+cabbage downy mildew,84,Squash___Powdery_mildew,squash powdery mildew,0.6565585732460022
+peach brown rot,173,Peach___Bacterial_spot,peach bacterial spot,0.6557942032814026
+peach scab,78,Apple___Apple_scab,apple apple scab,0.6535580158233643
+celery early blight,36,Tomato___Early_blight,tomato early blight,0.644692063331604
+bean rust,115,Apple___Cedar_apple_rust,apple cedar apple rust,0.6320363283157349
+grape downy mildew,281,Cherry_(including_sour)___Powdery_mildew,cherry including sour powdery mildew,0.631769597530365
+lettuce downy mildew,84,Squash___Powdery_mildew,squash powdery mildew,0.6312382221221924
+coffee black rot,7,Apple___Black_rot,apple black rot,0.6269720792770386
+carrot alternaria leaf blight,60,Potato___Late_blight,potato late blight,0.6252564191818237
+carrot cercospora leaf blight,19,Potato___Late_blight,potato late blight,0.6185551285743713
+soybean rust,118,Apple___Cedar_apple_rust,apple cedar apple rust,0.6179161071777344
+bell pepper blossom end rot,112,"Pepper,_bell___Bacterial_spot",pepper bell bacterial spot,0.613142192363739
+raspberry leaf spot,19,Tomato___Septoria_leaf_spot,tomato septoria leaf spot,0.6104374527931213
+peach leaf curl,182,Peach___healthy,peach healthy,0.6082796454429626
+peach anthracnose,13,Peach___healthy,peach healthy,0.6057423949241638
+raspberry yellow rust,37,Apple___Cedar_apple_rust,apple cedar apple rust,0.6022682189941406
+citrus canker,390,Orange___Haunglongbing_(Citrus_greening),orange haunglongbing citrus greening,0.6021537184715271
+wheat stem rust,148,Corn_(maize)___Common_rust_,corn maize common rust,0.5930243134498596
+blueberry botrytis blight,36,Blueberry___healthy,blueberry healthy,0.5896565318107605
+garlic leaf blight,92,Potato___Early_blight,potato early blight,0.5883296132087708
+soybean downy mildew,153,Soybean___healthy,soybean healthy,0.5857129096984863
+broccoli downy mildew,29,Squash___Powdery_mildew,squash powdery mildew,0.5846048593521118
+bean halo blight,56,Potato___Early_blight,potato early blight,0.5814151763916016
+wheat stripe rust,358,Corn_(maize)___Common_rust_,corn maize common rust,0.5813130736351013
+plum brown rot,81,Grape___Black_rot,grape black rot,0.5701204538345337
+cauliflower alternaria leaf spot,54,Tomato___Septoria_leaf_spot,tomato septoria leaf spot,0.5700687170028687
+garlic rust,106,Apple___Cedar_apple_rust,apple cedar apple rust,0.565740704536438
+raspberry fire blight,34,Potato___Late_blight,potato late blight,0.558799684047699
+cherry leaf spot,107,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),grape leaf blight isariopsis leaf spot,0.5580772757530212
+soybean bacterial blight,91,Soybean___healthy,soybean healthy,0.5536012649536133
+corn smut,202,Corn_(maize)___healthy,corn maize healthy,0.5535154938697815
+soybean mosaic,117,Soybean___healthy,soybean healthy,0.5517565011978149
+rice sheath blight,76,Potato___Late_blight,potato late blight,0.5513337850570679
+broccoli alternaria leaf spot,65,Tomato___Septoria_leaf_spot,tomato septoria leaf spot,0.5506909489631653
+tobacco blue mold,60,Tomato___Leaf_Mold,tomato leaf mold,0.5425126552581787
+ginger leaf spot,25,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),grape leaf blight isariopsis leaf spot,0.5395903587341309
+grapevine leafroll disease,71,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),grape leaf blight isariopsis leaf spot,0.5371432304382324
+zucchini bacterial wilt,81,Squash___Powdery_mildew,squash powdery mildew,0.5355798006057739
+soybean brown spot,71,Soybean___healthy,soybean healthy,0.5344231128692627
+cabbage alternaria leaf spot,63,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),grape leaf blight isariopsis leaf spot,0.5343995094299316
+banana cordana leaf spot,55,Tomato___Septoria_leaf_spot,tomato septoria leaf spot,0.52677983045578
+coffee leaf rust,159,Apple___Cedar_apple_rust,apple cedar apple rust,0.5239771008491516
+basil downy mildew,63,Squash___Powdery_mildew,squash powdery mildew,0.5146716237068176
+tobacco brown spot,66,Peach___Bacterial_spot,peach bacterial spot,0.5132152438163757
+plum rust,34,Apple___Cedar_apple_rust,apple cedar apple rust,0.5127494931221008
+broccoli ring spot,16,"Pepper,_bell___Bacterial_spot",pepper bell bacterial spot,0.5103549361228943
+eggplant phytophthora blight,33,Tomato___Early_blight,tomato early blight,0.5099696516990662
+raspberry gray mold,40,Tomato___Leaf_Mold,tomato leaf mold,0.5072554349899292
+wheat septoria blotch,232,Tomato___Septoria_leaf_spot,tomato septoria leaf spot,0.4994184076786041
+wheat head scab,319,Apple___Apple_scab,apple apple scab,0.48486191034317017
+banana cigar end rot,60,Grape___Black_rot,grape black rot,0.4821494519710541
+tobacco frogeye leaf spot,28,Tomato___Septoria_leaf_spot,tomato septoria leaf spot,0.4811498522758484
+coffee berry blotch,118,Strawberry___Leaf_scorch,strawberry leaf scorch,0.4763796031475067
+ginger sheath blight,68,Potato___Late_blight,potato late blight,0.4724861979484558
+carrot cavity spot,72,Tomato___Bacterial_spot,tomato bacterial spot,0.4708811938762665
+cucumber angular leaf spot,182,Tomato___Septoria_leaf_spot,tomato septoria leaf spot,0.46309539675712585
+cauliflower bacterial soft rot,36,Tomato___Bacterial_spot,tomato bacterial spot,0.4621715247631073
+banana black leaf streak,167,Strawberry___Leaf_scorch,strawberry leaf scorch,0.45868438482284546
+wheat bacterial leaf streak (black chaff),117,Tomato___Bacterial_spot,tomato bacterial spot,0.44685426354408264
+plum pocket disease,57,Peach___Bacterial_spot,peach bacterial spot,0.44558942317962646
+soybean frog eye leaf spot,238,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,corn maize cercospora leaf spot gray leaf spot,0.44323644042015076
+banana anthracnose,71,Strawberry___Leaf_scorch,strawberry leaf scorch,0.43497464060783386
+plum pox virus,33,Tomato___Tomato_Yellow_Leaf_Curl_Virus,tomato tomato yellow leaf curl virus,0.4344489574432373
+cucumber bacterial wilt,108,Grape___Black_rot,grape black rot,0.39959341287612915
+eggplant phomopsis fruit rot,46,Squash___Powdery_mildew,squash powdery mildew,0.3920663595199585
+celery anthracnose,29,Grape___Esca_(Black_Measles),grape esca black measles,0.38472914695739746
+wheat loose smut,215,Strawberry___Leaf_scorch,strawberry leaf scorch,0.3733408451080322
+maple tar spot,114,Tomato___Septoria_leaf_spot,tomato septoria leaf spot,0.3647923469543457
+banana bunchy top,157,Strawberry___Leaf_scorch,strawberry leaf scorch,0.3600899279117584
+rice blast,83,Potato___Late_blight,potato late blight,0.3592168688774109
+banana panama disease,63,Orange___Haunglongbing_(Citrus_greening),orange haunglongbing citrus greening,0.35701507329940796
+coffee brown eye spot,20,Peach___Bacterial_spot,peach bacterial spot,0.33449506759643555

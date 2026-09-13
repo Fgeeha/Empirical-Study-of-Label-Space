@@ -1,0 +1,56 @@
+== mobilenetv1_hybrid_full_integer_quant edgetpu attempt 1 09:08:01
+mobilenetv1_hybrid_full_integer_quant        edgetpu mean     4.62 ms  std 0.023  p95 4.67  fps 216.2
+[OK] runs/mobilenetv1_hybrid_full_integer_quant__edgetpu.json
+== mobilenetv2_hybrid_full_integer_quant edgetpu attempt 1 09:08:11
+Warning: Could not load Edge TPU delegate: Failed to load delegate from libedgetpu.so.1
+Falling back to CPU
+mobilenetv2_hybrid_full_integer_quant        edgetpu FAILED Encountered unresolved custom op: edgetpu-custom-op.
+See instructions: https://www.tensorflow.org/lite/guide/ops_custom Node number 0 (edgetpu-custom-op) failed to prepare.
+[OK] runs/mobilenetv2_hybrid_full_integer_quant__edgetpu.json
+   rc=0 -> reset TPU and retry
+== mobilenetv2_hybrid_full_integer_quant edgetpu attempt 2 09:08:24
+mobilenetv2_hybrid_full_integer_quant        edgetpu mean     5.07 ms  std 0.026  p95 5.12  fps 197.4
+[OK] runs/mobilenetv2_hybrid_full_integer_quant__edgetpu.json
+== efficientnet_lite0_int8_ptq_hybrid edgetpu attempt 1 09:08:33
+Warning: Could not load Edge TPU delegate: Failed to load delegate from libedgetpu.so.1
+Falling back to CPU
+efficientnet_lite0_int8_ptq_hybrid           edgetpu FAILED Encountered unresolved custom op: edgetpu-custom-op.
+See instructions: https://www.tensorflow.org/lite/guide/ops_custom Node number 0 (edgetpu-custom-op) failed to prepare.
+[OK] runs/efficientnet_lite0_int8_ptq_hybrid__edgetpu.json
+   rc=0 -> reset TPU and retry
+== efficientnet_lite0_int8_ptq_hybrid edgetpu attempt 2 09:08:46
+efficientnet_lite0_int8_ptq_hybrid           edgetpu mean     6.28 ms  std 0.024  p95 6.32  fps 159.3
+[OK] runs/efficientnet_lite0_int8_ptq_hybrid__edgetpu.json
+== resnet50_hybrid_full_integer_quant edgetpu attempt 1 09:08:56
+Warning: Could not load Edge TPU delegate: Failed to load delegate from libedgetpu.so.1
+Falling back to CPU
+resnet50_hybrid_full_integer_quant           edgetpu FAILED Encountered unresolved custom op: edgetpu-custom-op.
+See instructions: https://www.tensorflow.org/lite/guide/ops_custom Node number 0 (edgetpu-custom-op) failed to prepare.
+[OK] runs/resnet50_hybrid_full_integer_quant__edgetpu.json
+   rc=0 -> reset TPU and retry
+== resnet50_hybrid_full_integer_quant edgetpu attempt 2 09:09:09
+F driver/usb/usb_driver.cc:857] transfer on tag 2 failed. Abort. Not found: USB transfer error 5 [LibUsbDataOutCallback]
+   rc=134 -> reset TPU and retry
+== dann42_hybrid_full_integer_quant edgetpu attempt 1 09:09:35
+dann42_hybrid_full_integer_quant             edgetpu mean    54.91 ms  std 0.569  p95 55.49  fps 18.2
+[OK] runs/dann42_hybrid_full_integer_quant__edgetpu.json
+SKIP efficientnet_b3_hybrid_full_integer_quant edgetpu
+== mobilenetv1_hybrid_full_integer_quant cpu attempt 1 09:09:56
+mobilenetv1_hybrid_full_integer_quant        cpu     mean    32.92 ms  std 0.517  p95 34.07  fps 30.4
+[OK] runs/mobilenetv1_hybrid_full_integer_quant__cpu.json
+== mobilenetv2_hybrid_full_integer_quant cpu attempt 1 09:10:09
+mobilenetv2_hybrid_full_integer_quant        cpu     mean    30.37 ms  std 2.043  p95 31.70  fps 32.9
+[OK] runs/mobilenetv2_hybrid_full_integer_quant__cpu.json
+== efficientnet_lite0_int8_ptq_hybrid cpu attempt 1 09:10:21
+efficientnet_lite0_int8_ptq_hybrid           cpu     mean    32.95 ms  std 5.131  p95 34.27  fps 30.4
+[OK] runs/efficientnet_lite0_int8_ptq_hybrid__cpu.json
+== resnet50_hybrid_full_integer_quant cpu attempt 1 09:10:33
+resnet50_hybrid_full_integer_quant           cpu     mean   190.32 ms  std 9.350  p95 192.30  fps 5.2
+[OK] runs/resnet50_hybrid_full_integer_quant__cpu.json
+== dann42_hybrid_full_integer_quant cpu attempt 1 09:11:21
+dann42_hybrid_full_integer_quant             cpu     mean   190.06 ms  std 8.668  p95 192.98  fps 5.3
+[OK] runs/dann42_hybrid_full_integer_quant__cpu.json
+== efficientnet_b3_hybrid_full_integer_quant cpu attempt 1 09:12:09
+efficientnet_b3_hybrid_full_integer_quant    cpu     mean   137.69 ms  std 5.699  p95 140.24  fps 7.3
+[OK] runs/efficientnet_b3_hybrid_full_integer_quant__cpu.json
+ALL DONE 09:12:44

@@ -1,0 +1,7 @@
+experiment_id,experiment_name,model_name,device_name,backend,batch_size,num_threads,benchmark_runs,latency_mean_ms,latency_std_ms,latency_p50_ms,latency_p90_ms,latency_p95_ms,latency_p99_ms,throughput_fps,cold_start_model_load_ms,cold_start_first_inference_ms,cpu_percent_mean,cpu_percent_max,memory_mb_mean,cpu_temp_celsius,tpu_detected,timestamp
+exp_20260206_043130_81a3,test sbert cpu,mobilenetv2_int8_ptq_sbert.tflite,raspberrypi,cpu,1,4,100,38.479,0.654,38.174,39.819,40.055,40.182,25.99,5.87,75.62,0.2,2.5,546.2,38.9,True,2026-02-06T04:31:36.113277
+exp_20260206_042733_aaa1,test cpu,mobilenetv2_int8_ptq_hybrid_edgetpu.tflite,raspberrypi,cpu,1,4,100,,,,,,,,,,,,,,False,2026-02-06T04:27:33.821807
+exp_20260205_180136_11d8,test 2_rerun_rerun,mobilenetv2_int8_ptq_hybrid_edgetpu.tflite,raspberrypi,edgetpu,1,4,100,4.977,0.032,4.972,5.005,5.017,5.099,200.92,2745.37,15.63,0.3,2.4,542.1,30.7,True,2026-02-05T18:01:41.367365
+exp_20260205_175901_bab5,test 2_rerun,mobilenetv2_int8_ptq_hybrid_edgetpu.tflite,raspberrypi,edgetpu,1,4,100,,,,,,,,,,,,,,False,2026-02-05T17:59:04.298218
+exp_20260205_175627_3f4c,test 2,mobilenetv2_int8_ptq_hybrid_edgetpu.tflite,raspberrypi,edgetpu,1,4,100,,,,,,,,,,,,,,False,2026-02-05T17:56:31.706259
+exp_20260205_174956_31e6,test1,mobilenetv2_int8_ptq_hybrid_edgetpu.tflite,raspberrypi,cpu,1,4,100,,,,,,,,,,,,,,False,2026-02-05T17:49:56.288345

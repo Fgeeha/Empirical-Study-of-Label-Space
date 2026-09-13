@@ -1,0 +1,24 @@
+{
+  "experiment": "E3_shared_subset",
+  "description": "Recompute Table 1 metrics on 13 classes shared by all 3 strategies",
+  "shared_classes": [
+    "Apple_Scab_Leaf",
+    "Apple_rust_leaf",
+    "Potato_leaf_early_blight",
+    "Potato_leaf_late_blight",
+    "Squash_Powdery_mildew_leaf",
+    "Tomato_Early_blight_leaf",
+    "Tomato_Septoria_leaf_spot",
+    "Tomato_leaf_bacterial_spot",
+    "Tomato_leaf_late_blight",
+    "Tomato_leaf_mosaic_virus",
+    "Tomato_leaf_yellow_virus",
+    "Tomato_mold_leaf",
+    "grape_leaf_black_rot"
+  ],
+  "n_shared_classes": 13,
+  "git_hash": "8a0669389",
+  "timestamp": "2026-09-13T08:54:40.002369",
+  "no_retraining": true,
+  "reeval_source_only": true
+}

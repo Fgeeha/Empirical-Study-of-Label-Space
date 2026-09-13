@@ -1,0 +1,57 @@
+[1m============================================================[0m
+[1m ECCV 2026 Full Pipeline[0m
+[1m Plant Disease Recognition + Domain Adaptation + Edge Deploy[0m
+[1m============================================================[0m
+  Phases:     7 -> 7
+  Strategies: hybrid Fuzzy sbert
+  Target:     plantdoc
+  Server:     http://192.168.1.4:8000
+  Log:        logs/pipeline_20260208_170028.log
+  Dry run:    true
+
+
+[1m[0;36m################################################################[0m
+[1m[0;36m# PHASE 7: Edge-Bench: Upload Models and Run Benchmarks[0m
+[1m[0;36m################################################################[0m
+
+[0;32m[STEP 1][0m Upload, deploy to RPi, run benchmarks and wait
+  [DRY] poetry run python scripts/9.9_run_edgebench.py --server http://192.168.1.4:8000 --runs 100 --timeout 600 --export-csv results/edgebench/raw_from_bench.csv
+
+[1m================================================================[0m
+[1m PIPELINE COMPLETE[0m
+[1m================================================================[0m
+
+  Steps run:     1
+  [0;32mSucceeded:[0m    0
+  [0;31mFailed:[0m       0
+  [0;33mSkipped:[0m      1
+  Log:           logs/pipeline_20260208_170028.log
+
+Key result files:
+  [0;32m[OK][0m results/baseline_pv_metrics.csv
+  [0;32m[OK][0m results/T1_domain_shift.csv
+  [0;32m[OK][0m results/T2_coral_sweep_hybrid.csv
+  [0;32m[OK][0m results/T3_quant_fp32_vs_int8_hybrid.csv
+  [0;32m[OK][0m results/T5_ablation.csv
+  [0;32m[OK][0m results/T6_per_class_f1_hybrid.csv
+  [0;32m[OK][0m results/T7_sota.csv
+  [0;32m[OK][0m results/edgebench/raw_results.csv
+  [0;32m[OK][0m results/T4_edgebench.csv
+  [0;32m[OK][0m results/T4_edgebench.tex
+
+Key figures:
+  [0;32m[OK][0m figures/F2_f1_vs_lambda_hybrid.png
+  [0;32m[OK][0m figures/F3_tsne_baseline_hybrid.png
+  [0;32m[OK][0m figures/F3_tsne_coral_hybrid.png
+  [0;32m[OK][0m figures/F4_quant_tradeoff_hybrid.png
+  [0;32m[OK][0m figures/F5_latency_comparison.png
+  [0;32m[OK][0m figures/F7_latency_comparison.pdf
+  [0;32m[OK][0m figures/F8_throughput_comparison.pdf
+  [0;32m[OK][0m figures/F9_speedup_heatmap.pdf
+  [0;32m[OK][0m figures/F10_size_vs_latency.pdf
+
+TFLite models:
+  INT8 TFLite:  30
+  EdgeTPU:      12
+
+[0;32mAll steps completed successfully.[0m

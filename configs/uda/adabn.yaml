@@ -1,0 +1,3 @@
+method: adabn
+model_selection: source_val_macro_f1
+note: No training. Updates BN running stats from target images.

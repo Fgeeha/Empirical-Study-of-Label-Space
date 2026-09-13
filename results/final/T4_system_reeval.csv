@@ -1,0 +1,12 @@
+Model,Strategy,Backend,Latency (ms),FPS,CPU (%),RAM (MB),Temp (C),Size (MB),Params
+MobileNetV1,hybrid,CPU,32.9,30.4,,,49.2,3.36,3.2M
+MobileNetV1,hybrid,EDGETPU,4.6,216.2,,,41.4,3.45,3.2M
+MobileNetV2,hybrid,CPU,30.4,32.9,,,49.7,2.6,2.2M
+MobileNetV2,hybrid,EDGETPU,5.1,197.4,,,41.9,2.81,2.2M
+EffNet-Lite0,hybrid,CPU,33.0,30.4,,,50.6,3.79,3.5M
+EffNet-Lite0,hybrid,EDGETPU,6.3,159.3,,,41.4,4.26,3.5M
+ResNet-50,hybrid,CPU,190.3,5.2,,,55.0,23.14,23.5M
+ResNet-50,hybrid,EDGETPU,55.2,18.1,,,37.0,22.93,23.5M
+ResNet-50 DANN,hybrid,CPU,190.1,5.3,,,56.0,23.14,23.5M
+ResNet-50 DANN,hybrid,EDGETPU,54.9,18.2,,,41.9,22.93,23.5M
+EffNet-B3,hybrid,CPU,137.7,7.3,,,55.5,11.93,10.8M

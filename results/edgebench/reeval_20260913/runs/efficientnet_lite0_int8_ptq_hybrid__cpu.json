@@ -1,0 +1,55 @@
+[
+ {
+  "model_path": "efficientnet_lite0_int8_ptq_hybrid.tflite",
+  "backend": "cpu",
+  "timestamp": "2026-09-13T06:10:21.562926+00:00",
+  "status": "completed",
+  "model": {
+   "name": "efficientnet_lite0_int8_ptq_hybrid.tflite",
+   "hash": "b9546a1a6166e557",
+   "size_bytes": 3973880,
+   "input_shape": [
+    1,
+    224,
+    224,
+    3
+   ]
+  },
+  "params": {
+   "backend": "cpu",
+   "num_threads": 4,
+   "warmup_runs": 20,
+   "benchmark_runs": 200,
+   "input_seed": 42
+  },
+  "latency": {
+   "mean_ms": 32.95,
+   "std_ms": 5.131,
+   "min_ms": 31.465,
+   "max_ms": 70.345,
+   "p50_ms": 31.925,
+   "p90_ms": 33.331,
+   "p95_ms": 34.265,
+   "p99_ms": 62.546
+  },
+  "throughput": {
+   "fps": 30.35
+  },
+  "cold_start": {
+   "model_load_ms": 2.99,
+   "first_inference_ms": 35.12
+  },
+  "system": {
+   "hostname": "raspberrypi",
+   "platform": "Linux-6.12.96+rpt-rpi-v8-aarch64-with-glibc2.36",
+   "python": "3.11.2",
+   "tflite_source": "tflite_runtime",
+   "cpu_temp_celsius": 50.634
+  },
+  "reeval": {
+   "model_name": "efficientnet_lite0_int8_ptq_hybrid",
+   "backend": "cpu",
+   "date": "2026-09-13T06:10:28.880276+00:00"
+  }
+ }
+]

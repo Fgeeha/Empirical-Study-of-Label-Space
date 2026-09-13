@@ -1,0 +1,150 @@
+{
+  "n_samples": 20,
+  "mean_cosine": 0.20355159938335418,
+  "pytorch_accuracy": 1.0,
+  "tflite_accuracy": 0.0,
+  "verdict": "FAILED - weight mapping error in PyTorch->Keras->TFLite conversion",
+  "recommendation": "Use ONNX->TFLite (onnx2tf) or ai-edge-torch for correct conversion",
+  "per_sample": [
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.22876283526420593,
+      "max_diff": 18.479921340942383
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.17378194630146027,
+      "max_diff": 17.872089385986328
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.12334237992763519,
+      "max_diff": 22.337440490722656
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.28985556960105896,
+      "max_diff": 18.3975772857666
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.17294438183307648,
+      "max_diff": 21.220561981201172
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.21666398644447327,
+      "max_diff": 17.79595375061035
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.2696664333343506,
+      "max_diff": 19.57468032836914
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.12590451538562775,
+      "max_diff": 20.10549545288086
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.06981835514307022,
+      "max_diff": 19.830276489257812
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.23565274477005005,
+      "max_diff": 24.7670955657959
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.23308707773685455,
+      "max_diff": 18.412782669067383
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.30536651611328125,
+      "max_diff": 18.736560821533203
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.2321484237909317,
+      "max_diff": 17.931514739990234
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.33887261152267456,
+      "max_diff": 17.175247192382812
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.18615980446338654,
+      "max_diff": 20.07201385498047
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.2159237563610077,
+      "max_diff": 20.298641204833984
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.1071871742606163,
+      "max_diff": 21.493560791015625
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.13989877700805664,
+      "max_diff": 20.76508331298828
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.21142658591270447,
+      "max_diff": 22.33643341064453
+    },
+    {
+      "true_label": 0,
+      "pytorch_pred": 0,
+      "tflite_pred": 17,
+      "cosine_similarity": 0.19456811249256134,
+      "max_diff": 19.880752563476562
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+=== Edge Environment Dump ===
+Collected: Tue Jun 23 22:18:07 MSK 2026
+
+--- Hardware ---
+Revision	: d03115
+Model		: Raspberry Pi 4 Model B Rev 1.5
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       546Mi       6.1Gi        29Mi       1.1Gi       7.1Gi
+Swap:          511Mi          0B       511Mi
+
+--- OS ---
+Linux raspberrypi 6.12.87+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.87-1+rpt1~bookworm (2026-05-12) aarch64 GNU/Linux
+PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+NAME="Debian GNU/Linux"
+VERSION_ID="12"
+VERSION="12 (bookworm)"
+VERSION_CODENAME=bookworm
+ID=debian
+
+--- Python ---
+Python 3.11.2
+
+--- TFLite Runtime ---
+tflite_runtime: 2.14.0
+
+--- PyCoral / EdgeTPU ---
+ii  libedgetpu1-std:arm64 16.0tf2.19.1-1.bookworm arm64        Support library for Edge TPU
+
+--- CPU Governor ---
+ondemand
+
+--- Installed packages (relevant) ---
+numpy                              1.24.2
+Pillow                             9.4.0
+psutil                             5.9.4
+tflite-runtime                     2.14.0
+
+=== Done ===

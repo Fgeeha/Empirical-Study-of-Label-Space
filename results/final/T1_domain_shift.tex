@@ -1,0 +1,13 @@
+\begin{table}[htbp]
+\caption{Domain shift evaluation. Models trained on PlantVillage (PV) and evaluated on PlantDoc without adaptation.}
+\label{tab:domain_shift}
+\begin{tabular}{lcccccc}
+\toprule
+model & strategy & pv\_accuracy & pv\_macro\_f1 & target\_accuracy & target\_macro\_f1 & delta\_f1 \\
+\midrule
+resnet50 & Fuzzy & 0.984 & 0.977 & 0.210 & 0.187 & 0.790 \\
+resnet50 & hybrid & 0.964 & 0.956 & 0.191 & 0.156 & 0.801 \\
+resnet50 & sbert & 0.978 & 0.975 & 0.194 & 0.152 & 0.823 \\
+\bottomrule
+\end{tabular}
+\end{table}

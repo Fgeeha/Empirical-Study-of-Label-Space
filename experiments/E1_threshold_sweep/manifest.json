@@ -1,0 +1,17 @@
+{
+  "experiment": "E1_threshold_sweep",
+  "description": "SBERT cosine threshold sensitivity: n_aligned and downstream F1",
+  "thresholds_tested": [
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8
+  ],
+  "model_used": "resnet50_pv_sbert_best.pt (existing, no retraining)",
+  "git_hash": "8f500ec81",
+  "timestamp": "2026-05-03T11:42:43.411576",
+  "no_retraining": true
+}

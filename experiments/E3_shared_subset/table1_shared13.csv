@@ -1,0 +1,7 @@
+strategy,label,n_shared_classes,n_samples,macro_f1,accuracy
+Fuzzy,Baseline (zero-shot),13,1509,0.1464,0.1816
+Fuzzy,CORAL λ=1.0,13,1509,0.1781,0.2412
+hybrid,Baseline (zero-shot),13,1509,0.1073,0.1491
+hybrid,CORAL λ=0.1,13,1509,0.1418,0.2041
+sbert,Baseline (zero-shot),13,1509,0.1265,0.1809
+sbert,CORAL λ=0.01,13,1509,0.1736,0.2333

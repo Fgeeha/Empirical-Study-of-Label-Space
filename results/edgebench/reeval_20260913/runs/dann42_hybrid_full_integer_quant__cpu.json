@@ -1,0 +1,55 @@
+[
+ {
+  "model_path": "dann42_hybrid_full_integer_quant.tflite",
+  "backend": "cpu",
+  "timestamp": "2026-09-13T06:11:21.889504+00:00",
+  "status": "completed",
+  "model": {
+   "name": "dann42_hybrid_full_integer_quant.tflite",
+   "hash": "4bfdc2d75d443cce",
+   "size_bytes": 24269000,
+   "input_shape": [
+    1,
+    224,
+    224,
+    3
+   ]
+  },
+  "params": {
+   "backend": "cpu",
+   "num_threads": 4,
+   "warmup_runs": 20,
+   "benchmark_runs": 200,
+   "input_seed": 42
+  },
+  "latency": {
+   "mean_ms": 190.058,
+   "std_ms": 8.668,
+   "min_ms": 186.821,
+   "max_ms": 274.009,
+   "p50_ms": 188.441,
+   "p90_ms": 191.343,
+   "p95_ms": 192.978,
+   "p99_ms": 231.395
+  },
+  "throughput": {
+   "fps": 5.26
+  },
+  "cold_start": {
+   "model_load_ms": 3.8,
+   "first_inference_ms": 201.76
+  },
+  "system": {
+   "hostname": "raspberrypi",
+   "platform": "Linux-6.12.96+rpt-rpi-v8-aarch64-with-glibc2.36",
+   "python": "3.11.2",
+   "tflite_source": "tflite_runtime",
+   "cpu_temp_celsius": 55.991
+  },
+  "reeval": {
+   "model_name": "dann42_hybrid_full_integer_quant",
+   "backend": "cpu",
+   "date": "2026-09-13T06:12:03.916456+00:00"
+  }
+ }
+]

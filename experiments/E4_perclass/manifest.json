@@ -1,0 +1,8 @@
+{
+  "experiment": "E4_perclass",
+  "description": "Per-class CORAL breakdown analysis (hybrid strategy)",
+  "source_file": "results/T6_per_class_f1_hybrid.csv",
+  "git_hash": "8f500ec81",
+  "timestamp": "2026-05-03T11:39:15.954899",
+  "no_retraining": true
+}

@@ -1,0 +1,402 @@
+path,label_id
+data/shared_subset/hybrid/target/Apple_Scab_Leaf/train_Apple Scab Leaf_28.jpg,0
+data/shared_subset/hybrid/target/Apple_Scab_Leaf/train_Apple Scab Leaf_57.jpg,0
+data/shared_subset/hybrid/target/Apple_Scab_Leaf/train_Apple Scab Leaf_40.jpg,0
+data/shared_subset/hybrid/target/Apple_Scab_Leaf/train_Apple Scab Leaf_13.jpg,0
+data/shared_subset/hybrid/target/Apple_Scab_Leaf/train_Apple Scab Leaf_29.jpg,0
+data/shared_subset/hybrid/target/Apple_Scab_Leaf/train_Apple Scab Leaf_76.jpg,0
+data/shared_subset/hybrid/target/Apple_Scab_Leaf/train_Apple Scab Leaf_43.jpg,0
+data/shared_subset/hybrid/target/Apple_Scab_Leaf/train_Apple Scab Leaf_62.jpg,0
+data/shared_subset/hybrid/target/Apple_Scab_Leaf/train_Apple Scab Leaf_4.jpg,0
+data/shared_subset/hybrid/target/Apple_Scab_Leaf/train_Apple Scab Leaf_26.jpg,0
+data/shared_subset/hybrid/target/Apple_Scab_Leaf/train_Apple Scab Leaf_45.jpg,0
+data/shared_subset/hybrid/target/Apple_Scab_Leaf/train_Apple Scab Leaf_80.jpg,0
+data/shared_subset/hybrid/target/Apple_Scab_Leaf/train_Apple Scab Leaf_23.jpg,0
+data/shared_subset/hybrid/target/Apple_Scab_Leaf/train_Apple Scab Leaf_73.jpg,0
+data/shared_subset/hybrid/target/Apple_Scab_Leaf/train_Apple Scab Leaf_83.jpg,0
+data/shared_subset/hybrid/target/Apple_Scab_Leaf/train_Apple Scab Leaf_79.jpg,0
+data/shared_subset/hybrid/target/Apple_Scab_Leaf/train_Apple Scab Leaf_75.jpg,0
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_53.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_55_2.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_1.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_75.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_4.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_22.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_42_4.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_70.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_47_4.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_50.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_47_2.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_57_2.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_69.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_36_1.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_77.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_42_2.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_41.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_71_1.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_24.jpg,1
+data/shared_subset/hybrid/target/Apple_rust_leaf/train_Apple rust leaf_18.jpg,1
+data/shared_subset/hybrid/target/Bell_pepper_leaf/train_Bell_pepper leaf_6.jpg,2
+data/shared_subset/hybrid/target/Bell_pepper_leaf/train_Bell_pepper leaf_42.jpg,2
+data/shared_subset/hybrid/target/Bell_pepper_leaf/train_Bell_pepper leaf_3.jpg,2
+data/shared_subset/hybrid/target/Bell_pepper_leaf/train_Bell_pepper leaf_50_1.jpg,2
+data/shared_subset/hybrid/target/Bell_pepper_leaf/train_Bell_pepper leaf_9_1.jpg,2
+data/shared_subset/hybrid/target/Bell_pepper_leaf/train_Bell_pepper leaf_8.jpg,2
+data/shared_subset/hybrid/target/Bell_pepper_leaf/train_Bell_pepper leaf_4.jpg,2
+data/shared_subset/hybrid/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_48.jpg,3
+data/shared_subset/hybrid/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_30_2.jpg,3
+data/shared_subset/hybrid/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_12.jpg,3
+data/shared_subset/hybrid/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_29_1.jpg,3
+data/shared_subset/hybrid/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_43_1.jpg,3
+data/shared_subset/hybrid/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_2_2.jpg,3
+data/shared_subset/hybrid/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_17_2.jpg,3
+data/shared_subset/hybrid/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_17_1.jpg,3
+data/shared_subset/hybrid/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_26.jpg,3
+data/shared_subset/hybrid/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_57.jpg,3
+data/shared_subset/hybrid/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_52.jpg,3
+data/shared_subset/hybrid/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_59.jpg,3
+data/shared_subset/hybrid/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_9.jpg,3
+data/shared_subset/hybrid/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_45.jpg,3
+data/shared_subset/hybrid/target/Bell_pepper_leaf_spot/train_Bell_pepper leaf spot_10.jpg,3
+data/shared_subset/hybrid/target/Corn_Gray_leaf_spot/train_Corn Gray leaf spot_56.jpg,4
+data/shared_subset/hybrid/target/Corn_Gray_leaf_spot/train_Corn Gray leaf spot_30.jpg,4
+data/shared_subset/hybrid/target/Corn_Gray_leaf_spot/train_Corn Gray leaf spot_16.jpg,4
+data/shared_subset/hybrid/target/Corn_Gray_leaf_spot/train_Corn Gray leaf spot_54.jpg,4
+data/shared_subset/hybrid/target/Corn_Gray_leaf_spot/train_Corn Gray leaf spot_1.jpg,4
+data/shared_subset/hybrid/target/Corn_Gray_leaf_spot/train_Corn Gray leaf spot_28.jpg,4
+data/shared_subset/hybrid/target/Corn_Gray_leaf_spot/train_Corn Gray leaf spot_22.jpg,4
+data/shared_subset/hybrid/target/Corn_Gray_leaf_spot/train_Corn Gray leaf spot_37.jpg,4
+data/shared_subset/hybrid/target/Corn_Gray_leaf_spot/train_Corn Gray leaf spot_41.jpg,4
+data/shared_subset/hybrid/target/Corn_Gray_leaf_spot/train_Corn Gray leaf spot_42_1.jpg,4
+data/shared_subset/hybrid/target/Corn_Gray_leaf_spot/train_Corn Gray leaf spot_47_1.jpg,4
+data/shared_subset/hybrid/target/Corn_Gray_leaf_spot/train_Corn Gray leaf spot_24.jpg,4
+data/shared_subset/hybrid/target/Corn_Gray_leaf_spot/train_Corn Gray leaf spot_18.jpg,4
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_128.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_57.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_74.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_47.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_82.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_112.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_80.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_56.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_117.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_21.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_49.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_170.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_67.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_119.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_115.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_75.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_8.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_106.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_48.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_176.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_165.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_96.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_16.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_105.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_72.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_100.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_89.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_166.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_10.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_118.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_32.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_69.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_101.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_135.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_60.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_120.jpg,5
+data/shared_subset/hybrid/target/Corn_leaf_blight/train_Corn leaf blight_160.jpg,5
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_89.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_29.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_2.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_31.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_76.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_27.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_77.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_83.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_21.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_55.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_15.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_71.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_105_1.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_104.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_19.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_14.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_53.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_3.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_49.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_78.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_63.jpg,6
+data/shared_subset/hybrid/target/Corn_rust_leaf/train_Corn rust leaf_41.jpg,6
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_32.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_29.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_84.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_83_4.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_44.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_102.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_21.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_13_6.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_63.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_94_3.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_13_7.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_16.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_26.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_33.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_99_1.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_17.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_109.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_15.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_30.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_39_2.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_31.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_98_3.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_98_4.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_41_2.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_7_2.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_61.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_95.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_43.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_41_6.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_108.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_40.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_early_blight/train_Potato leaf early blight_24.jpg,7
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_22.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_85_2.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_69_1.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_48_3.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_89.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_40_8.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_97_3.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_23.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_74.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_75.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_76.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_35_5.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_59.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_35_4.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_33_1.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_78_3.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_35_1.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_37.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_21_6.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_77.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_83_1.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_10_1.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_56.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_20.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_12_6.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_34.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_80_4.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_42_1.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_97_7.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_66.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_83_3.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_80_2.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_5.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_55_9.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_7.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_72.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_88.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_60_1.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_94.jpg,8
+data/shared_subset/hybrid/target/Potato_leaf_late_blight/train_Potato leaf late blight_55_7.jpg,8
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_8.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_32.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_75.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_2.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_78.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_45.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_48.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_47.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_110.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_22.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_23.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_117.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_28.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_100.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_69.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_14.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_123.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_16.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_40.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_52.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_118.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_54.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_43.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_99.jpg,9
+data/shared_subset/hybrid/target/Squash_Powdery_mildew_leaf/train_Squash Powdery mildew leaf_74.jpg,9
+data/shared_subset/hybrid/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_38.jpg,10
+data/shared_subset/hybrid/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_79.jpg,10
+data/shared_subset/hybrid/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_24.jpg,10
+data/shared_subset/hybrid/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_32.jpg,10
+data/shared_subset/hybrid/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_35.jpg,10
+data/shared_subset/hybrid/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_78.jpg,10
+data/shared_subset/hybrid/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_18.jpg,10
+data/shared_subset/hybrid/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_62.jpg,10
+data/shared_subset/hybrid/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_57.jpg,10
+data/shared_subset/hybrid/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_8.jpg,10
+data/shared_subset/hybrid/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_48.jpg,10
+data/shared_subset/hybrid/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_47.jpg,10
+data/shared_subset/hybrid/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_49.jpg,10
+data/shared_subset/hybrid/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_29.jpg,10
+data/shared_subset/hybrid/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_26.jpg,10
+data/shared_subset/hybrid/target/Tomato_Early_blight_leaf/train_Tomato Early blight leaf_74.jpg,10
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_130.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_20.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_118.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_59.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_69.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_24.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_120.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_53.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_33.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_68.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_32.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_50.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_137.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_110.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_81.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_80.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_16.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_13.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_72.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_114.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_48.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_138_1.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_11.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_5_1.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_123.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_43.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_92.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_105.jpg,11
+data/shared_subset/hybrid/target/Tomato_Septoria_leaf_spot/train_Tomato Septoria leaf spot_140_1.jpg,11
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_41.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_84.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_27.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_97.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_63.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_40.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_85.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_86.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_81.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_19.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_91.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_25.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_8.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_88.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_94.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_21.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_89.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_1.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_100.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_77.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_bacterial_spot/train_Tomato leaf bacterial spot_37.jpg,12
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_61.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_21.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_39.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_14.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_50.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_30.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_80.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_72.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_69.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_62.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_79.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_99.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_28.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_34.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_52.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_2.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_74.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_23.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_54.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_13.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_late_blight/train_Tomato leaf late blight_27.jpg,13
+data/shared_subset/hybrid/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_8.jpg,14
+data/shared_subset/hybrid/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_2.jpg,14
+data/shared_subset/hybrid/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_13.jpg,14
+data/shared_subset/hybrid/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_15.jpg,14
+data/shared_subset/hybrid/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_11.jpg,14
+data/shared_subset/hybrid/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_38.jpg,14
+data/shared_subset/hybrid/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_41.jpg,14
+data/shared_subset/hybrid/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_27.jpg,14
+data/shared_subset/hybrid/target/Tomato_leaf_mosaic_virus/train_Tomato leaf mosaic virus_35.jpg,14
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_12_6.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_41_4.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_35_3.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_7.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_46_9.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_5.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_3_10.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_31.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_26.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_63_2.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_46_3.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_36.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_22.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_11_7.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_61.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_65_3.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_3_3.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_29.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_68_3.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_51_2.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_12_3.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_62.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_21_1.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_66_5.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_38_3.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_11_5.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_27_2.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_29.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_57_2.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_48_4.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_3_4.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_52.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_65_2.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_45.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_35_5.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_47.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_33.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_65_1.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_35_8.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_8_4.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_38_1.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_40_2.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_49.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_5_1.jpg,15
+data/shared_subset/hybrid/target/Tomato_leaf_yellow_virus/train_Tomato leaf yellow virus_27_4.jpg,15
+data/shared_subset/hybrid/target/Tomato_mold_leaf/train_Tomato mold leaf_41.jpg,16
+data/shared_subset/hybrid/target/Tomato_mold_leaf/train_Tomato mold leaf_65.jpg,16
+data/shared_subset/hybrid/target/Tomato_mold_leaf/train_Tomato mold leaf_18.jpg,16
+data/shared_subset/hybrid/target/Tomato_mold_leaf/train_Tomato mold leaf_54.jpg,16
+data/shared_subset/hybrid/target/Tomato_mold_leaf/train_Tomato mold leaf_55.jpg,16
+data/shared_subset/hybrid/target/Tomato_mold_leaf/train_Tomato mold leaf_4.jpg,16
+data/shared_subset/hybrid/target/Tomato_mold_leaf/train_Tomato mold leaf_36.jpg,16
+data/shared_subset/hybrid/target/Tomato_mold_leaf/train_Tomato mold leaf_33.jpg,16
+data/shared_subset/hybrid/target/Tomato_mold_leaf/train_Tomato mold leaf_44.jpg,16
+data/shared_subset/hybrid/target/Tomato_mold_leaf/train_Tomato mold leaf_5.jpg,16
+data/shared_subset/hybrid/target/Tomato_mold_leaf/train_Tomato mold leaf_70.jpg,16
+data/shared_subset/hybrid/target/Tomato_mold_leaf/train_Tomato mold leaf_46.jpg,16
+data/shared_subset/hybrid/target/Tomato_mold_leaf/train_Tomato mold leaf_49.jpg,16
+data/shared_subset/hybrid/target/Tomato_mold_leaf/train_Tomato mold leaf_22.jpg,16
+data/shared_subset/hybrid/target/Tomato_mold_leaf/train_Tomato mold leaf_79.jpg,16
+data/shared_subset/hybrid/target/Tomato_mold_leaf/train_Tomato mold leaf_24.jpg,16
+data/shared_subset/hybrid/target/Tomato_mold_leaf/train_Tomato mold leaf_52.jpg,16
+data/shared_subset/hybrid/target/grape_leaf_black_rot/train_grape leaf black rot_11.jpg,17
+data/shared_subset/hybrid/target/grape_leaf_black_rot/train_grape leaf black rot_39.jpg,17
+data/shared_subset/hybrid/target/grape_leaf_black_rot/train_grape leaf black rot_29_2.jpg,17
+data/shared_subset/hybrid/target/grape_leaf_black_rot/train_grape leaf black rot_42.jpg,17
+data/shared_subset/hybrid/target/grape_leaf_black_rot/train_grape leaf black rot_2_1.jpg,17
+data/shared_subset/hybrid/target/grape_leaf_black_rot/train_grape leaf black rot_27.jpg,17
+data/shared_subset/hybrid/target/grape_leaf_black_rot/train_grape leaf black rot_7.jpg,17
+data/shared_subset/hybrid/target/grape_leaf_black_rot/train_grape leaf black rot_28.jpg,17
+data/shared_subset/hybrid/target/grape_leaf_black_rot/train_grape leaf black rot_22.jpg,17
+data/shared_subset/hybrid/target/grape_leaf_black_rot/train_grape leaf black rot_25.jpg,17
+data/shared_subset/hybrid/target/grape_leaf_black_rot/train_grape leaf black rot_41.jpg,17
+data/shared_subset/hybrid/target/grape_leaf_black_rot/train_grape leaf black rot_12_2.jpg,17
+data/shared_subset/hybrid/target/grape_leaf_black_rot/train_grape leaf black rot_50.jpg,17
+data/shared_subset/hybrid/target/grape_leaf_black_rot/train_grape leaf black rot_52_1.jpg,17
+data/shared_subset/hybrid/target/grape_leaf_black_rot/train_grape leaf black rot_44.jpg,17

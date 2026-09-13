@@ -1,0 +1,76 @@
+experiment_id,source_dataset,target_dataset,class_space,method,backbone,seed,split,metric,value,source_file,checkpoint,verified,notes
+T1_Fuzzy,PlantVillage,PlantDoc,Fuzzy(16),source-only,ResNet-50,42,test,target_macro_f1,0.187,results/T1_domain_shift.csv,models/resnet50_pv_Fuzzy_best.pt,YES,
+T1_Hybrid,PlantVillage,PlantDoc,Hybrid(18),source-only,ResNet-50,42,test,target_macro_f1,0.156,results/T1_domain_shift.csv,models/resnet50_pv_hybrid_best.pt,YES,
+T1_SBERT,PlantVillage,PlantDoc,SBERT(15),source-only,ResNet-50,42,test,target_macro_f1,0.152,results/T1_domain_shift.csv,models/resnet50_pv_sbert_best.pt,YES,
+T1_Fuzzy,PlantVillage,PlantDoc,Fuzzy(16),source-only,ResNet-50,42,test,target_accuracy,0.210,results/T1_domain_shift.csv,models/resnet50_pv_Fuzzy_best.pt,YES,
+T1_Hybrid,PlantVillage,PlantDoc,Hybrid(18),source-only,ResNet-50,42,test,target_accuracy,0.191,results/T1_domain_shift.csv,models/resnet50_pv_hybrid_best.pt,YES,
+T1_SBERT,PlantVillage,PlantDoc,SBERT(15),source-only,ResNet-50,42,test,target_accuracy,0.194,results/T1_domain_shift.csv,models/resnet50_pv_sbert_best.pt,YES,
+SRC_Fuzzy,PlantVillage,PlantVillage,Fuzzy(16),source-only,ResNet-50,42,test,pv_macro_f1,0.977,results/resnet50_pv_metrics_Fuzzy.json,models/resnet50_pv_Fuzzy_best.pt,YES,
+SRC_Hybrid,PlantVillage,PlantVillage,Hybrid(18),source-only,ResNet-50,42,test,pv_macro_f1,0.956,results/resnet50_pv_metrics_hybrid.json,models/resnet50_pv_hybrid_best.pt,YES,
+SRC_SBERT,PlantVillage,PlantVillage,SBERT(15),source-only,ResNet-50,42,test,pv_macro_f1,0.975,results/resnet50_pv_metrics_sbert.json,models/resnet50_pv_sbert_best.pt,YES,
+CORAL_F_001,PlantVillage,PlantDoc,Fuzzy(16),CORAL,ResNet-50,42,test,target_macro_f1,0.202,results/T2_coral_sweep_Fuzzy.csv,models/resnet50_coral_lambda_0.01_Fuzzy.pt,YES,lambda=0.01
+CORAL_F_01,PlantVillage,PlantDoc,Fuzzy(16),CORAL,ResNet-50,42,test,target_macro_f1,0.191,results/T2_coral_sweep_Fuzzy.csv,models/resnet50_coral_lambda_0.1_Fuzzy.pt,YES,lambda=0.1
+CORAL_F_10,PlantVillage,PlantDoc,Fuzzy(16),CORAL,ResNet-50,42,test,target_macro_f1,0.231,results/T2_coral_sweep_Fuzzy.csv,models/resnet50_coral_lambda_1.0_Fuzzy.pt,YES,lambda=1.0 (BEST for Fuzzy)
+CORAL_F_100,PlantVillage,PlantDoc,Fuzzy(16),CORAL,ResNet-50,42,test,target_macro_f1,0.194,results/T2_coral_sweep_Fuzzy.csv,models/resnet50_coral_lambda_10.0_Fuzzy.pt,YES,lambda=10.0
+CORAL_H_001,PlantVillage,PlantDoc,Hybrid(18),CORAL,ResNet-50,42,test,target_macro_f1,0.200,results/T2_coral_sweep_hybrid.csv,models/resnet50_coral_lambda_0.01_hybrid.pt,YES,lambda=0.01 (BEST for Hybrid)
+CORAL_H_01,PlantVillage,PlantDoc,Hybrid(18),CORAL,ResNet-50,42,test,target_macro_f1,0.187,results/T2_coral_sweep_hybrid.csv,models/resnet50_coral_lambda_0.1_hybrid.pt,YES,lambda=0.1
+CORAL_H_10,PlantVillage,PlantDoc,Hybrid(18),CORAL,ResNet-50,42,test,target_macro_f1,0.193,results/T2_coral_sweep_hybrid.csv,models/resnet50_coral_lambda_1.0_hybrid.pt,YES,lambda=1.0
+CORAL_H_100,PlantVillage,PlantDoc,Hybrid(18),CORAL,ResNet-50,42,test,target_macro_f1,0.188,results/T2_coral_sweep_hybrid.csv,models/resnet50_coral_lambda_10.0_hybrid.pt,YES,lambda=10.0
+CORAL_S_001,PlantVillage,PlantDoc,SBERT(15),CORAL,ResNet-50,42,test,target_macro_f1,0.199,results/T2_coral_sweep_sbert.csv,models/resnet50_coral_lambda_0.01_sbert.pt,YES,lambda=0.01 (BEST for SBERT)
+CORAL_S_01,PlantVillage,PlantDoc,SBERT(15),CORAL,ResNet-50,42,test,target_macro_f1,0.187,results/T2_coral_sweep_sbert.csv,models/resnet50_coral_lambda_0.1_sbert.pt,YES,lambda=0.1
+CORAL_S_10,PlantVillage,PlantDoc,SBERT(15),CORAL,ResNet-50,42,test,target_macro_f1,0.192,results/T2_coral_sweep_sbert.csv,models/resnet50_coral_lambda_1.0_sbert.pt,YES,lambda=1.0
+CORAL_S_100,PlantVillage,PlantDoc,SBERT(15),CORAL,ResNet-50,42,test,target_macro_f1,0.194,results/T2_coral_sweep_sbert.csv,models/resnet50_coral_lambda_10.0_sbert.pt,YES,lambda=10.0
+DANN_H_42,PlantVillage,PlantDoc,Hybrid(18),DANN,ResNet-50,42,test,target_macro_f1,0.2801,experiments/E2_dann/dann_results.json,models/dann_hybrid_seed42.pt,YES,seed 42
+DANN_H_43,PlantVillage,PlantDoc,Hybrid(18),DANN,ResNet-50,43,test,target_macro_f1,0.2853,experiments/E2_dann/dann_results.json,models/dann_hybrid_seed43.pt,YES,seed 43
+DANN_H_44,PlantVillage,PlantDoc,Hybrid(18),DANN,ResNet-50,44,test,target_macro_f1,0.2670,experiments/E2_dann/dann_results.json,models/dann_hybrid_seed44.pt,YES,seed 44
+DANN_H_mean,PlantVillage,PlantDoc,Hybrid(18),DANN,ResNet-50,42+43+44,test,target_macro_f1_mean,0.2775,experiments/E2_dann/dann_results.json,,YES,mean 3 seeds
+DANN_H_std,PlantVillage,PlantDoc,Hybrid(18),DANN,ResNet-50,42+43+44,test,target_macro_f1_std,0.0094,experiments/E2_dann/dann_results.json,,YES,std 3 seeds (ddof=1)
+FT_Fuzzy,PlantVillage+PlantDoc,PlantDoc,Fuzzy(16),supervised-finetune,ResNet-50,42,test,target_macro_f1,0.770,results/metrics_target_finetuned_plantdoc_Fuzzy.json,models/resnet50_target_plantdoc_Fuzzy_best.pt,YES,SUPERVISED upper bound - not comparable to UDA
+FT_Hybrid,PlantVillage+PlantDoc,PlantDoc,Hybrid(18),supervised-finetune,ResNet-50,42,test,target_macro_f1,0.852,results/metrics_target_finetuned_plantdoc_hybrid.json,models/resnet50_target_plantdoc_hybrid_best.pt,YES,SUPERVISED upper bound - not comparable to UDA
+FT_SBERT,PlantVillage+PlantDoc,PlantDoc,SBERT(15),supervised-finetune,ResNet-50,42,test,target_macro_f1,0.639,results/metrics_target_finetuned_plantdoc_sbert.json,models/resnet50_target_plantdoc_sbert_best.pt,YES,SUPERVISED upper bound - not comparable to UDA
+E3_Fuzzy_BL,PlantVillage,PlantDoc,Shared13,source-only,ResNet-50,42,test,target_macro_f1,0.146,experiments/E3_shared_subset/table1_shared13.csv,,YES,shared 13-class subset n=1509
+E3_Fuzzy_CORAL,PlantVillage,PlantDoc,Shared13,CORAL,ResNet-50,42,test,target_macro_f1,0.178,experiments/E3_shared_subset/table1_shared13.csv,,YES,shared 13-class subset n=1509 lambda=1.0
+E3_Hybrid_BL,PlantVillage,PlantDoc,Shared13,source-only,ResNet-50,42,test,target_macro_f1,0.107,experiments/E3_shared_subset/table1_shared13.csv,,YES,shared 13-class subset n=1509
+E3_Hybrid_CORAL,PlantVillage,PlantDoc,Shared13,CORAL,ResNet-50,42,test,target_macro_f1,0.142,experiments/E3_shared_subset/table1_shared13.csv,,YES,shared 13-class subset n=1509 lambda=0.1
+E3_SBERT_BL,PlantVillage,PlantDoc,Shared13,source-only,ResNet-50,42,test,target_macro_f1,0.127,experiments/E3_shared_subset/table1_shared13.csv,,YES,shared 13-class subset n=1509
+E3_SBERT_CORAL,PlantVillage,PlantDoc,Shared13,CORAL,ResNet-50,42,test,target_macro_f1,0.174,experiments/E3_shared_subset/table1_shared13.csv,,YES,shared 13-class subset n=1509 lambda=0.01
+E5b_BL,PlantVillage,PlantWild_v2,Hybrid(17),source-only,ResNet-50,42,test,target_macro_f1,0.172,experiments/E5b_plantwild/eval_results.json,,YES,17 classes 2336 samples
+E5b_CORAL_01,PlantVillage,PlantWild_v2,Hybrid(17),CORAL,ResNet-50,42,test,target_macro_f1,0.193,experiments/E5b_plantwild/eval_results.json,,YES,lambda=0.1 BEST for PlantWild
+E5b_CORAL_001,PlantVillage,PlantWild_v2,Hybrid(17),CORAL,ResNet-50,42,test,target_macro_f1,0.176,experiments/E5b_plantwild/eval_results.json,,YES,lambda=0.01
+EDGE_MNV1_CPU,PlantVillage,n/a,Hybrid,n/a,MobileNetV1,n/a,RPi4,latency_mean_ms,29.508,results/T4_edgebench.csv,,YES,100 runs
+EDGE_MNV1_TPU,PlantVillage,n/a,Hybrid,n/a,MobileNetV1,n/a,RPi4+EdgeTPU,latency_mean_ms,4.630,results/T4_edgebench.csv,,YES,100 runs; 216 FPS
+EDGE_MNV2_CPU,PlantVillage,n/a,Hybrid,n/a,MobileNetV2,n/a,RPi4,latency_mean_ms,38.371,results/T4_edgebench.csv,,YES,100 runs
+EDGE_MNV2_TPU,PlantVillage,n/a,Hybrid,n/a,MobileNetV2,n/a,RPi4+EdgeTPU,latency_mean_ms,5.883,results/T4_edgebench.csv,,YES,100 runs; 170 FPS
+EDGE_ENL0_CPU,PlantVillage,n/a,Hybrid,n/a,EfficientNet-Lite0,n/a,RPi4,latency_mean_ms,32.403,results/T4_edgebench.csv,,YES,100 runs
+EDGE_ENL0_TPU,PlantVillage,n/a,Hybrid,n/a,EfficientNet-Lite0,n/a,RPi4+EdgeTPU,latency_mean_ms,6.296,results/T4_edgebench.csv,,YES,100 runs; 159 FPS
+EDGE_R50_CPU,PlantVillage,n/a,Hybrid,n/a,ResNet-50,n/a,RPi4,latency_mean_ms,188.861,results/T4_edgebench.csv,,YES,100 runs
+EDGE_R50_TPU,PlantVillage,n/a,Hybrid,n/a,ResNet-50,n/a,RPi4+EdgeTPU,latency_mean_ms,56.040,results/T4_edgebench.csv,,YES,100 runs; 18 FPS
+EDGE_ENB3_CPU,PlantVillage,n/a,Hybrid,n/a,EfficientNet-B3,n/a,RPi4,latency_mean_ms,131.069,results/T4_edgebench.csv,,YES,100 runs; NO EdgeTPU delegation
+QUANT_H_FP32_lat,n/a,n/a,Hybrid,n/a,ResNet-50,n/a,RPi4,latency_ms_tflite,57.115,results/T3_quant_fp32_vs_int8_hybrid.csv,,YES,FP32 TFLite latency (RPi CPU)
+QUANT_H_INT8_lat,n/a,n/a,Hybrid,n/a,ResNet-50,n/a,RPi4,latency_ms_tflite,15.528,results/T3_quant_fp32_vs_int8_hybrid.csv,,YES,INT8 PTQ TFLite latency (RPi CPU); 3.7x speedup
+QUANT_H_FP32_size,n/a,n/a,Hybrid,n/a,ResNet-50,n/a,n/a,model_size_mb,89.660,results/T3_quant_fp32_vs_int8_hybrid.csv,,YES,FP32 TFLite file size
+QUANT_H_INT8_size,n/a,n/a,Hybrid,n/a,ResNet-50,n/a,n/a,model_size_mb,23.068,results/T3_quant_fp32_vs_int8_hybrid.csv,,YES,INT8 PTQ TFLite file size; 3.9x compression
+QUANT_H_FP32_acc,n/a,PlantVillage,Hybrid,n/a,ResNet-50,n/a,test,accuracy,0.048,results/T3_quant_fp32_vs_int8_hybrid.csv,,NO,BROKEN — TFLite eval pipeline bug; expected ~0.964
+QUANT_H_INT8_acc,n/a,PlantVillage,Hybrid,n/a,ResNet-50,n/a,test,accuracy,0.048,results/T3_quant_fp32_vs_int8_hybrid.csv,,NO,BROKEN — TFLite eval pipeline bug; expected ~0.964
+SOTA_Zhang2020,n/a,PlantDoc,n/a,Zhang_et_al_2020,n/a,n/a,test,macro_f1,0.480,scripts/7.5_build_T7_sota.py,,NO,TODO: verify citation — hardcoded without source
+SOTA_Singh2021,n/a,PlantDoc,n/a,Singh_et_al_2021,n/a,n/a,test,macro_f1,0.580,scripts/7.5_build_T7_sota.py,,NO,TODO: verify citation — hardcoded without source
+E1_thresh_065,PlantVillage,PlantDoc,SBERT(15),CORAL,ResNet-50,42,test,target_macro_f1,0.199,experiments/E1_threshold_sweep/threshold_sweep_results.csv,,YES,threshold=0.65
+E1_thresh_080,PlantVillage,PlantDoc,SBERT(13),CORAL,ResNet-50,42,test,target_macro_f1,0.179,experiments/E1_threshold_sweep/threshold_sweep_results.csv,,YES,threshold=0.80; F1 degrades below 0.65 plateau
+E5b_DANN_42,PlantVillage,PlantWild_v2,Hybrid(17),DANN,ResNet-50,42,test,target_macro_f1,0.2543,experiments/E5b_plantwild/eval_results.json,models/dann_hybrid_seed42.pt,YES,seed 42
+E5b_DANN_43,PlantVillage,PlantWild_v2,Hybrid(17),DANN,ResNet-50,43,test,target_macro_f1,0.2373,experiments/E5b_plantwild/eval_results.json,models/dann_hybrid_seed43.pt,YES,seed 43
+E5b_DANN_44,PlantVillage,PlantWild_v2,Hybrid(17),DANN,ResNet-50,44,test,target_macro_f1,0.2389,experiments/E5b_plantwild/eval_results.json,models/dann_hybrid_seed44.pt,YES,seed 44
+E5b_DANN_mean,PlantVillage,PlantWild_v2,Hybrid(17),DANN,ResNet-50,42+43+44,test,target_macro_f1_mean,0.2435,experiments/E5b_plantwild/eval_results.json,,YES,mean 3 seeds (+7.1 pp over baseline)
+E5b_DANN_std,PlantVillage,PlantWild_v2,Hybrid(17),DANN,ResNet-50,42+43+44,test,target_macro_f1_std,0.0094,experiments/E5b_plantwild/eval_results.json,,YES,std 3 seeds (ddof=1)
+CORAL_F_001_reeval,PlantVillage,PlantDoc,Fuzzy(16),CORAL,ResNet-50,42,test,target_macro_f1,0.2042,results/coral_reeval_seed42.json,models/resnet50_coral_lambda_0.01_Fuzzy.pt,YES,RE-EVALUATED from current checkpoint; stored value 0.202 matches
+CORAL_F_10_reeval,PlantVillage,PlantDoc,Fuzzy(16),CORAL,ResNet-50,42,test,target_macro_f1,0.190,results/coral_reeval_seed42.json,models/resnet50_coral_lambda_1.0_Fuzzy.pt,YES,RE-EVALUATED; stored 0.231 DOES NOT MATCH (checkpoint overwritten)
+CORAL_H_01_reeval,PlantVillage,PlantDoc,Hybrid(18),CORAL,ResNet-50,42,test,target_macro_f1,0.2050,results/coral_reeval_seed42.json,models/resnet50_coral_lambda_0.1_hybrid.pt,YES,RE-EVALUATED; stored 0.187 DOES NOT MATCH
+CORAL_S_001_reeval,PlantVillage,PlantDoc,SBERT(15),CORAL,ResNet-50,42,test,target_macro_f1,0.1883,results/coral_reeval_seed42.json,models/resnet50_coral_lambda_0.01_sbert.pt,YES,RE-EVALUATED; stored 0.199 DOES NOT MATCH
+CORAL_F_10_s43,PlantVillage,PlantDoc,Fuzzy(16),CORAL,ResNet-50,43,test,target_macro_f1,0.184,results/coral_multiseed_summary.json,models/resnet50_coral_lambda_1.0_Fuzzy_seed43.pt,YES,seed 43 fresh checkpoint
+CORAL_H_001_s43,PlantVillage,PlantDoc,Hybrid(18),CORAL,ResNet-50,43,test,target_macro_f1,0.217,results/coral_multiseed_summary.json,models/resnet50_coral_lambda_0.01_hybrid_seed43.pt,YES,seed 43 fresh checkpoint (1-epoch only — 20-epoch in progress)
+CORAL_F_10_s44,PlantVillage,PlantDoc,Fuzzy(16),CORAL,ResNet-50,44,test,target_macro_f1,0.220,results/coral_multiseed_summary.json,models/resnet50_coral_lambda_1.0_Fuzzy_seed44.pt,YES,seed 44 fresh checkpoint
+CORAL_H_001_s44,PlantVillage,PlantDoc,Hybrid(18),CORAL,ResNet-50,44,test,target_macro_f1,0.208,results/coral_multiseed_summary.json,models/resnet50_coral_lambda_0.01_hybrid_seed44.pt,YES,seed 44 fresh checkpoint
+CORAL_S_001_s43,PlantVillage,PlantDoc,SBERT(15),CORAL,ResNet-50,43,test,target_macro_f1,0.154,results/coral_multiseed_summary.json,models/resnet50_coral_lambda_0.01_sbert_seed43.pt,YES,seed 43 fresh checkpoint
+CORAL_S_001_s44,PlantVillage,PlantDoc,SBERT(15),CORAL,ResNet-50,44,test,target_macro_f1,0.211,results/coral_multiseed_summary.json,models/resnet50_coral_lambda_0.01_sbert_seed44.pt,YES,seed 44 fresh checkpoint
+CORAL_F_mean,PlantVillage,PlantDoc,Fuzzy(16),CORAL,ResNet-50,42+43+44,test,target_macro_f1_mean,0.198,results/coral_multiseed_summary.json,,YES,mean 3 seeds (ddof=1 std=0.020)
+CORAL_H_mean,PlantVillage,PlantDoc,Hybrid(18),CORAL,ResNet-50,42+43+44,test,target_macro_f1_mean,0.203,results/coral_multiseed_summary.json,,YES,mean 3 seeds (ddof=1 std=0.012)
+CORAL_S_mean,PlantVillage,PlantDoc,SBERT(15),CORAL,ResNet-50,42+43+44,test,target_macro_f1_mean,0.184,results/coral_multiseed_summary.json,,YES,mean 3 seeds (ddof=1 std=0.029)

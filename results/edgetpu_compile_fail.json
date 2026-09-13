@@ -1,0 +1,7 @@
+{
+  "model": "ResNet50 PTQ INT8",
+  "status": "failed",
+  "reason": "unsupported ops (strided_slice, reverse)",
+  "compiler": "edgetpu_compiler 16.0",
+  "note": "known EdgeTPU limitation for heavyweight CNN backbones"
+}

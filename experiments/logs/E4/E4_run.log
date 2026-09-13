@@ -1,0 +1,26 @@
+E4 run at 2026-05-03T11:39:15.954899
+Git: 8f500ec81
+## E4 — Per-Class CORAL Breakdown (Hybrid, λ=0.1)
+
+| Metric | Value |
+|--------|-------|
+| Total classes | 18 |
+| Improved (Δ>0) | 10 |
+| Degraded (Δ<0) | 7 |
+| Neutral (Δ=0) | 1 |
+| Mean Δ (improved) | 0.1027 |
+| Mean Δ (degraded) | -0.066 |
+
+### Top-3 improved classes
+| class_id | Baseline F1 | CORAL F1 | Δ |
+|----------|------------|---------|---|
+| 15 | 0.052 | 0.364 | +0.312 |
+| 1 | 0.020 | 0.161 | +0.142 |
+| 13 | 0.078 | 0.199 | +0.121 |
+
+### Worst-3 degraded classes
+| class_id | Baseline F1 | CORAL F1 | Δ |
+|----------|------------|---------|---|
+| 16 | 0.126 | 0.051 | -0.075 |
+| 2 | 0.207 | 0.123 | -0.084 |
+| 7 | 0.287 | 0.114 | -0.173 |

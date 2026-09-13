@@ -1,0 +1,4 @@
+Strategy,N classes,Improved,Failed both,Rare (<50)
+Fuzzy,16,6,2,1
+hybrid,18,10,2,2
+sbert,15,9,3,2

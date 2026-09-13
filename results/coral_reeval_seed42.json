@@ -1,0 +1,58 @@
+{
+  "Fuzzy_lambda0.01_seed42": {
+    "macro_f1": 0.2041517266579341,
+    "accuracy": 0.25308973670069856
+  },
+  "Fuzzy_lambda0.1_seed42": {
+    "macro_f1": 0.19347046789743355,
+    "accuracy": 0.2337452982267598
+  },
+  "Fuzzy_lambda1.0_seed42": {
+    "macro_f1": 0.18957380195603718,
+    "accuracy": 0.23052122514777001
+  },
+  "Fuzzy_lambda10.0_seed42": {
+    "macro_f1": 0.18564749277484582,
+    "accuracy": 0.23965609887157444
+  },
+  "hybrid_lambda0.01_seed42": {
+    "macro_f1": 0.19020670273492613,
+    "accuracy": 0.2244794311833418
+  },
+  "hybrid_lambda0.1_seed42": {
+    "macro_f1": 0.20495974299174513,
+    "accuracy": 0.23209751142712037
+  },
+  "hybrid_lambda1.0_seed42": {
+    "macro_f1": 0.1968651519810164,
+    "accuracy": 0.23362112747587607
+  },
+  "hybrid_lambda10.0_seed42": {
+    "macro_f1": 0.19492668523072032,
+    "accuracy": 0.2361604875571356
+  },
+  "sbert_lambda0.01_seed42": {
+    "macro_f1": 0.18833652278688362,
+    "accuracy": 0.23500309214594928
+  },
+  "sbert_lambda0.1_seed42": {
+    "macro_f1": 0.18403589669224776,
+    "accuracy": 0.21397649969078542
+  },
+  "sbert_lambda1.0_seed42": {
+    "macro_f1": 0.18416444209532598,
+    "accuracy": 0.22510822510822512
+  },
+  "sbert_lambda10.0_seed42": {
+    "macro_f1": 0.16778624011670448,
+    "accuracy": 0.21706864564007422
+  },
+  "Fuzzy_lambda1.0_seed43": {
+    "macro_f1": 0.18395390889772545,
+    "accuracy": 0.21655024180548094
+  },
+  "hybrid_lambda0.01_seed43": {
+    "macro_f1": 0.21725246497804546,
+    "accuracy": 0.25444388014220415
+  }
+}

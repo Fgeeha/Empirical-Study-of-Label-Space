@@ -1,0 +1,319 @@
+[1m============================================================[0m
+[1m ECCV 2026 Full Pipeline[0m
+[1m Plant Disease Recognition + Domain Adaptation + Edge Deploy[0m
+[1m============================================================[0m
+  Phases:     7 -> 7
+  Strategies: hybrid Fuzzy sbert
+  Target:     plantdoc
+  Server:     http://192.168.1.4:8000
+  Log:        logs/pipeline_20260208_170957.log
+  Dry run:    false
+
+
+[1m[0;36m################################################################[0m
+[1m[0;36m# PHASE 7: Edge-Bench: Upload Models and Run Benchmarks[0m
+[1m[0;36m################################################################[0m
+
+[0;32m[STEP 1][0m Upload, deploy to RPi, run benchmarks and wait
+============================================================
+Edge-Bench: Upload -> Deploy -> Benchmark
+============================================================
+  Server:  http://192.168.1.4:8000
+  Runs:    100
+  Timeout: 600s per experiment
+
+Checking server... OK
+
+Discovered 27 model(s):
+  mobilenetv2_int8_ptq_hybrid.tflite (2.6 MB) [cpu]
+  mobilenetv2_int8_ptq_hybrid_edgetpu.tflite (2.7 MB) [edgetpu]
+  mobilenetv2_int8_ptq_Fuzzy.tflite (2.6 MB) [cpu]
+  mobilenetv2_int8_ptq_Fuzzy_edgetpu.tflite (2.7 MB) [edgetpu]
+  mobilenetv2_int8_ptq_sbert.tflite (2.6 MB) [cpu]
+  mobilenetv2_int8_ptq_sbert_edgetpu.tflite (2.7 MB) [edgetpu]
+  mobilenetv1_int8_ptq_hybrid.tflite (3.4 MB) [cpu]
+  mobilenetv1_int8_ptq_hybrid_edgetpu.tflite (3.4 MB) [edgetpu]
+  mobilenetv1_int8_ptq_Fuzzy.tflite (3.4 MB) [cpu]
+  mobilenetv1_int8_ptq_Fuzzy_edgetpu.tflite (3.4 MB) [edgetpu]
+  mobilenetv1_int8_ptq_sbert.tflite (3.4 MB) [cpu]
+  mobilenetv1_int8_ptq_sbert_edgetpu.tflite (3.4 MB) [edgetpu]
+  efficientnet_lite0_int8_ptq_hybrid.tflite (3.8 MB) [cpu]
+  efficientnet_lite0_int8_ptq_hybrid_edgetpu.tflite (4.3 MB) [edgetpu]
+  efficientnet_lite0_int8_ptq_Fuzzy.tflite (3.8 MB) [cpu]
+  efficientnet_lite0_int8_ptq_Fuzzy_edgetpu.tflite (4.2 MB) [edgetpu]
+  efficientnet_lite0_int8_ptq_sbert.tflite (3.8 MB) [cpu]
+  efficientnet_lite0_int8_ptq_sbert_edgetpu.tflite (4.2 MB) [edgetpu]
+  resnet50_int8_ptq_hybrid.tflite (23.1 MB) [cpu]
+  resnet50_int8_ptq_hybrid_edgetpu.tflite (22.9 MB) [edgetpu]
+  resnet50_int8_ptq_Fuzzy.tflite (23.1 MB) [cpu]
+  resnet50_int8_ptq_Fuzzy_edgetpu.tflite (22.9 MB) [edgetpu]
+  resnet50_int8_ptq_sbert.tflite (23.1 MB) [cpu]
+  resnet50_int8_ptq_sbert_edgetpu.tflite (22.9 MB) [edgetpu]
+  efficientnet_int8_ptq_hybrid.tflite (11.7 MB) [cpu]
+  efficientnet_int8_ptq_Fuzzy.tflite (11.7 MB) [cpu]
+  efficientnet_int8_ptq_sbert.tflite (11.7 MB) [cpu]
+
+[STEP 1] Upload models to server
+  Found locally:      27
+  Already on server:  42
+  = mobilenetv2_int8_ptq_hybrid.tflite (exists)
+  = mobilenetv2_int8_ptq_hybrid_edgetpu.tflite (exists)
+  = mobilenetv2_int8_ptq_Fuzzy.tflite (exists)
+  = mobilenetv2_int8_ptq_Fuzzy_edgetpu.tflite (exists)
+  = mobilenetv2_int8_ptq_sbert.tflite (exists)
+  = mobilenetv2_int8_ptq_sbert_edgetpu.tflite (exists)
+  = mobilenetv1_int8_ptq_hybrid.tflite (exists)
+  = mobilenetv1_int8_ptq_hybrid_edgetpu.tflite (exists)
+  = mobilenetv1_int8_ptq_Fuzzy.tflite (exists)
+  = mobilenetv1_int8_ptq_Fuzzy_edgetpu.tflite (exists)
+  = mobilenetv1_int8_ptq_sbert.tflite (exists)
+  = mobilenetv1_int8_ptq_sbert_edgetpu.tflite (exists)
+  = efficientnet_lite0_int8_ptq_hybrid.tflite (exists)
+  = efficientnet_lite0_int8_ptq_hybrid_edgetpu.tflite (exists)
+  = efficientnet_lite0_int8_ptq_Fuzzy.tflite (exists)
+  = efficientnet_lite0_int8_ptq_Fuzzy_edgetpu.tflite (exists)
+  = efficientnet_lite0_int8_ptq_sbert.tflite (exists)
+  = efficientnet_lite0_int8_ptq_sbert_edgetpu.tflite (exists)
+  = resnet50_int8_ptq_hybrid.tflite (exists)
+  = resnet50_int8_ptq_hybrid_edgetpu.tflite (exists)
+  = resnet50_int8_ptq_Fuzzy.tflite (exists)
+  = resnet50_int8_ptq_Fuzzy_edgetpu.tflite (exists)
+  = resnet50_int8_ptq_sbert.tflite (exists)
+  = resnet50_int8_ptq_sbert_edgetpu.tflite (exists)
+  = efficientnet_int8_ptq_hybrid.tflite (exists)
+  = efficientnet_int8_ptq_Fuzzy.tflite (exists)
+  = efficientnet_int8_ptq_sbert.tflite (exists)
+  Total on server: 42
+[WARN] No online devices. Using: raspberrypi (may be offline)
+       Make sure RPi agent is running: cd edge-bench && make agent
+
+[STEP 2] Deploy models to device: raspberrypi
+  -> resnet50_int8_ptq_sbert_edgetpu_1.tflite... OK
+  -> resnet50_int8_ptq_hybrid_edgetpu_1.tflite... OK
+  -> resnet50_int8_ptq_Fuzzy_edgetpu_1.tflite... OK
+  -> mobilenetv2_int8_ptq_sbert_edgetpu.tflite... OK
+  -> mobilenetv2_int8_ptq_hybrid_edgetpu.tflite... OK
+  -> mobilenetv2_int8_ptq_Fuzzy_edgetpu.tflite... OK
+  -> mobilenetv1_int8_ptq_sbert_edgetpu_1.tflite... OK
+  -> mobilenetv1_int8_ptq_hybrid_edgetpu_1.tflite... OK
+  -> mobilenetv1_int8_ptq_Fuzzy_edgetpu_1.tflite... OK
+  -> efficientnet_lite0_int8_ptq_sbert_edgetpu_1.tflite... OK
+  -> efficientnet_lite0_int8_ptq_hybrid_edgetpu_1.tflite... OK
+  -> efficientnet_lite0_int8_ptq_Fuzzy_edgetpu_1.tflite... OK
+  -> resnet50_int8_ptq_sbert_edgetpu.tflite... OK
+  -> resnet50_int8_ptq_sbert.tflite... OK
+  -> resnet50_int8_ptq_hybrid_edgetpu.tflite... OK
+  -> resnet50_int8_ptq_hybrid.tflite... OK
+  -> resnet50_int8_ptq_Fuzzy_edgetpu.tflite... OK
+  -> resnet50_int8_ptq_Fuzzy.tflite... OK
+  -> model_int8_ptq_sbert.tflite... OK
+  -> model_int8_ptq_hybrid.tflite... OK
+  -> model_int8_ptq_Fuzzy.tflite... OK
+  -> model_fp32_sbert.tflite... OK
+  -> model_fp32_hybrid.tflite... OK
+  -> model_fp32_Fuzzy.tflite... OK
+  -> mobilenetv2_int8_ptq_sbert.tflite... OK
+  -> mobilenetv2_int8_ptq_hybrid.tflite... OK
+  -> mobilenetv2_int8_ptq_Fuzzy.tflite... OK
+  -> mobilenetv1_int8_ptq_sbert_edgetpu.tflite... OK
+  -> mobilenetv1_int8_ptq_sbert.tflite... OK
+  -> mobilenetv1_int8_ptq_hybrid_edgetpu.tflite... OK
+  -> mobilenetv1_int8_ptq_hybrid.tflite... OK
+  -> mobilenetv1_int8_ptq_Fuzzy_edgetpu.tflite... OK
+  -> mobilenetv1_int8_ptq_Fuzzy.tflite... OK
+  -> efficientnet_lite0_int8_ptq_sbert_edgetpu.tflite... OK
+  -> efficientnet_lite0_int8_ptq_sbert.tflite... OK
+  -> efficientnet_lite0_int8_ptq_hybrid_edgetpu.tflite... OK
+  -> efficientnet_lite0_int8_ptq_hybrid.tflite... OK
+  -> efficientnet_lite0_int8_ptq_Fuzzy_edgetpu.tflite... OK
+  -> efficientnet_lite0_int8_ptq_Fuzzy.tflite... OK
+  -> efficientnet_int8_ptq_sbert.tflite... OK
+  -> efficientnet_int8_ptq_hybrid.tflite... OK
+  -> efficientnet_int8_ptq_Fuzzy.tflite... OK
+  Deployed: 42/42
+
+[STEP 3] Run benchmark experiments (runs=100, timeout=600s)
+
+  [1/27] mobilenetv2_int8_ptq_hybrid.tflite [cpu]
+    Creating experiment... OK (id=exp_20260208_141130_4fca)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    status=running (6s)...    Result: COMPLETED
+
+  [2/27] mobilenetv2_int8_ptq_hybrid_edgetpu.tflite [edgetpu]
+    Creating experiment... OK (id=exp_20260208_141140_2f56)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    Result: COMPLETED
+
+  [3/27] mobilenetv2_int8_ptq_Fuzzy.tflite [cpu]
+    Creating experiment... OK (id=exp_20260208_141146_0227)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    status=running (6s)...    Result: COMPLETED
+
+  [4/27] mobilenetv2_int8_ptq_Fuzzy_edgetpu.tflite [edgetpu]
+    Creating experiment... OK (id=exp_20260208_141155_9c65)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    Result: COMPLETED
+
+  [5/27] mobilenetv2_int8_ptq_sbert.tflite [cpu]
+    Creating experiment... OK (id=exp_20260208_141201_de4f)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    status=running (6s)...    Result: COMPLETED
+
+  [6/27] mobilenetv2_int8_ptq_sbert_edgetpu.tflite [edgetpu]
+    Creating experiment... OK (id=exp_20260208_141210_2719)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    Result: COMPLETED
+
+  [7/27] mobilenetv1_int8_ptq_hybrid.tflite [cpu]
+    Creating experiment... OK (id=exp_20260208_141216_6414)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    Result: COMPLETED
+
+  [8/27] mobilenetv1_int8_ptq_hybrid_edgetpu.tflite [edgetpu]
+    Creating experiment... OK (id=exp_20260208_141222_dd73)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    Result: COMPLETED
+
+  [9/27] mobilenetv1_int8_ptq_Fuzzy.tflite [cpu]
+    Creating experiment... OK (id=exp_20260208_141228_da0f)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    Result: COMPLETED
+
+  [10/27] mobilenetv1_int8_ptq_Fuzzy_edgetpu.tflite [edgetpu]
+    Creating experiment... OK (id=exp_20260208_141234_8fe5)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    Result: COMPLETED
+
+  [11/27] mobilenetv1_int8_ptq_sbert.tflite [cpu]
+    Creating experiment... OK (id=exp_20260208_141240_02aa)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    Result: COMPLETED
+
+  [12/27] mobilenetv1_int8_ptq_sbert_edgetpu.tflite [edgetpu]
+    Creating experiment... OK (id=exp_20260208_141246_5594)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    Result: COMPLETED
+
+  [13/27] efficientnet_lite0_int8_ptq_hybrid.tflite [cpu]
+    Creating experiment... OK (id=exp_20260208_141252_d76f)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    Result: COMPLETED
+
+  [14/27] efficientnet_lite0_int8_ptq_hybrid_edgetpu.tflite [edgetpu]
+    Creating experiment... OK (id=exp_20260208_141258_0f38)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    Result: COMPLETED
+
+  [15/27] efficientnet_lite0_int8_ptq_Fuzzy.tflite [cpu]
+    Creating experiment... OK (id=exp_20260208_141304_eab0)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    Result: COMPLETED
+
+  [16/27] efficientnet_lite0_int8_ptq_Fuzzy_edgetpu.tflite [edgetpu]
+    Creating experiment... OK (id=exp_20260208_141310_8bd3)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    Result: COMPLETED
+
+  [17/27] efficientnet_lite0_int8_ptq_sbert.tflite [cpu]
+    Creating experiment... OK (id=exp_20260208_141316_f8e0)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    Result: COMPLETED
+
+  [18/27] efficientnet_lite0_int8_ptq_sbert_edgetpu.tflite [edgetpu]
+    Creating experiment... OK (id=exp_20260208_141322_4cbc)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    Result: COMPLETED
+
+  [19/27] resnet50_int8_ptq_hybrid.tflite [cpu]
+    Creating experiment... OK (id=exp_20260208_141328_594c)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    status=running (6s)...    status=running (9s)...    status=running (12s)...    status=running (15s)...    status=running (18s)...    status=running (21s)...    status=running (24s)...    Result: COMPLETED
+
+  [20/27] resnet50_int8_ptq_hybrid_edgetpu.tflite [edgetpu]
+    Creating experiment... OK (id=exp_20260208_141355_d099)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    status=running (6s)...    status=running (9s)...    Result: COMPLETED
+
+  [21/27] resnet50_int8_ptq_Fuzzy.tflite [cpu]
+    Creating experiment... OK (id=exp_20260208_141407_0859)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    status=running (6s)...    status=running (9s)...    status=running (12s)...    status=running (15s)...    status=running (18s)...    status=running (21s)...    status=running (24s)...    Result: COMPLETED
+
+  [22/27] resnet50_int8_ptq_Fuzzy_edgetpu.tflite [edgetpu]
+    Creating experiment... OK (id=exp_20260208_141434_6516)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    status=running (6s)...    status=running (9s)...    Result: COMPLETED
+
+  [23/27] resnet50_int8_ptq_sbert.tflite [cpu]
+    Creating experiment... OK (id=exp_20260208_141446_857b)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    status=running (6s)...    status=running (9s)...    status=running (12s)...    status=running (15s)...    status=running (18s)...    status=running (21s)...    status=running (24s)...    Result: COMPLETED
+
+  [24/27] resnet50_int8_ptq_sbert_edgetpu.tflite [edgetpu]
+    Creating experiment... OK (id=exp_20260208_141513_fb7c)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    status=running (6s)...    status=running (9s)...    Result: COMPLETED
+
+  [25/27] efficientnet_int8_ptq_hybrid.tflite [cpu]
+    Creating experiment... OK (id=exp_20260208_141525_b9b1)
+    Waiting for results...
+    status=running (0s)...    status=running (3s)...    status=running (6s)...    status=running (9s)...    status=running (12s)...    status=running (15s)...    Result: COMPLETED
+
+  [26/27] efficientnet_int8_ptq_Fuzzy.tflite [cpu]
+    Creating experiment... OK (id=exp_20260208_141544_d8a4)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    status=running (6s)...    status=running (9s)...    status=running (12s)...    status=running (15s)...    Result: COMPLETED
+
+  [27/27] efficientnet_int8_ptq_sbert.tflite [cpu]
+    Creating experiment... OK (id=exp_20260208_141602_1c59)
+    Waiting for results...
+    status=queued (0s)...    status=running (3s)...    status=running (6s)...    status=running (9s)...    status=running (12s)...    status=running (15s)...    Result: COMPLETED
+
+============================================================
+SUMMARY
+============================================================
+  Total experiments:  27
+  Completed:          27
+  Failed/timeout:     0
+[OK] T4 exported: results/edgebench/raw_from_bench.csv
+
+[DONE] View results: http://192.168.1.4:8000/results
+
+[1m================================================================[0m
+[1m PIPELINE COMPLETE[0m
+[1m================================================================[0m
+
+  Steps run:     1
+  [0;32mSucceeded:[0m    1
+  [0;31mFailed:[0m       0
+  [0;33mSkipped:[0m      0
+  Log:           logs/pipeline_20260208_170957.log
+
+Key result files:
+  [0;32m[OK][0m results/baseline_pv_metrics.csv
+  [0;32m[OK][0m results/T1_domain_shift.csv
+  [0;32m[OK][0m results/T2_coral_sweep_hybrid.csv
+  [0;32m[OK][0m results/T3_quant_fp32_vs_int8_hybrid.csv
+  [0;32m[OK][0m results/T5_ablation.csv
+  [0;32m[OK][0m results/T6_per_class_f1_hybrid.csv
+  [0;32m[OK][0m results/T7_sota.csv
+  [0;32m[OK][0m results/edgebench/raw_results.csv
+  [0;32m[OK][0m results/T4_edgebench.csv
+  [0;32m[OK][0m results/T4_edgebench.tex
+
+Key figures:
+  [0;32m[OK][0m figures/F2_f1_vs_lambda_hybrid.png
+  [0;32m[OK][0m figures/F3_tsne_baseline_hybrid.png
+  [0;32m[OK][0m figures/F3_tsne_coral_hybrid.png
+  [0;32m[OK][0m figures/F4_quant_tradeoff_hybrid.png
+  [0;32m[OK][0m figures/F5_latency_comparison.png
+  [0;32m[OK][0m figures/F7_latency_comparison.pdf
+  [0;32m[OK][0m figures/F8_throughput_comparison.pdf
+  [0;32m[OK][0m figures/F9_speedup_heatmap.pdf
+  [0;32m[OK][0m figures/F10_size_vs_latency.pdf
+
+TFLite models:
+  INT8 TFLite:  30
+  EdgeTPU:      12
+
+[0;32mAll steps completed successfully.[0m

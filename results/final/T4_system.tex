@@ -1,0 +1,37 @@
+\begin{table}[htbp]
+\caption{System resource usage during inference on Raspberry Pi~4 (CPU\%, RAM, temperature).}
+\label{tab:edge_system}
+\begin{tabular}{lccccccccc}
+\toprule
+Model & Strategy & Backend & Latency (ms) & FPS & CPU (\%) & RAM (MB) & Temp (C) & Size (MB) & Params \\
+\midrule
+MobileNetV2 & hybrid & CPU & 38.4 & 26.1 & 24.3 & 676.7 & 44.8 & 2.56 & 2.2M \\
+MobileNetV2 & hybrid & EDGETPU & 5.9 & 170.0 & 2.1 & 672.8 & 39.9 & 2.74 & 2.2M \\
+MobileNetV2 & Fuzzy & CPU & 38.4 & 26.0 & 2.8 & 672.3 & 41.4 & 2.55 & 2.2M \\
+MobileNetV2 & Fuzzy & EDGETPU & 5.8 & 171.8 & 1.0 & 669.4 & 39.4 & 2.72 & 2.2M \\
+MobileNetV2 & sbert & CPU & 38.5 & 26.0 & 3.7 & 670.0 & 42.4 & 2.55 & 2.2M \\
+MobileNetV2 & sbert & EDGETPU & 5.3 & 187.8 & 0.7 & 668.9 & 39.4 & 2.72 & 2.2M \\
+MobileNetV1 & hybrid & CPU & 29.5 & 33.9 & 3.3 & 669.1 & 43.3 & 3.36 & 3.2M \\
+MobileNetV1 & hybrid & EDGETPU & 4.6 & 216.0 & 0.4 & 669.1 & 40.9 & 3.44 & 3.2M \\
+MobileNetV1 & Fuzzy & CPU & 29.7 & 33.6 & 4.2 & 668.9 & 42.8 & 3.36 & 3.2M \\
+MobileNetV1 & Fuzzy & EDGETPU & 5.5 & 181.6 & 0.8 & 667.2 & 40.9 & 3.43 & 3.2M \\
+MobileNetV1 & sbert & CPU & 29.4 & 34.0 & 3.4 & 667.5 & 43.8 & 3.36 & 3.2M \\
+MobileNetV1 & sbert & EDGETPU & 5.5 & 181.5 & 0.7 & 666.7 & 40.4 & 3.43 & 3.2M \\
+EffNet-Lite0 & hybrid & CPU & 32.4 & 30.9 & 4.1 & 666.9 & 43.8 & 3.79 & 3.5M \\
+EffNet-Lite0 & hybrid & EDGETPU & 6.3 & 158.8 & 0.3 & 666.7 & 41.4 & 4.26 & 3.5M \\
+EffNet-Lite0 & Fuzzy & CPU & 32.3 & 31.0 & 3.3 & 667.5 & 44.3 & 3.79 & 3.5M \\
+EffNet-Lite0 & Fuzzy & EDGETPU & 6.3 & 159.0 & 0.7 & 667.4 & 40.9 & 4.24 & 3.5M \\
+EffNet-Lite0 & sbert & CPU & 32.4 & 30.9 & 4.3 & 666.6 & 44.8 & 3.79 & 3.5M \\
+EffNet-Lite0 & sbert & EDGETPU & 6.3 & 159.3 & 0.5 & 666.5 & 42.4 & 4.24 & 3.5M \\
+ResNet-50 & hybrid & CPU & 188.9 & 5.3 & 4.5 & 669.1 & 49.7 & 23.15 & 23.5M \\
+ResNet-50 & hybrid & EDGETPU & 56.0 & 17.8 & 0.8 & 663.4 & 43.8 & 22.83 & 23.5M \\
+ResNet-50 & Fuzzy & CPU & 186.9 & 5.3 & 4.3 & 664.1 & 49.7 & 23.15 & 23.5M \\
+ResNet-50 & Fuzzy & EDGETPU & 55.4 & 18.0 & 0.6 & 664.4 & 43.8 & 22.80 & 23.5M \\
+ResNet-50 & sbert & CPU & 188.0 & 5.3 & 4.4 & 664.8 & 49.7 & 23.14 & 23.5M \\
+ResNet-50 & sbert & EDGETPU & 56.2 & 17.8 & 0.9 & 664.2 & 43.8 & 22.80 & 23.5M \\
+EffNet-B3 & hybrid & CPU & 131.1 & 7.6 & 4.2 & 666.8 & 46.7 & 11.72 & 10.8M \\
+EffNet-B3 & Fuzzy & CPU & 129.7 & 7.7 & 4.3 & 666.6 & 47.7 & 11.71 & 10.8M \\
+EffNet-B3 & sbert & CPU & 131.1 & 7.6 & 4.2 & 667.6 & 47.2 & 11.71 & 10.8M \\
+\bottomrule
+\end{tabular}
+\end{table}

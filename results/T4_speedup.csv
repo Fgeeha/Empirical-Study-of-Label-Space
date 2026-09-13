@@ -1,0 +1,13 @@
+architecture,arch_display,strategy,cpu_latency_ms,edgetpu_latency_ms,speedup_x,cpu_fps,edgetpu_fps,fps_gain_x
+mobilenetv2,MobileNetV2,hybrid,38.37,5.88,6.52,26.1,170.0,6.52
+mobilenetv2,MobileNetV2,Fuzzy,38.44,5.82,6.61,26.0,171.8,6.61
+mobilenetv2,MobileNetV2,sbert,38.45,5.32,7.22,26.0,187.8,7.22
+mobilenetv1,MobileNetV1,hybrid,29.51,4.63,6.37,33.9,216.0,6.37
+mobilenetv1,MobileNetV1,Fuzzy,29.72,5.51,5.4,33.6,181.6,5.4
+mobilenetv1,MobileNetV1,sbert,29.38,5.51,5.33,34.0,181.5,5.33
+efficientnet_lite0,EffNet-Lite0,hybrid,32.4,6.3,5.15,30.9,158.8,5.15
+efficientnet_lite0,EffNet-Lite0,Fuzzy,32.27,6.29,5.13,31.0,159.0,5.13
+efficientnet_lite0,EffNet-Lite0,sbert,32.35,6.28,5.15,30.9,159.3,5.15
+resnet50,ResNet-50,hybrid,188.86,56.04,3.37,5.3,17.8,3.37
+resnet50,ResNet-50,Fuzzy,186.92,55.43,3.37,5.4,18.0,3.37
+resnet50,ResNet-50,sbert,187.97,56.22,3.34,5.3,17.8,3.34

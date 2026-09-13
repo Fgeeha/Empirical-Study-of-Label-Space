@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite it as below."
+title: "Empirical Study of Label-Space Alignment, Fair-Protocol Domain Adaptation and Edge Deployment for Field Plant Disease Recognition: reproducibility package"
+type: software
+version: 1.0.0
+date-released: 2026-09-13
+repository-code: "https://github.com/Fgeeha/Empirical-Study-of-Label-Space"
+license: MIT
+authors:
+  - family-names: Kolesnikov
+    given-names: Nikita S.
+    affiliation: Volgograd State Technical University
+    orcid: "https://orcid.org/0009-0008-5480-6137"
+  - family-names: Kravets
+    given-names: Alla G.
+    affiliation: Volgograd State Technical University

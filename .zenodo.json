@@ -1,0 +1,12 @@
+{
+  "title": "Empirical Study of Label-Space Alignment, Fair-Protocol Domain Adaptation and Edge Deployment for Field Plant Disease Recognition: reproducibility package",
+  "upload_type": "software",
+  "description": "Code, configuration, data splits, per-run results, conversion-fidelity and edge-latency audits, verified INT8 TFLite models and the manuscript source for the study of PlantVillage-to-field transfer (label-space alignment, five UDA families under a source-validation protocol, Raspberry Pi 4 + Coral Edge TPU deployment). Raw image datasets and PyTorch checkpoints are not included.",
+  "creators": [
+    {"name": "Kolesnikov, Nikita S.", "affiliation": "Volgograd State Technical University", "orcid": "0009-0008-5480-6137"},
+    {"name": "Kravets, Alla G.", "affiliation": "Volgograd State Technical University"}
+  ],
+  "keywords": ["plant disease recognition", "domain shift", "unsupervised domain adaptation", "label-space alignment", "PlantVillage", "PlantDoc", "edge computing", "Raspberry Pi", "Edge TPU", "INT8 quantization"],
+  "license": "MIT",
+  "version": "1.0.0"
+}

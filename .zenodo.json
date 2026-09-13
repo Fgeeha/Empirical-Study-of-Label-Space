@@ -8,5 +8,5 @@
   ],
   "keywords": ["plant disease recognition", "domain shift", "unsupervised domain adaptation", "label-space alignment", "PlantVillage", "PlantDoc", "edge computing", "Raspberry Pi", "Edge TPU", "INT8 quantization"],
   "license": "MIT",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

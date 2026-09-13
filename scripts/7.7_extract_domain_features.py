@@ -77,7 +77,6 @@ def main() -> None:
         .sample(args.n, random_state=rng)
         .reset_index(drop=True)
     )
-    k = src.label_id.nunique() if src.label_id.nunique() >= 18 else 18
     summary = {'n_per_domain': args.n, 'seed': args.seed, 'knn_k': 5, 'models': {}}
     for name in ('source_only', 'dann42', 'cdan42'):
         if name == 'source_only':

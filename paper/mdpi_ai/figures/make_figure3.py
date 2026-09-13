@@ -22,7 +22,10 @@ from sklearn.manifold import TSNE  # noqa: E402
 RES = Path('results/tsne_domain')
 OUT = Path('paper/mdpi_ai/figures')
 DPI = 600
-PANELS = [('source_only', '(a) Source-only ResNet-50'), ('dann42', '(b) DANN, fair protocol (seed 42)')]
+PANELS = [
+    ('source_only', '(a) Source-only ResNet-50'),
+    ('dann42', '(b) DANN, fair protocol (seed 42)'),
+]
 
 
 def main() -> None:
@@ -31,19 +34,43 @@ def main() -> None:
     for ax, (name, title) in zip(axes, PANELS):
         d = np.load(RES / f'{name}.npz')
         X = np.concatenate([d['X_src'], d['X_tgt']])
-        z = TSNE(n_components=2, perplexity=30, init='pca', learning_rate='auto', random_state=42).fit_transform(X)
+        z = TSNE(
+            n_components=2,
+            perplexity=30,
+            init='pca',
+            learning_rate='auto',
+            random_state=42,
+        ).fit_transform(X)
         n = len(d['X_src'])
-        ax.scatter(z[:n, 0], z[:n, 1], s=9, c='#9aa5b1', label='PlantVillage (source), n = 500', linewidths=0)
-        ax.scatter(z[n:, 0], z[n:, 1], s=9, c='#d1495b', label='PlantDoc (target), n = 500', linewidths=0)
+        ax.scatter(
+            z[:n, 0],
+            z[:n, 1],
+            s=9,
+            c='#9aa5b1',
+            label='PlantVillage (source), n = 500',
+            linewidths=0,
+        )
+        ax.scatter(
+            z[n:, 0],
+            z[n:, 1],
+            s=9,
+            c='#d1495b',
+            label='PlantDoc (target), n = 500',
+            linewidths=0,
+        )
         acc = summ[name]['knn_domain_acc']
         ax.set_title(f'{title}\n5-NN domain separability = {acc:.2f}', fontsize=10)
-        ax.set_xticks([]); ax.set_yticks([])
+        ax.set_xticks([])
+        ax.set_yticks([])
         for s in ax.spines.values():
             s.set_color('#888')
     axes[0].legend(loc='lower left', fontsize=8, frameon=False, markerscale=2)
     fig.tight_layout()
     fig.savefig(OUT / 'figure3_tsne_hybrid.png', dpi=DPI)
-    print('[OK] figure3_tsne_hybrid.png', {k: round(v['knn_domain_acc'], 3) for k, v in summ.items()})
+    print(
+        '[OK] figure3_tsne_hybrid.png',
+        {k: round(v['knn_domain_acc'], 3) for k, v in summ.items()},
+    )
 
 
 if __name__ == '__main__':

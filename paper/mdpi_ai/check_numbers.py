@@ -53,13 +53,23 @@ def raw_f1(method: str) -> list[float]:
     return [json.load(open(f))['target_metrics']['macro_f1'] for f in files]
 
 
-t1_rec = {r['strategy']: r for r in csv_rows(ROOT / 'results/final/T1_domain_shift.csv')}
-check('recorded T1 hybrid 0.9561 / 0.1555 (superseded, disclosed in §5.5)',
-      near(float(t1_rec['hybrid']['pv_macro_f1']), 0.9561) and near(float(t1_rec['hybrid']['target_macro_f1']), 0.1555))
-t1 = {r['strategy']: r for r in csv_rows(ROOT / 'results/final/T1_domain_shift_reeval.csv')}
+t1_rec = {
+    r['strategy']: r for r in csv_rows(ROOT / 'results/final/T1_domain_shift.csv')
+}
+check(
+    'recorded T1 hybrid 0.9561 / 0.1555 (superseded, disclosed in §5.5)',
+    near(float(t1_rec['hybrid']['pv_macro_f1']), 0.9561)
+    and near(float(t1_rec['hybrid']['target_macro_f1']), 0.1555),
+)
+t1 = {
+    r['strategy']: r
+    for r in csv_rows(ROOT / 'results/final/T1_domain_shift_reeval.csv')
+}
 src_only = float(t1['hybrid']['target_macro_f1'])
 check('T1 (re-evaluated) hybrid source-only 0.154', near(src_only, 0.1539))
-_src_json = json.load(open(ROOT / 'results/int8_accuracy/pytorch_resnet50_hybrid__plantdoc_test.json'))
+_src_json = json.load(
+    open(ROOT / 'results/int8_accuracy/pytorch_resnet50_hybrid__plantdoc_test.json')
+)
 check('T1 reeval hybrid = 14.2 JSON', near(src_only, _src_json['macro_f1']))
 check(
     'T1 Fuzzy 0.972 / 0.187',
@@ -190,7 +200,9 @@ check(
     'E3 n=1509 for all rows',
     all(
         r['n_samples'] == '1509'
-        for r in csv_rows(ROOT / 'experiments/E3_shared_subset/table1_shared13_reeval.csv')
+        for r in csv_rows(
+            ROOT / 'experiments/E3_shared_subset/table1_shared13_reeval.csv'
+        )
     ),
 )
 e1 = {
@@ -286,7 +298,10 @@ check('20/20 unit tests pass (log of 2026-09-07 run)', '20 passed' in log)
 
 # --- Supervised upper bound and legacy DANN ----------------------------------
 ub_rec = json.load(open(ROOT / 'results/metrics_target_finetuned_plantdoc_hybrid.json'))
-check('recorded (in-sample) UB file = 0.8523', near(ub_rec['macro_f1_target_finetuned'], 0.8523))
+check(
+    'recorded (in-sample) UB file = 0.8523',
+    near(ub_rec['macro_f1_target_finetuned'], 0.8523),
+)
 ub = {
     s: json.load(open(ROOT / f'results/ub_audit/ub_plantdoc_hybrid__{s}.json'))
     for s in ('train', 'val', 'test')
@@ -299,13 +314,25 @@ check(
     and ov['val_in_test'] == 401
     and ov['train_val_overlap'] == 0,
 )
-check('UB held-out (val, n=401) macro-F1 0.531 / acc 0.581',
-      ub['val']['n'] == 401 and near(ub['val']['macro_f1'], 0.5313) and near(ub['val']['accuracy'], 0.5810))
-check('UB in-sample: train 0.985, full list 0.895 (archived checkpoint)',
-      near(ub['train']['macro_f1'], 0.9849) and near(ub['test']['macro_f1'], 0.8946))
-check('draft: supervised reference 0.531 in Table 2 and 0.852 only as withdrawn',
-      in_draft('*0.531* (held-out n = 401, 1 run)') and not in_draft('upper bound (F1 = 0.852)'))
-check('draft: transductive protocol disclosed', in_draft('transductive UDA setting') and in_draft('Transductive target protocol'))
+check(
+    'UB held-out (val, n=401) macro-F1 0.531 / acc 0.581',
+    ub['val']['n'] == 401
+    and near(ub['val']['macro_f1'], 0.5313)
+    and near(ub['val']['accuracy'], 0.5810),
+)
+check(
+    'UB in-sample: train 0.985, full list 0.895 (archived checkpoint)',
+    near(ub['train']['macro_f1'], 0.9849) and near(ub['test']['macro_f1'], 0.8946),
+)
+check(
+    'draft: supervised reference 0.531 in Table 2 and 0.852 only as withdrawn',
+    in_draft('*0.531* (held-out n = 401, 1 run)')
+    and not in_draft('upper bound (F1 = 0.852)'),
+)
+check(
+    'draft: transductive protocol disclosed',
+    in_draft('transductive UDA setting') and in_draft('Transductive target protocol'),
+)
 leg = json.load(open(ROOT / 'experiments/E2_dann/dann_results.json'))
 check(
     'Legacy DANN 0.277 ± 0.009',
@@ -316,17 +343,31 @@ check(
     'Legacy DANN Δ src +12.2 pp',
     near((leg['target_macro_f1_mean'] - src_only) * 100, 12.4, 0.06),
 )
-check('draft says legacy +12.4 pp', in_draft('(+12.4 pp against the re-evaluated baseline) was inflated'))
+check(
+    'draft says legacy +12.4 pp',
+    in_draft('(+12.4 pp against the re-evaluated baseline) was inflated'),
+)
 check(
     'Gap reference − DANN ≈ 0.29; DANN recovers about a quarter of the distance',
     near(ub['val']['macro_f1'] - st.mean(raw_f1('dann')), 0.286, 5e-3)
-    and 0.20 < (st.mean(raw_f1('dann')) - src_only) / (ub['val']['macro_f1'] - src_only) < 0.30,
+    and 0.20
+    < (st.mean(raw_f1('dann')) - src_only) / (ub['val']['macro_f1'] - src_only)
+    < 0.30,
 )
-calib = [r['label_id'] for r in csv_rows(ROOT / 'splits/hybrid/pv_calib_10pct.csv')][:200]
+calib = [r['label_id'] for r in csv_rows(ROOT / 'splits/hybrid/pv_calib_10pct.csv')][
+    :200
+]
 from collections import Counter
+
 cc = Counter(calib)
-check('first 200 calibration rows: 18 classes, 2–46 per class', len(cc) == 18 and min(cc.values()) == 2 and max(cc.values()) == 46)
-check('Table 4 CDAN+E Δ from unrounded values: 0.2296 − 0.1722 → +5.7', round((0.2296 - pw_base) * 100, 1) == 5.7)
+check(
+    'first 200 calibration rows: 18 classes, 2–46 per class',
+    len(cc) == 18 and min(cc.values()) == 2 and max(cc.values()) == 46,
+)
+check(
+    'Table 4 CDAN+E Δ from unrounded values: 0.2296 − 0.1722 → +5.7',
+    round((0.2296 - pw_base) * 100, 1) == 5.7,
+)
 
 # --- Edge deployment ---------------------------------------------------------
 t4 = {
@@ -339,7 +380,10 @@ t4_old = {
 }
 check(
     'first-generation Edge TPU latencies quoted in Table 5 caption (4.6 / 5.9 / 6.3 / 56.0)',
-    [float(t4_old[(m, 'hybrid', 'EDGETPU')]['Latency (ms)']) for m in ('MobileNetV1', 'MobileNetV2', 'EffNet-Lite0', 'ResNet-50')]
+    [
+        float(t4_old[(m, 'hybrid', 'EDGETPU')]['Latency (ms)'])
+        for m in ('MobileNetV1', 'MobileNetV2', 'EffNet-Lite0', 'ResNet-50')
+    ]
     == [4.6, 5.9, 6.3, 56.0],
 )
 table5 = {
@@ -366,8 +410,16 @@ check(
     and near(float(b3['Size (MB)']), 11.93, 0.006)
     and ('EffNet-B3', 'hybrid', 'EDGETPU') not in t4,
 )
-runs = [json.load(open(f))[0] for f in sorted(glob.glob(str(ROOT / 'results/edgebench/reeval_20260913/runs/*.json')))]
-check('edge re-measurement: 11 completed runs', len(runs) == 11 and all(r['status'] == 'completed' for r in runs))
+runs = [
+    json.load(open(f))[0]
+    for f in sorted(
+        glob.glob(str(ROOT / 'results/edgebench/reeval_20260913/runs/*.json'))
+    )
+]
+check(
+    'edge re-measurement: 11 completed runs',
+    len(runs) == 11 and all(r['status'] == 'completed' for r in runs),
+)
 check(
     'edge protocol: 200 runs / 20 warm-up / 4 threads / seed 42',
     {r['params']['benchmark_runs'] for r in runs} == {200}
@@ -375,12 +427,25 @@ check(
     and {r['params']['num_threads'] for r in runs} == {4}
     and {r['params']['input_seed'] for r in runs} == {42},
 )
-check('Edge TPU latency std ≤ 0.6 ms', max(r['latency']['std_ms'] for r in runs if r['backend'] == 'edgetpu') <= 0.6)
-check('DANN vs source-only ResNet-50 on Edge TPU: 54.9 vs 55.2 ms',
-      near(t4[('ResNet-50 DANN', 'hybrid', 'EDGETPU')]['Latency (ms)'] and float(t4[('ResNet-50 DANN', 'hybrid', 'EDGETPU')]['Latency (ms)']), 54.9, 0.06)
-      and near(float(t4[('ResNet-50', 'hybrid', 'EDGETPU')]['Latency (ms)']), 55.2, 0.06))
+check(
+    'Edge TPU latency std ≤ 0.6 ms',
+    max(r['latency']['std_ms'] for r in runs if r['backend'] == 'edgetpu') <= 0.6,
+)
+check(
+    'DANN vs source-only ResNet-50 on Edge TPU: 54.9 vs 55.2 ms',
+    near(
+        t4[('ResNet-50 DANN', 'hybrid', 'EDGETPU')]['Latency (ms)']
+        and float(t4[('ResNet-50 DANN', 'hybrid', 'EDGETPU')]['Latency (ms)']),
+        54.9,
+        0.06,
+    )
+    and near(float(t4[('ResNet-50', 'hybrid', 'EDGETPU')]['Latency (ms)']), 55.2, 0.06),
+)
 env2 = (ROOT / 'results/edgebench/reeval_20260913/environment.txt').read_text()
-check('re-measurement environment: Python 3.11.2, tflite_runtime 2.14.0, bookworm', '3.11.2 2.14.0' in env2 and 'bookworm' in env2)
+check(
+    're-measurement environment: Python 3.11.2, tflite_runtime 2.14.0, bookworm',
+    '3.11.2 2.14.0' in env2 and 'bookworm' in env2,
+)
 check(
     'draft states 20 warm-up / 200 measured',
     in_draft('20 warm-up runs, 200 measured runs'),
@@ -606,7 +671,9 @@ _b = json.load(open(ROOT / 'results/uda_benchmark/bootstrap/bootstrap_vs_source.
 check(
     'Table 2 Δ (seed 42) column matches bootstrap point estimates',
     all(
-        in_draft(f'| {_b[m]["vs_source_only"]["mean_diff"] * 100:+.1f}'.replace('-', '−'))
+        in_draft(
+            f'| {_b[m]["vs_source_only"]["mean_diff"] * 100:+.1f}'.replace('-', '−')
+        )
         for m in ('coral', 'dann', 'cdan', 'mcc')
     ),
 )

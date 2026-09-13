@@ -11,6 +11,7 @@ Usage:
 import csv
 import json
 from pathlib import Path
+import sys
 
 import numpy as np
 from sklearn.metrics import f1_score
@@ -32,15 +33,16 @@ STRATEGY = 'hybrid'
 # Source-only baseline. Default: the archived Hybrid checkpoint re-evaluated with
 # the canonical transform (scripts/14.2 -> 14.7). `--recorded` reproduces the
 # original-run figures (0.156 / 0.191, results/preds_target_resnet50_hybrid.csv).
-import sys
-
 RECORDED = '--recorded' in sys.argv
 if RECORDED:
     SOURCE_ONLY = {'macro_f1': 0.156, 'accuracy': 0.191}
     SRC_PREDS = Path('results') / 'preds_target_resnet50_hybrid.csv'
 else:
     _src = json.loads(
-        (Path('results') / 'int8_accuracy/pytorch_resnet50_hybrid__plantdoc_test.json').read_text()
+        (
+            Path('results')
+            / 'int8_accuracy/pytorch_resnet50_hybrid__plantdoc_test.json'
+        ).read_text()
     )
     SOURCE_ONLY = {'macro_f1': _src['macro_f1'], 'accuracy': _src['accuracy']}
     SRC_PREDS = Path('results') / 'preds_target_resnet50_hybrid_reeval.csv'

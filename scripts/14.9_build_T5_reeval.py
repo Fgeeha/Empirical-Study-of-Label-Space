@@ -29,7 +29,9 @@ MODELS = [
 
 def main() -> None:
     rows, md = [], []
-    md.append('| Model | Backend | mean, ms | std, ms | p95, ms | FPS | size, MiB | runs | temp, °C |')
+    md.append(
+        '| Model | Backend | mean, ms | std, ms | p95, ms | FPS | size, MiB | runs | temp, °C |'
+    )
     md.append('|---|---|---:|---:|---:|---:|---:|---:|---:|')
     for key, name, params in MODELS:
         for backend in ('cpu', 'edgetpu'):
@@ -38,7 +40,9 @@ def main() -> None:
                 continue
             r = json.loads(p.read_text())[0]
             if r.get('status') != 'completed':
-                md.append(f'| {name} | {backend} | failed: {r.get("error")} | | | | | | |')
+                md.append(
+                    f'| {name} | {backend} | failed: {r.get("error")} | | | | | | |'
+                )
                 continue
             lat, sy = r['latency'], r['system']
             size_mib = r['model']['size_bytes'] / 2**20

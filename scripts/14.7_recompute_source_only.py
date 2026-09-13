@@ -25,7 +25,9 @@ STRATEGIES = ['Fuzzy', 'hybrid', 'sbert']
 def main() -> None:
     rows = []
     for s in STRATEGIES:
-        pv = json.load(open(RESULTS / f'int8_accuracy/pytorch_resnet50_{s}__pv_test.json'))
+        pv = json.load(
+            open(RESULTS / f'int8_accuracy/pytorch_resnet50_{s}__pv_test.json')
+        )
         pd_ = json.load(
             open(RESULTS / f'int8_accuracy/pytorch_resnet50_{s}__plantdoc_test.json')
         )
@@ -46,7 +48,9 @@ def main() -> None:
                 'delta_f1': round(pv['macro_f1'] - pd_['macro_f1'], 4),
             }
         )
-        print(f'{s:7s} PV {pv["macro_f1"]:.4f}  PlantDoc {pd_["macro_f1"]:.4f}  -> {out}')
+        print(
+            f'{s:7s} PV {pv["macro_f1"]:.4f}  PlantDoc {pd_["macro_f1"]:.4f}  -> {out}'
+        )
     out = RESULTS / 'final/T1_domain_shift_reeval.csv'
     with open(out, 'w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0]))

@@ -10,10 +10,10 @@ Files: <name>.tflite (CPU) and <name>_edgetpu.tflite (Edge TPU) per model.
 """
 
 import argparse
-import json
-import sys
 from datetime import UTC, datetime
+import json
 from pathlib import Path
+import sys
 
 sys.path.insert(0, str(Path.home() / 'edge-bench-agent'))
 from benchmark_tflite import run_benchmark  # noqa: E402
@@ -45,7 +45,10 @@ def main() -> None:
     d = Path(a.models_dir).expanduser()
     out = []
     for name in models:
-        for backend, fname in (('cpu', f'{name}.tflite'), ('edgetpu', f'{name}_edgetpu.tflite')):
+        for backend, fname in (
+            ('cpu', f'{name}.tflite'),
+            ('edgetpu', f'{name}_edgetpu.tflite'),
+        ):
             if a.backend != 'both' and backend != a.backend:
                 continue
             path = d / fname
@@ -60,10 +63,16 @@ def main() -> None:
             args.runs = a.runs
             args.seed = 42
             r = run_benchmark(args)
-            r['reeval'] = {'model_name': name, 'backend': backend, 'date': datetime.now(UTC).isoformat()}
+            r['reeval'] = {
+                'model_name': name,
+                'backend': backend,
+                'date': datetime.now(UTC).isoformat(),
+            }
             if r.get('status') == 'completed':
                 lat = r['latency']
-                print(f'{name:44s} {backend:7s} mean {lat["mean_ms"]:8.2f} ms  std {lat["std_ms"]:.3f}  p95 {lat["p95_ms"]:.2f}  fps {r["throughput"]["fps"]:.1f}')
+                print(
+                    f'{name:44s} {backend:7s} mean {lat["mean_ms"]:8.2f} ms  std {lat["std_ms"]:.3f}  p95 {lat["p95_ms"]:.2f}  fps {r["throughput"]["fps"]:.1f}'
+                )
             else:
                 print(f'{name:44s} {backend:7s} FAILED {r.get("error")}')
             out.append(r)

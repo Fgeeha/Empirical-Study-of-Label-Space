@@ -12,11 +12,10 @@ their first mention, and auto-numbered references. Needs pandoc and python-docx.
 """
 
 import copy
+from pathlib import Path
 import re
 import subprocess
-import sys
 import tempfile
-from pathlib import Path
 
 import docx
 from docx.oxml import OxmlElement
@@ -44,11 +43,17 @@ def parse_md(text: str) -> dict:
     idx = {ln.strip(): i for i, ln in enumerate(lines) if ln.startswith('## ')}
     title = next(ln[2:].strip() for ln in lines if ln.startswith('# '))
     i_abs, i_intro = idx['## Abstract'], idx['## 1. Introduction']
-    abs_block = [ln for ln in lines[i_abs + 1 : i_intro] if ln.strip() and ln.strip() != '---']
+    abs_block = [
+        ln for ln in lines[i_abs + 1 : i_intro] if ln.strip() and ln.strip() != '---'
+    ]
     abstract = ' '.join(ln for ln in abs_block if not ln.startswith('**Keywords:**'))
     keywords = next(ln for ln in abs_block if ln.startswith('**Keywords:**'))
     keywords = keywords.replace('**Keywords:**', '').strip()
-    i_back, i_refs, i_figs = idx['## Back Matter'], idx['## References'], idx['## Figure Captions']
+    i_back, i_refs, i_figs = (
+        idx['## Back Matter'],
+        idx['## References'],
+        idx['## Figure Captions'],
+    )
     body = [ln for ln in lines[i_intro:i_back] if ln.strip() != '---']
     back = [ln for ln in lines[i_back + 1 : i_refs] if ln.strip() != '---']
     refs = [ln for ln in lines[i_refs + 1 : i_figs] if ln.strip() != '---']
@@ -60,7 +65,14 @@ def parse_md(text: str) -> dict:
             f = re.search(r'File: `([^`]+)`', cap)
             cap = re.sub(r'\s*File: `[^`]+`.*$', '', cap).strip()
             figs[int(m.group(1))] = (HERE / f.group(1), cap)
-    md = '\n'.join(body) + '\n\n## Back Matter\n\n' + '\n'.join(back) + '\n\n## References\n\n' + '\n'.join(refs) + '\n'
+    md = (
+        '\n'.join(body)
+        + '\n\n## Back Matter\n\n'
+        + '\n'.join(back)
+        + '\n\n## References\n\n'
+        + '\n'.join(refs)
+        + '\n'
+    )
     return dict(title=title, abstract=abstract, keywords=keywords, md=md, figs=figs)
 
 
@@ -132,9 +144,16 @@ class Builder:
     def restart_num(self, p_el, style_name: str) -> None:
         st = self.dst.styles[style_name].element
         sty_num = st.pPr.find(W('w:numPr')).find(W('w:numId')).get(W('w:val'))
-        base = next(n for n in self.numbering.findall(W('w:num')) if n.get(W('w:numId')) == sty_num)
+        base = next(
+            n
+            for n in self.numbering.findall(W('w:num'))
+            if n.get(W('w:numId')) == sty_num
+        )
         abs_id = base.find(W('w:abstractNumId')).get(W('w:val'))
-        new_id = str(max(int(n.get(W('w:numId'))) for n in self.numbering.findall(W('w:num'))) + 1)
+        new_id = str(
+            max(int(n.get(W('w:numId'))) for n in self.numbering.findall(W('w:num')))
+            + 1
+        )
         num = OxmlElement('w:num')
         num.set(W('w:numId'), new_id)
         a = OxmlElement('w:abstractNumId')
@@ -174,11 +193,16 @@ class Builder:
             if rpr is not None:
                 for e in rpr.findall(W('w:rStyle')):
                     rpr.remove(e)
-        for bm in list(p_el.iter(W('w:bookmarkStart'))) + list(p_el.iter(W('w:bookmarkEnd'))):
+        for bm in list(p_el.iter(W('w:bookmarkStart'))) + list(
+            p_el.iter(W('w:bookmarkEnd'))
+        ):
             bm.getparent().remove(bm)
 
     def add_table(self, src_tbl, src_doc) -> None:
-        data = [[tc.findall(W('w:p')) for tc in tr.findall(W('w:tc'))] for tr in src_tbl.findall(W('w:tr'))]
+        data = [
+            [tc.findall(W('w:p')) for tc in tr.findall(W('w:tc'))]
+            for tr in src_tbl.findall(W('w:tr'))
+        ]
         ncols = max(len(r) for r in data)
         tbl = copy.deepcopy(self.proto_tbl)
         tblpr = tbl.find(W('w:tblPr'))
@@ -232,7 +256,10 @@ class Builder:
     def add_figure(self, n: int, path: Path, caption: str, width_cm: float) -> None:
         p = self.dst.add_paragraph(style='MDPI_5.2_figure')
         p.add_run().add_picture(str(path), width=Cm(width_cm))
-        self.new_par('MDPI_5.1_figure_caption', [(f'Figure {n}. ', {'bold': True})] + md_inline(caption))
+        self.new_par(
+            'MDPI_5.1_figure_caption',
+            [(f'Figure {n}. ', {'bold': True})] + md_inline(caption),
+        )
 
 
 # ------------------------------------------------------------------------- main
@@ -241,7 +268,20 @@ def main() -> None:
     with tempfile.TemporaryDirectory() as td:
         md_path, dx_path = Path(td) / 'body.md', Path(td) / 'body.docx'
         md_path.write_text(info['md'])
-        subprocess.run(['pandoc', str(md_path), '-f', 'markdown', '-t', 'docx', '--wrap=none', '-o', str(dx_path)], check=True)
+        subprocess.run(
+            [
+                'pandoc',
+                str(md_path),
+                '-f',
+                'markdown',
+                '-t',
+                'docx',
+                '--wrap=none',
+                '-o',
+                str(dx_path),
+            ],
+            check=True,
+        )
         src = docx.Document(str(dx_path))
     dst = docx.Document(str(TEMPLATE))
     # The LibreOffice conversion of ai-template.dot marks the section, several styles
@@ -269,7 +309,10 @@ def main() -> None:
     for a in npart.findall(W('w:abstractNum')):
         lvl = a.find(W('w:lvl'))
         abs_fmt[a.get(W('w:abstractNumId'))] = lvl.find(W('w:numFmt')).get(W('w:val'))
-    numfmt = {n.get(W('w:numId')): abs_fmt[n.find(W('w:abstractNumId')).get(W('w:val'))] for n in npart.findall(W('w:num'))}
+    numfmt = {
+        n.get(W('w:numId')): abs_fmt[n.find(W('w:abstractNumId')).get(W('w:val'))]
+        for n in npart.findall(W('w:num'))
+    }
 
     # ---- front matter in place
     body_els = list(b.body)
@@ -299,7 +342,12 @@ def main() -> None:
     # figure width = text width minus body indent
     sec = dst.sections[0]
     ind = dst.styles['MDPI_3.1_text'].paragraph_format.left_indent
-    emu = int(sec.page_width) - int(sec.left_margin) - int(sec.right_margin) - int(ind or 0)
+    emu = (
+        int(sec.page_width)
+        - int(sec.left_margin)
+        - int(sec.right_margin)
+        - int(ind or 0)
+    )
     width_cm = emu / 360000 - 0.1
 
     # ---- transplant body / back matter / references
@@ -327,8 +375,14 @@ def main() -> None:
                 continue
             if text == 'References':
                 state = 'refs'
-            level = int(sname.split()[-1])  # main.md uses '##' for level 1, so pandoc levels are shifted by one
-            style = {2: 'MDPI_2.1_heading1', 3: 'MDPI_2.2_heading2', 4: 'MDPI_2.3_heading3'}.get(level, 'MDPI_2.1_heading1')
+            level = int(
+                sname.split()[-1]
+            )  # main.md uses '##' for level 1, so pandoc levels are shifted by one
+            style = {
+                2: 'MDPI_2.1_heading1',
+                3: 'MDPI_2.2_heading2',
+                4: 'MDPI_2.3_heading3',
+            }.get(level, 'MDPI_2.1_heading1')
         elif state == 'refs':
             style = 'MDPI_8.1_references'
             restart, first_ref = first_ref, False

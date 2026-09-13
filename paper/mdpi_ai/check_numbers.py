@@ -489,6 +489,10 @@ check(
         )
     ),
 )
+_dom = json.load(open(ROOT / 'results/tsne_domain/summary.json'))['models']
+check('Figure 3: 5-NN domain separability 0.97 / 0.93 / 0.91 (source-only / DANN / CDAN+E)',
+      near(_dom['source_only']['knn_domain_acc'], 0.970, 5e-3) and near(_dom['dann42']['knn_domain_acc'], 0.926, 5e-3)
+      and near(_dom['cdan42']['knn_domain_acc'], 0.911, 5e-3) and in_draft('reaches 0.97. After DANN') and in_draft('drops to 0.93 (0.91 for CDAN+E)'))
 check('35 references listed', DRAFT.read_text().count('\n35. Efron') == 1 and '\n36. ' not in DRAFT.read_text())
 check(
     'intro uses same-strategy pair 0.969 → 0.154',

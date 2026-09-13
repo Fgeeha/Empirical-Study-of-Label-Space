@@ -163,6 +163,10 @@ DANN achieves the highest mean macro-F1 on PlantDoc (0.246 ± 0.005, +9.2 pp, bo
 
 A per-seed paired bootstrap of DANN against CDAN+E (same n = 1,969 test samples, 10,000 resamples) gives inconsistent directionality: on seed 42 CDAN+E is significantly better (Δ = −0.027, CI [−0.046, −0.006]); on seed 43 DANN is significantly better (Δ = +0.035, CI [+0.017, +0.052]); seed 44 is inconclusive (Δ = +0.003, CI [−0.016, +0.022]). The three-seed mean difference (DANN − CDAN+E = +0.004) is small relative to CDAN+E's across-seed variability. Three seeds therefore do not support a population-level ranking of DANN and CDAN+E on this benchmark; the evidence is inconclusive rather than a demonstrated equivalence. DANN is, however, markedly more stable across seeds (std 0.005 vs. 0.026).
 
+Figure 3 shows what adaptation does to the feature space. We embed the penultimate-layer features of 500 PlantVillage test images and 500 PlantDoc test images (same images for both models) with a joint two-dimensional t-SNE, and quantify how separable the two domains are in the original 2,048-dimensional space by the 5-fold cross-validated accuracy of a 5-nearest-neighbour domain classifier (0.5 means the domains are indistinguishable). Under the source-only model the PlantDoc images form one region of their own, away from the compact PlantVillage class clusters, and the domain classifier reaches 0.97. After DANN the target images spread across the source clusters and the score drops to 0.93 (0.91 for CDAN+E), so adversarial training does move the field images towards the laboratory manifold, but most of them remain distinguishable from it. This is the geometric counterpart of the +9 pp gain in Table 2: a real but partial alignment.
+
+[[FIGURE 3]]
+
 ### 4.3. Fair Cross-Strategy Comparison
 
 To compare the alignment strategies on identical test samples we restrict the evaluation to the 13 classes that all three class mappings share (n = 1,509 PlantDoc images). Table 3 re-scores the re-evaluated predictions of the seed-42 source-only models (Section 3.4) and the stored predictions of the earlier single-seed CORAL runs on these classes only; no model was retrained. The CORAL runs use the per-strategy λ from the sweep in Table S1, which was evaluated on the target split under the earlier protocol. With a single seed per cell no standard deviation or confidence interval is available.
@@ -175,9 +179,7 @@ To compare the alignment strategies on identical test samples we restrict the ev
 | SBERT    | 0.147       | 0.174    | +0.026 |
 | Hybrid   | 0.118       | 0.142    | +0.023 |
 
-CORAL improves all three strategies on the shared subset by +2.3 to +3.8 pp. The spread between strategies (1.5 pp) is of the order of CORAL's seed-to-seed standard deviation in Table 2 (1.2 pp), so with one seed per cell the gains are consistent with being equal, and the control shows that the CORAL gain is not an artifact of class-set size differences. The control was run for CORAL only; the adversarial methods were trained in the Hybrid space alone, so their gains in Table 2 have no cross-strategy counterpart. Figure 3 shows two-dimensional t-distributed stochastic neighbor embedding (t-SNE) projections (perplexity 30, PCA initialization, seed 42) of the ResNet-50 features of the seed-42 models before and after CORAL adaptation in the Hybrid label space.
-
-[[FIGURE 3]]
+CORAL improves all three strategies on the shared subset by +2.3 to +3.8 pp. The spread between strategies (1.5 pp) is of the order of CORAL's seed-to-seed standard deviation in Table 2 (1.2 pp), so with one seed per cell the gains are consistent with being equal, and the control shows that the CORAL gain is not an artifact of class-set size differences. The control was run for CORAL only; the adversarial methods were trained in the Hybrid space alone, so their gains in Table 2 have no cross-strategy counterpart.
 
 ### 4.4. Generalizability: PlantWild v2
 
@@ -352,4 +354,4 @@ All code, configurations, per-seed predictions and result files are released (Da
 
 **Figure 2.** UDA benchmark on PlantDoc (Hybrid 18 classes). (a) Target macro-F1, mean ± std over seeds 42/43/44 with per-seed points; dashed line: source-only baseline (0.154). (b) Paired bootstrap 95% confidence intervals of the difference to source-only on seed-42 predictions (n = 1,969, 2,000 resamples), in percentage points. File: `figures/figure2_uda_benchmark.png` (PNG, 600 dpi).
 
-**Figure 3.** Two-dimensional t-SNE projection (scikit-learn, perplexity 30, PCA initialization, learning rate "auto", random state 42) of ResNet-50 penultimate-layer features on the PlantDoc evaluation set (Hybrid label space, one color per class): (a) source-only model (seed 42); (b) after CORAL adaptation (λ = 0.1, seed 42). CORAL tightens several class clusters but substantial overlap remains, consistent with the modest macro-F1 gain in Table 2. File: `figures/figure3_tsne_hybrid.png` (PNG, 600 dpi).
+**Figure 3.** Domain alignment in feature space. Joint two-dimensional t-SNE (perplexity 30, PCA initialization, random state 42) of ResNet-50 penultimate-layer features for 500 PlantVillage test images (grey) and 500 PlantDoc test images (red), Hybrid label space: (a) source-only model; (b) DANN under the fair protocol (seed 42). Panel titles give the 5-fold cross-validated accuracy of a 5-nearest-neighbour domain classifier in the 2,048-dimensional feature space (0.5 = indistinguishable domains): 0.97 before and 0.93 after adaptation. File: `figures/figure3_tsne_hybrid.png` (PNG, 600 dpi).

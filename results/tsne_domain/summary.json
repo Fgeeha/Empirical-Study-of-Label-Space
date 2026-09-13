@@ -1,0 +1,16 @@
+{
+ "n_per_domain": 500,
+ "seed": 42,
+ "knn_k": 5,
+ "models": {
+  "source_only": {
+   "knn_domain_acc": 0.97
+  },
+  "dann42": {
+   "knn_domain_acc": 0.9260000000000002
+  },
+  "cdan42": {
+   "knn_domain_acc": 0.9109999999999999
+  }
+ }
+}

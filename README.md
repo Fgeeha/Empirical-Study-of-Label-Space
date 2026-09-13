@@ -1,10 +1,12 @@
 # Empirical Study of Label-Space Alignment, Fair-Protocol Domain Adaptation and Edge Deployment for Field Plant Disease Recognition
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22734464.svg)](https://doi.org/10.5281/zenodo.22734464)
+
 Reproducibility package for the manuscript submitted to the *AI* (MDPI) Special Issue
 "Harvesting the Future: Transforming Agricultural Practices Through AI Application".
 It contains everything needed to re-check every number in the paper and to re-run the
 evaluation, quantization and edge-benchmark steps; raw image datasets and PyTorch
-checkpoints are not included (see the Data Availability Statement).
+checkpoints are not included (see the Data Availability Statement). Archived release: https://doi.org/10.5281/zenodo.22734464.
 
 ## Layout
 

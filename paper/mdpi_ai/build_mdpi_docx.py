@@ -31,7 +31,7 @@ AUTHORS = [('Nikita S. Kolesnikov', '1,*'), ('Alla G. Kravets', '1')]
 AFFILIATIONS = [
     '1\tDepartment of Computer-Aided Design and Search Engineering, Volgograd State '
     'Technical University, 28 Lenin Avenue, Volgograd 400005, Russia; '
-    'kolesnikov.nikitavlg@gmail.com (N.S.K.)',
+    'kolesnikov.nikitavlg@gmail.com (N.S.K.); allagkravets@yandex.ru (A.G.K.)',
     '*\tCorrespondence: kolesnikov.nikitavlg@gmail.com',
 ]
 W = qn

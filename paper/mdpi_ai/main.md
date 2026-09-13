@@ -2,7 +2,7 @@
 
 **Nikita S. Kolesnikov** ^1,\*^ and **Alla G. Kravets** ^1^
 
-^1^ Department of Computer-Aided Design and Search Engineering, Volgograd State Technical University, 28 Lenin Avenue, Volgograd 400005, Russia
+^1^ Department of Computer-Aided Design and Search Engineering, Volgograd State Technical University, 28 Lenin Avenue, Volgograd 400005, Russia; kolesnikov.nikitavlg@gmail.com (N.S.K.); allagkravets@yandex.ru (A.G.K.)
 \* Correspondence: kolesnikov.nikitavlg@gmail.com; ORCID 0009-0008-5480-6137
 
 ---

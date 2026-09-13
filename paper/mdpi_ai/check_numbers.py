@@ -331,7 +331,7 @@ check(
 )
 check(
     'draft: transductive protocol disclosed',
-    in_draft('transductive UDA setting') and in_draft('Transductive target protocol'),
+    in_draft('transductive UDA setting') and in_draft('The evaluation protocol on PlantDoc is transductive'),
 )
 leg = json.load(open(ROOT / 'experiments/E2_dann/dann_results.json'))
 check(
@@ -448,7 +448,7 @@ check(
 )
 check(
     'draft states 20 warm-up / 200 measured',
-    in_draft('20 warm-up runs, 200 measured runs'),
+    in_draft('20 warm-up runs and 200 measured runs'),
 )
 env = (ROOT / 'results/edge/environment_live.txt').read_text()
 check(
@@ -489,7 +489,7 @@ check(
         )
     ),
 )
-check('36 references listed', DRAFT.read_text().count('\n36. Efron') == 1)
+check('35 references listed', DRAFT.read_text().count('\n35. Efron') == 1 and '\n36. ' not in DRAFT.read_text())
 check(
     'intro uses same-strategy pair 0.969 → 0.154',
     in_draft('macro-F1 = 0.969 on the PlantVillage test set but only 0.154'),
@@ -500,7 +500,7 @@ check('T3 device-less latency claim removed', not in_draft('46.3 ms'))
 check(
     'CORAL stability overclaim removed', not in_draft('CORAL is the most stable method')
 )
-check('PlantVillage segmented subset stated', in_draft('segmented subset'))
+check('PlantVillage segmented subset stated', in_draft('segmented form (single leaves'))
 check(
     'EdgeTPU compiler 16.0.384591198',
     any(

@@ -73,6 +73,7 @@ def parse_md(text: str) -> dict:
         + '\n'.join(refs)
         + '\n'
     )
+    md = re.sub(r'\^\[([^\]]+)\]', r' (\1)', md)  # pandoc footnotes cannot be transplanted: inline them
     return dict(title=title, abstract=abstract, keywords=keywords, md=md, figs=figs)
 
 
@@ -367,6 +368,13 @@ def main() -> None:
         has_drawing = el.find('.//' + W('w:drawing')) is not None
         if not text and not has_drawing:
             continue
+        mfig = re.match(r'^\[\[FIGURE (\d+)\]\]$', text)
+        if mfig:
+            n = int(mfig.group(1))
+            path, cap = info['figs'][n]
+            b.add_figure(n, path, cap, width_cm)
+            figs_done.add(n)
+            continue
         numpr = ppr.find(W('w:numPr')) if ppr is not None else None
         restart = False
         if sname.startswith('Heading'):
@@ -405,11 +413,6 @@ def main() -> None:
         if restart:
             b.restart_num(new, style)
         b.append(new)
-        if state == 'body':
-            for n, (path, cap) in sorted(info['figs'].items()):
-                if n not in figs_done and re.search(rf'Figure {n}\b', text):
-                    b.add_figure(n, path, cap, width_cm)
-                    figs_done.add(n)
     missing = set(info['figs']) - figs_done
     if missing:
         raise SystemExit(f'figures never cited: {missing}')

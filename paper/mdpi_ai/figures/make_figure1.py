@@ -9,7 +9,7 @@ All numbers must match main.md (checked by ../check_numbers.py).
 
 from pathlib import Path
 
-W, H = 900, 760
+W, H = 900, 736
 FONT = 'Helvetica, Arial, sans-serif'
 out = []
 
@@ -133,7 +133,7 @@ box(
 arrow(450, 412, 450, 444)
 rect(40, 444, 820, 110, '#D6EAF8')
 text(450, 466, 'C. Evaluation', 14, bold=True)
-box(60, 482, 240, 58, ['PlantDoc test, n = 1,969', 'source-only 0.156 → DANN 0.246'])
+box(60, 482, 240, 58, ['PlantDoc test, n = 1,969', 'source-only 0.154 → DANN 0.246'])
 box(
     330,
     482,
@@ -180,13 +180,6 @@ box(
         'EfficientNet-Lite0, ResNet-50, EfficientNet-B3',
         'best: MobileNetV1 4.6 ms (216 FPS), 3.36 MiB',
     ],
-)
-text(
-    450,
-    752,
-    'Figure 1. Overview of the study: alignment (A) → adaptation (B) → evaluation (C) → deployment (D).',
-    11,
-    fill='#444',
 )
 out.append('</svg>')
 Path(__file__).with_name('figure1_pipeline.svg').write_text('\n'.join(out))
